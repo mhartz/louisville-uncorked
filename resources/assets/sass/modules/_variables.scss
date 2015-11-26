@@ -1,0 +1,37 @@
+$bp: (
+    phone: 480,
+    tablet-s: 600,
+    tablet: 760,
+    tablet-l: 800,
+    desk: 900,
+    desk-l: 1080,
+    full: 1280
+);
+
+$browser-context: 16;
+
+$font-stack : 'Merriweather', Helvetica, Arial, sans-serif;
+$title-stack: 'Lato', Helvetica, Arial, sans-serif;
+$subtitle-stack: 'Montserrat', Helvetica, Arial, sans-serif;
+$primary: #f44336;
+$primary-light: fade-out($primary, 0.16);
+$primary-lighter: fade-out($primary, 0.46);
+$primary-ondark-light: fade-out($primary, 0.3);
+$primary-ondark-lighter: fade-out($primary, 0.7);
+$secondary: #E2C15D;
+$secondary-light: fade-out($secondary, 0.16);
+$secondary-lighter: fade-out($secondary, 0.46);
+$secondary-ondark-light: fade-out($secondary, 0.3);
+$secondary-ondark-lighter: fade-out($secondary, 0.7);
+$darkBG: #171e26;
+$lightBG: #e8edf3;
+$greyBG: #f4f2ed;
+$green: #1de9b6;
+$navy: #093c6f;
+$blue: #283593;
+$text: #474747;
+$text-light: fade-out($text, 0.16);
+$text-lighter: fade-out($text, 0.46);
+$text-ondark: #fff;
+$text-ondark-light: fade-out($text-ondark, 0.3);
+$text-ondark-lighter: fade-out($text-ondark, 0.7);

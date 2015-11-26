@@ -1,0 +1,24 @@
+.wai {
+    display: block;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+.required {
+    &:after {
+        content: '*';
+        margin-left: 2px;
+    }
+}
+
+.alert {
+    color: #f00;
+    font-family: $title-stack;
+    line-height: rem(24);
+    padding: rem(20);
+    border: 1px solid #f00;
+    background: $lightBG;
+    margin-bottom: rem(20);
+}

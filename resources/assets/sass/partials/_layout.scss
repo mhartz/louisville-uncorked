@@ -1,0 +1,538 @@
+.clear {
+  @include clear();
+}
+
+.italic {
+  font-style: italic;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.frame-wrapper {
+  position: relative;
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 72.25%;
+  z-index: 1;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.button {
+  @include button();
+}
+
+.hollow-button {
+  @include hollow-button();
+}
+
+.white-outline-button {
+  border: 3px solid #fff;
+  cursor: pointer;
+  padding: 14px 20px 13px 20px;
+  font-family: $subtitle-stack;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: rem(16);
+  color: #fff;
+  text-align: center;
+  background: transparent;
+  @inlude transition(all, .1s, ease-in-out);
+  &:hover { 
+    text-decoration: none;
+    @include card(1, #fff);
+    color: $primary;;
+  }
+}
+
+.wrapper,
+.small-wrapper,
+.tiny-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 rem(12);
+  @include clear();
+  
+  @include bp(full) {
+    padding: 0;
+  }
+}
+
+.wrapper {
+  max-width: 1280px;
+}
+
+.small-wrapper {
+  max-width: 960px;
+}
+
+.tiny-wrapper {
+  max-width: rem(760);
+}
+
+.wai-aria {
+  @include text-wai();
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=tel],
+select,
+textarea {
+  border: 1px solid #adacac;
+  width: 100%;
+  padding: rem(10) rem(20);
+  font-size: rem(16);
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=tel],
+textarea {
+  -webkit-appearance: none;
+}
+
+select {
+  border-radius: 0;
+  height: rem(40);
+}
+
+label {
+  display: block;
+  margin-bottom: rem(6);
+  font-family: $title-stack;
+  font-size: rem(18);
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+:-moz-placeholder {
+  font-style: italic;
+}
+
+::-moz-placeholder {
+  font-style: italic;
+}
+
+:-ms-input-placeholder {  
+  font-style: italic;
+}
+
+.text-hide {
+  @include text-hide();
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.left {
+  @include bp(tablet) {
+    float: left;
+    margin-bottom: rem(10);
+  }
+  
+  @include bp(tablet) {
+    margin-bottom: 0;
+  }
+}
+
+.right {
+  @include bp(tablet) {
+    float: right;
+  }
+}
+
+.centered-width {
+  max-width: rem(760);
+  margin: 0 auto;
+}
+
+.bottom-border {
+  border-bottom: 3px dotted $primary;
+  
+  @include bp(tablet) {
+    padding-bottom: rem(60);
+  }
+}
+
+.full-image {
+  width: 100%;
+  display: block;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.subtitle-rules {
+  list-style: disc;
+  font-size: rem(16);
+  line-height: rem(20);
+  font-family: $subtitle-stack;
+  margin-bottom: rem(20);
+  
+  li {
+    margin: 0 0 rem(10) rem(20);
+  }
+}
+
+.flex-row {
+  @includ flex-row();
+}
+
+.flex {
+  @include flex();
+}
+
+.tooltip {
+  position: relative;
+  content: '?';
+  display: inline-block;
+  padding: rem(1) rem(5);
+  margin-left: rem(2);
+  font-family: $title-stack;
+  color: #fff;
+  font-size: rem(10);
+  line-height: normal;
+  vertical-align: baseline;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  @include card(1, $primary, 10px);
+  
+  .toolpop {
+    margin-top: 0;
+    display: none;
+    position: absolute;
+    color: #fff;
+    font-size: rem(14);
+    line-height: rem(20);
+    padding: rem(12);
+    min-width: rem(300);
+    left: rem(20);
+    top: 0;
+    @include card(2, $primary);
+  }
+  
+  &:hover {
+    box-shadow: none;
+    
+    .toolpop {
+      display: block;
+    }
+  }
+}
+
+.help-block {
+  margin-bottom: 0;
+}
+
+.zoomed-out {
+  // @include transition(all, .21s, );
+  @include transition(transform, .2s, ease-in-out);
+  transform: scale(0);
+  height: 0 !important;
+  width: 0 !important;
+  max-height: 0 !important;
+  max-width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+.zoomed-out span {
+  display: none;
+}
+
+.zoomed-in {
+  @include transition(transform, .2s, ease-in-out);
+  transform: scale(1);
+  height: auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  overflow: auto !important;
+}
+
+.zoomed-in span {
+  display: inline-block;
+}
+
+/**
+*  Colors
+*  ----------------------------------------
+*  
+*/
+.primary { color: $primary; }
+.primary-light { color: $primary-light; }
+.primary-lighter { color: $primary-lighter; }
+.primary-ondark-light { color: $primary-ondark-light; }
+.primary-ondark-lighter { color: $primary-ondark-lighter; }
+.secondary { color: $secondary; }
+.secondary-light { color: $secondary-light; }
+.secondary-lighter { color: $secondary-lighter; }
+.secondary-ondark-light { color: $secondary-ondark-light; }
+.secondary-ondark-lighter { color: $secondary-ondark-lighter; }
+.text { color: $text; }
+.text-light { color: $text-light; }
+.text-lighter { color: $text-lighter; }
+.dark-bg { 
+  background: $darkBG;
+  color: #fff;
+}
+.grey-bg {
+  background: $greyBG;
+  border-bottom: 1px solid #dedcd7;
+  border-top: 1px solid #dedcd7;
+}
+
+.row {
+  padding-top: rem(20);
+  padding-bottom: rem(20);
+  
+  @include bp(tablet) {
+    padding-top: rem(50);
+    padding-bottom: rem(50);
+  }
+}
+
+/**
+*  Grid Layout
+*  Column-Total: 20
+*  Max-Width: 1280px
+*  Column-width: 64px
+*  Gutter: 10px
+*  ----------------------------------------
+*  Breakpoints:
+*  Tablet = 760px
+*/
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col-13,
+.col-14,
+.col-15,
+.col-16,
+.col-17,
+.col-18,
+.col-19,
+.col-20,
+.col-21,
+.col-22,
+.col-23,
+.col-24 {
+  margin-bottom: rem(20);
+      
+  @include bp(tablet) {
+    margin-left: rem(20);
+    margin-bottom: 0;
+    float: left;
+    width: 100%;
+    
+    &:first-of-type {
+      margin-left: 0;
+    } 
+    
+    &.left {
+      @include bp(tablet) {
+        float: left;
+      }
+    }
+
+    &.right {
+      @include bp(tablet) {
+        float: right;
+      }
+    }
+  }
+}
+
+@include bp(tablet) {
+  .col-1 { width: 53px/1280px*100%; }
+  .col-2 { width: 106px/1280px*100%; }
+  .col-3 { width: 159px/1280px*100%; }
+  .col-4 { width: 212px/1280px*100%; }
+  .col-5 { width: 265px/1280px*100%; }
+  .col-6 { width: 318px/1280px*100%; }
+  .col-7 { width: 371px/1280px*100%; }
+  .col-8 { width: 424px/1280px*100%; }
+  .col-9 { width: 477px/1280px*100%; }
+  .col-10 { width: 530px/1280px*100%; }
+  .col-11 { width: 583px/1280px*100%; }
+  .col-12 { width: 636px/1280px*100%; }
+  .col-13 { width: 689px/1280px*100%; }
+  .col-14 { width: 742px/1280px*100%; }
+  .col-15 { width: 795px/1280px*100%; }
+  .col-16 { width: 848px/1280px*100%; }
+  .col-17 { width: 901px/1280px*100%; }
+  .col-18 { width: 954px/1280px*100%; }
+  .col-19 { width: 1007px/1280px*100%; }
+  .col-20 { width: 1060px/1280px*100%; }
+  .col-21 { width: 1113px/1280px*100%; }
+  .col-22 { width: 1166px/1280px*100%; }
+  .col-23 { width: 1219px/1280px*100%; }
+  .col-24 { width: 1272px/1280px*100%; }
+}
+
+/**
+ *  Padding
+ *  p-20 = padding 20px all over
+ *  pt-20 = padding top 20
+ *  ranges from 10-30 in 10px increments
+ *  Any padding that falls outside the range must be added by a seperate naming class convention
+ *  Any padding that requires more than 1 padding must be added by a seperate naming class convention
+ */
+.p-10,
+.p-20,
+.p-30 {
+  padding: rem(10);
+}
+.pt-10,
+.pt-20,
+.pt-30 {
+  padding-top: rem(10);
+}
+.pr-10,
+.pr-20,
+.pr-30 {
+  padding-right: rem(10);
+}
+.pb-10,
+.pb-20,
+.pb-30 {
+  padding-bottom: rem(10);
+}
+.pl-10,
+.pl-20,
+.pl-30 {
+  padding-left: rem(10);
+}
+
+@include bp(tablet) {
+  .p-10 { padding: rem(10) }
+  .p-20 { padding: rem(20) }
+  .p-30 { padding: rem(30) }
+  .pt-10 { padding-top: rem(10) }
+  .pt-20 { padding-top: rem(20) }
+  .pt-30 { padding-top: rem(30) }
+  .pr-10 { padding-right: rem(10) }
+  .pr-20 { padding-right: rem(20) }
+  .pr-30 { padding-right: rem(30) }
+  .pb-10 { padding-bottom: rem(10) }
+  .pb-20 { padding-bottom: rem(20) }
+  .pb-30 { padding-bottom: rem(30) }
+  .pl-10 { padding-left: rem(10) }
+  .pl-20 { padding-left: rem(20) }
+  .pl-30 { padding-left: rem(30) } 
+}
+
+/**
+ *  Margin
+ *  mt-20 = margin top 20
+ *  ranges from 10-40 in 10px increments
+ *  Any margin that falls outside the range must be added by a seperate naming class convention
+ *  Any margin that requires more than 2 paddings must be added by a seperate naming class convention
+ */
+.mt-10,
+.mt-20,
+.mt-30,
+.mt-40 {
+  margin-top: rem(10);
+}
+.mr-10,
+.mr-20,
+.mr-30,
+.mr-40 {
+  margin-right: rem(10);
+}
+.mb-10,
+.mb-20,
+.mb-30,
+.mb-40 {
+  margin-bottom: rem(10);
+}
+.ml-10,
+.ml-20,
+.ml-30,
+.ml-40 {
+  margin-left: rem(10);
+}
+
+@include bp(tablet) {
+  .mt-0 { margin-top: 0; }
+  .mt-10 { margin-top: rem(10) }
+  .mt-20 { margin-top: rem(20) }
+  .mt-30 { margin-top: rem(30) }
+  .mt-40 { margin-top: rem(40) }
+  .mr-0 { margin-right: 0; }
+  .mr-10 { margin-right: rem(10) }
+  .mr-20 { margin-right: rem(20) }
+  .mr-30 { margin-right: rem(30) }
+  .mr-40 { margin-right: rem(40) }
+  .mb-0 { margin-bottom: 0; }
+  .mb-10 { margin-bottom: rem(10) }
+  .mb-20 { margin-bottom: rem(20) }
+  .mb-30 { margin-bottom: rem(30) }
+  .mb-40 { margin-bottom: rem(40) }
+  .ml-0 { margin-left: 0; }
+  .ml-10 { margin-left: rem(10) }
+  .ml-20 { margin-left: rem(20) }
+  .ml-30 { margin-left: rem(30) }
+  .ml-40 { margin-left: rem(40) }
+}
+
+
+/**
+ *  Material Cards
+ *  1 - 5
+ *  1 being the bottom level
+ *  5 being the highest level
+ */
+.card-1 { @include card(1); }
+.card-2 { @include card(2); }
+.card-3 { @include card(3); }
+.card-4 { @include card(4); }
+.card-5 { @include card(5); }
+
+.card-collapsed {
+  border-top: 1px solid #e0e0e0;
+  background: #fff;
+}

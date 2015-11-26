@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/louisvilleuncorked.com":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/louisvilleuncorked.com","hostpath":"/Users/mshartz5/projects/louisvilleuncorked.com","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/mshartz5/projects/louisvilleuncorked.com","disabled":false}}}

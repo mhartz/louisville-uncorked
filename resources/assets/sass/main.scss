@@ -1,0 +1,700 @@
+// Modules - SASS that doesn't output anything
+@import 'modules/all';
+
+// Partials - General SASS that outputs CSS
+@import 'partials/all';
+
+// Views - SASS for specific pages
+@import 'views/all';
+
+// Vendor - SASS/CSS from other projects (e.g. flexslider)
+@import 'vendor/all';
+
+/**
+ *  Header
+ */
+header {
+  background: $darkBG;
+  padding: rem(12) 0;
+  position: relative;
+  
+  .wrapper {
+    position: relative;
+  }
+  
+  .main-logo {
+    position: relative;
+    z-index: 9999;
+    max-width: rem(150);
+    display: block;
+    float: left;
+    
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+.main-navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  max-height: 0;
+  width: 100%;
+  font-family: $subtitle-stack;
+  background: $darkBG;
+  text-align: center;
+  overflow: hidden;
+  @include transition(all, .3s, ease-in-out);
+  
+  @include bp(tablet) {
+    display: block !important;
+    max-height: rem(500);
+    padding: rem(10) rem(12) 0 0;
+    float: right;
+    background: transparent;
+    text-align: right;
+  }
+  
+  &.active {
+    padding-top: rem(62);
+    max-height: rem(500);
+  }
+  
+  ul {
+    
+    li {
+      font-size: rem(18);
+      display: block;
+      
+      @include bp(tablet) {
+        display: inline-block;
+        margin-left: rem(20);
+        
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  
+  a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: rem(18) 0;
+    
+    @include bp(tablet) {
+      display: inline-block;
+      padding: 0 0 rem(3) 0;
+    }
+    
+    &:hover,
+    &.active {
+      border-bottom: 3px solid $primary;
+    }
+  }
+}
+
+.show-hide-nav {
+  position: absolute;
+  top: rem(3);
+  right: rem(12);
+  z-index: 9999;
+  display: block;
+  font-family: $title-stack;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 100;
+  font-size: rem(16);
+  padding: rem(6) rem(12);
+  border: 1px solid #fff;
+  
+  @include bp(tablet) {
+    display: none;
+  }
+}
+
+.banner {
+  padding: rem(20) 0;
+  color: #fff;
+  
+  .large-heading {
+    margin-bottom: 0;
+  }
+  
+  @include bp(tablet) {
+    padding: rem(40) 0;
+  }
+}
+
+
+
+/**
+ *    Homepage
+ */
+#home {
+  
+  header {
+    
+    @include bp(tablet) {
+      background: none;
+      padding-top: rem(30);
+    }
+    
+    .main-logo {
+      max-width: rem(180);
+    }
+  }
+  
+  .banner {
+    text-align: center;
+    width: 100%;
+    padding: rem(40) 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/wine-glasses-large.jpg');
+    background-position: center left;
+    background-size: cover;
+    
+    @include bp(tablet) {
+      height: rem(550);
+      padding-top: rem(160);
+      margin-top: -106px;
+    }
+    
+    @include bp(desk-l) {
+      padding: rem(200) 20% 0;
+    }
+    
+    .small-heading {
+      line-height: rem(28);
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+    
+    .mb-10 {
+      margin-bottom: rem(10);
+    }
+    
+    .button {
+      position: relative;
+      overflow: hidden;
+      padding-right: rem(34);
+      padding-left: rem(34);
+      width: rem(296);
+      font-size: rem(19);
+      
+      &:hover {
+        padding-left: rem(12);
+      }
+      
+      .icon-circle-right {
+        position: absolute;
+        top: 30%;
+        right: rem(-20);
+        font-size: rem(20);
+        @include transition();
+      }
+      
+      &:hover .icon-circle-right {
+        right: rem(20);
+      }
+    }
+  }
+}
+
+.the-tasting-title {
+  border-top: 4px double $text;
+  border-bottom: 4px double $text;
+  padding: rem(14) 0 rem(13);
+  max-width: rem(760);
+  margin: rem(30) auto rem(20);
+  
+  @include bp(tablet) {
+    margin-top: 0;
+  }
+}
+
+.upcoming-event {
+  
+  @include bp(tablet-s) {
+    @include flex();
+    justify-content: space-between;
+  }
+}
+
+.upcoming-event-details {
+  @include card(1);
+  padding: rem(10);
+  
+  @include bp(tablet) {
+    padding: rem(20);
+  }
+  
+  p {
+    position: relative;
+    padding-left: rem(60);
+    margin-top: rem(40);
+    
+    [class^="icon-"],
+    [class*=" icon-"] {
+      position: absolute;
+      top: rem(-4);
+      left: 0;
+      font-size: rem(40);
+    }
+  }
+}
+
+.icon-calendar2 {
+  color: #2196F3;
+}
+
+.icon-clock2 {
+  color: #FF9800;
+}
+
+.icon-glass {
+  color: $secondary;
+}
+
+.icon-location {
+  color: $primary;
+}
+
+.icon-banknote {
+  color: #00BFA5;
+}
+
+.upcoming-event-media {
+  @include card(1);
+  
+  @media (max-width: rem(600)) {
+    width: 100%;
+    min-height: rem(300);
+  }
+}
+
+.charity-left {
+  
+  @include bp(desk) {
+    float: left;
+    width: 424px/1280px*100%;
+  }
+  
+  img {
+    width: 100%;
+    max-width: rem(400);
+    display: block;
+    margin: rem(20) auto 0;
+    
+    @include bp(desk) {
+      margin-top: 50%;
+      max-width: none; 
+    }
+    
+    @include bp(desk-l) {
+      margin-top: rem(140);
+    }
+    
+    @include bp(full) {
+      margin-top: rem(100);
+    }
+  }
+}
+
+.charity-right {
+  border-top: 3px solid $primary;
+  padding-top: rem(26);
+  margin-top: rem(20);
+  
+  @include bp(desk) {
+    float: right;
+    padding: rem(26) 0 0 6%;
+    margin-top: 0;
+    border-top: 0;
+    border-left: 3px solid $primary;
+    width: 795px/1280px*100%;
+  }
+  
+  .main-heading {
+    
+    a {
+      color: $secondary;
+    }
+  }
+}
+
+.place-card {
+  @include card(1);
+  display: inline-block;
+  float: none;
+  padding-bottom: rem(30);
+  
+  .icon-trophy {
+    @include card(2, lighten($darkBG, 16%));
+    position: absolute;
+    bottom: rem(-20);
+    border-radius: rem(30);
+    padding: rem(14);
+    font-size: rem(30);
+    left: 43%;
+    
+    &.bronze {
+      color: #E4A05D;
+    }
+    
+    &.silver {
+      color: #eee;
+    }
+    
+    &.gold {
+      color: $secondary;
+    }
+  }
+  
+  .full-image {
+    margin-bottom: rem(30);
+  }
+  
+  p {
+    margin-bottom: 0;
+    font-size: rem(20);
+    line-height: rem(28);
+    font-family: $subtitle-stack;
+  }
+  
+  .main-heading {
+    margin: rem(20) 0 rem(10) 0;
+    font-size: rem(44);
+    color: $primary;
+    
+    span {
+      font-size: rem(20);
+      vertical-align: super;
+    }
+  }
+}
+
+.image-trophy-container {
+  position: relative;
+}
+
+.photo-gallery {
+  
+  .button {
+    display: inline-block;
+    float: right;
+    @include card(1, $primary);
+    
+    &:hover { 
+      text-decoration: none;
+      @include card(3, lighten($primary, 5%));
+      border-bottom: none;
+      color: #fff;
+    }
+    
+    .icon-circle-right {
+      margin-left: rem(12);
+      vertical-align: text-top;
+    }
+  }
+}
+
+.photo-gallery-list {
+  @include flex();
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  li {
+    display: flex;
+    margin-left: 0;
+    overflow: hidden;
+    margin-bottom: rem(3);
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  @include bp(tablet-s) {
+    .col-16 {
+      width: 66.5%;
+      
+      img {
+        width: 100%;
+      }
+    }
+    
+    .col-8 {
+      width: 33%;
+      
+      img {
+        width: 201.7%;
+        margin-left: -50%;
+      }
+    }
+  }
+}
+
+.bottom-register {
+  background: $primary;
+  color: #fff;
+  
+  .main-heading {
+    margin-bottom: rem(20);
+    
+    @include bp(tablet-s) {
+      margin-bottom: 0;
+      float: left;
+    }
+  }
+  
+  .white-outline-button {
+    display: block;
+    
+    @include bp(tablet-s) {
+      float: right;
+    }
+  }
+}
+
+
+/**
+ *  Registration
+ */
+#team-registration,
+#contact-us,
+#photos,
+#faq {
+  
+  .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/wine-glasses-large.jpg');
+    background-position: center left;
+    background-size: cover;
+  }
+}
+
+.registration-form,
+.contact-form {
+  padding-top: rem(20);
+  padding-bottom: rem(20);
+  
+  @include bp(tablet-s) {
+    padding-top: rem(30);
+    padding-bottom: rem(30);
+  }
+  
+  .submit {
+    display: inline-block;
+    float: right;
+    @include card(1, $primary);
+    
+    &:hover { 
+      text-decoration: none;
+      @include card(3, lighten($primary, 5%));
+      border-bottom: none;
+      color: #fff;
+    }
+    
+    span {
+      font-size: rem(18);
+      vertical-align: text-top;
+      margin-left: rem(12);
+    }
+  }
+}
+
+.form-group {
+  padding-bottom: rem(20);
+  margin-bottom: rem(10);
+  position: relative;
+  float: left;
+  width: 100%;
+  @include clear();
+}
+
+.team-form-section {
+  padding: rem(30);
+}
+
+.name {
+  
+  @include bp(tablet-s) {
+    width: 49.6%;
+    float: left;
+    margin-left: .4%;
+    
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  
+  input {
+    text-transform: capitalize;
+  }
+  
+  input:focus {
+    text-transform: none;
+  }
+}
+
+.participant-registration {
+  
+  &.zoomed-in {
+    padding: rem(30);
+  }
+}
+
+.teammate-add {
+  display: inline-block;
+  margin-top: rem(20);
+  cursor: pointer;
+  font-family: $subtitle-stack;
+  font-size: rem(14);
+  color: $primary;
+  @include transition(all, .1s, ease-in-out);
+  
+  &:hover {
+    transform: scale(1.08);
+  }
+  
+  span {
+    display: inline;
+    border: 2px solid $primary;
+    border-radius: rem(13);
+    padding: rem(2) rem(6) rem(1) rem(7);
+    margin-right: rem(8);
+  }
+}
+
+.form-control.error {
+  border: 1px solid tomato;
+}
+
+.form-group .help-block {
+  font-family: $title-stack;
+  line-height: normal;
+}
+
+label.error,
+.form-group .help-block {
+  color: tomato;
+  font-size: rem(13);
+  position: absolute;
+  bottom: rem(2);
+  margin-bottom: 0;
+}
+
+.alert-info {
+  color: $text;
+}
+
+/**
+ *  Photoa
+ */
+.photos-nav {
+  background: $primary;
+  width: 100%;
+  font-family: $title-stack;
+  text-align: center;
+  
+  a {
+    color: #fff;
+  }
+  
+  ul {
+    
+    li {
+      display: inline-block;
+      padding: rem(18) 5%;
+      
+      &.active {
+        border-bottom: 4px solid lighten($secondary, 10%);
+      }
+    }
+  }
+}
+
+.photos-content {
+  padding-top: rem(20);
+  padding-bottom: rem(20);
+  
+  .bottom-border {
+    padding-bottom: rem(40);
+  }
+}
+
+/**
+*  FAQ
+*/
+
+
+/**
+*  Footer
+*/
+footer {
+  font-family: $title-stack;
+  padding: rem(20) rem(10);
+  text-align: center;
+  
+  .small-wrapper {
+    position: relative; 
+  }
+  
+  p,
+  li {
+    font-size: rem(14);
+  }
+  
+  .left {
+    margin-bottom: rem(20);
+    padding-top: rem(43);
+    
+    p {
+      margin-bottom: 0;
+    }
+  }
+  
+  @include bp(phone) {
+    text-align: left;
+    
+    .left {
+      float: left;
+      padding-top: 0;
+      margin-bottom: 0;
+    }
+    
+    .right {
+      float: right;
+    }
+  }
+  
+  .icon-facebook2 {
+    font-size: rem(30);
+    color: #fff;
+    margin-top: rem(20);
+    margin-left: rem(12);
+    vertical-align: middle;
+  }
+}
+
+.lu-icon {
+  height: rem(58);
+  width: rem(58);
+  background: $darkBG url('../images/logo-icon.png') no-repeat 20px 12px;
+  background-size: 32%;
+  border-radius: rem(30);
+  position: absolute;
+  left: 47%;
+  right: 47%;
+  top: rem(-36);
+  display: block;
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.35);
+}
+
+.copyright {
+  font-size: rem(11);
+  line-height: normal;
+}
