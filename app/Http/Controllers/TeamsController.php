@@ -43,20 +43,20 @@ class TeamsController extends Controller
       // validate against the inputs from our form
       $validator = \Validator::make($request->all(), Teams::$rules);
       
-      if(!empty($request->get('first_participant_first_name')) || !empty($request->get('first_participant_last_name'))) {
-        $firstTeammateValidator = \Validator::make($request->all(), Teams::$firstTeammateRules);
-      }
+      // if(!empty($request->get('first_participant_first_name')) || !empty($request->get('first_participant_last_name'))) {
+      //   $firstTeammateValidator = \Validator::make($request->all(), Teams::$firstTeammateRules);
+      // }
       
-      if(!empty($request->get('second_participant_first_name')) || !empty($request->get('second_participant_last_name'))) {
-        $secondTeammateValidator = \Validator::make($request->all(), Teams::$secondTeammateRules);
-      }
+      // if(!empty($request->get('second_participant_first_name')) || !empty($request->get('second_participant_last_name'))) {
+      //   $secondTeammateValidator = \Validator::make($request->all(), Teams::$secondTeammateRules);
+      // }
       
-      if ($validator->fails() || $firstTeammateValidator->fails() || $secondTeammateValidator->fails()) {
+      if ($validator->fails()/* || $firstTeammateValidator->fails() || $secondTeammateValidator->fails()*/) {
         return \Redirect::route('registration')
             ->withErrors(array_merge_recursive(
-                $validator->messages()->toArray(), 
-                $firstTeammateValidator->messages()->toArray(),
-                $secondTeammateValidator->messages()->toArray()
+                $validator->messages()->toArray()
+                // $firstTeammateValidator->messages()->toArray(),
+                // $secondTeammateValidator->messages()->toArray()
             ))
             ->withInput();
       }
