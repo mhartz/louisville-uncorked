@@ -8,6 +8,7 @@
   <link rel="icon" href="favicon.png" sizes="32x32">
   <title>{{ $pageName }} | Lousville Uncorked</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="nofollow" /> 
   <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}" />
 </head>
 <body id="{{ strtolower(preg_replace("/[\s_]/", "-", $pageName)) }}">
