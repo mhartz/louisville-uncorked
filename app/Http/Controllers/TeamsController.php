@@ -40,23 +40,38 @@ class TeamsController extends Controller
      * @return Response
      */
     public function store(Request $request) {
+      
+      $nameValidationPasses = TRUE;
+      $validationErrorMessage = [];
+      
       // validate against the inputs from our form
       $validator = \Validator::make($request->all(), Teams::$rules);
+      if ($validator->fails()) {
+        $validationErrorMessage = $validator->messages()->toArray();
+      }
       
-      // if(!empty($request->get('first_participant_first_name')) || !empty($request->get('first_participant_last_name'))) {
-      //   $firstTeammateValidator = \Validator::make($request->all(), Teams::$firstTeammateRules);
-      // }
+      if(!empty($request->get('first_participant_first_name')) || !empty($request->get('first_participant_last_name'))) {
+        $firstTeammateValidator = \Validator::make($request->all(), Teams::$firstTeammateRules);
+        
+        if ($firstTeammateValidator->fails()) {
+          $validationErrorMessage = $firstTeammateValidator->messages()->toArray();
+          $nameValidationPasses = FALSE;
+        }
+      }
       
-      // if(!empty($request->get('second_participant_first_name')) || !empty($request->get('second_participant_last_name'))) {
-      //   $secondTeammateValidator = \Validator::make($request->all(), Teams::$secondTeammateRules);
-      // }
+      if(!empty($request->get('second_participant_first_name')) || !empty($request->get('second_participant_last_name'))) {
+        $secondTeammateValidator = \Validator::make($request->all(), Teams::$secondTeammateRules);
+        
+        if ($secondTeammateValidator->fails()) {
+          $validationErrorMessage = $secondTeammateValidator->messages()->toArray();
+          $nameValidationPasses = FALSE;
+        }
+      }
       
-      if ($validator->fails()/* || $firstTeammateValidator->fails() || $secondTeammateValidator->fails()*/) {
+      if ($validator->fails() || !$nameValidationPasses) {
         return \Redirect::route('registration')
             ->withErrors(array_merge_recursive(
-                $validator->messages()->toArray()
-                // $firstTeammateValidator->messages()->toArray(),
-                // $secondTeammateValidator->messages()->toArray()
+                $validationErrorMessage
             ))
             ->withInput();
       }

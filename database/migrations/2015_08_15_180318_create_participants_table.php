@@ -17,7 +17,7 @@ class CreateParticipantsTable extends Migration
             $table->integer('team_id'); //FK
             $table->string('first_name');
             $table->string('last_name');
-            $table->string('email')->unique()->nullable();
+            $table->string('email')->nullable();
             $table->boolean('active')->default(1);
             $table->timestamps();
         });
