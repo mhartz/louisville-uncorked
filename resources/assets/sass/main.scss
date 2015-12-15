@@ -201,6 +201,23 @@ header {
         right: rem(20);
       }
     }
+    
+    .home-mailing-list-module {
+  
+      .mailing-list-input {
+        @extend .col-20;
+        @extend .left;
+        height: rem(54);
+      }
+      
+      .button {
+        @extend .col-4;
+        @extend .right;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+      }
+    }
   }
 }
 

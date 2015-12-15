@@ -194,6 +194,10 @@ label {
   text-align: right;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .subtitle-rules {
   list-style: disc;
   font-size: rem(16);
@@ -327,7 +331,7 @@ label {
 
 /**
 *  Grid Layout
-*  Column-Total: 20
+*  Column-Total: 28
 *  Max-Width: 1280px
 *  Column-width: 64px
 *  Gutter: 10px

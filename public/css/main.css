@@ -533,16 +533,16 @@ label {
   display: inline-block; }
 
 @media only screen and (min-width: 47.5em) {
-  .left {
+  .left, #home .banner .home-mailing-list-module .mailing-list-input {
     float: left;
     margin-bottom: 0.625rem; } }
 
 @media only screen and (min-width: 47.5em) {
-  .left {
+  .left, #home .banner .home-mailing-list-module .mailing-list-input {
     margin-bottom: 0; } }
 
 @media only screen and (min-width: 47.5em) {
-  .right {
+  .right, #home .banner .home-mailing-list-module .button {
     float: right; } }
 
 .centered-width {
@@ -561,6 +561,9 @@ label {
 
 .text-right {
   text-align: right; }
+
+.text-left {
+  text-align: left; }
 
 .subtitle-rules {
   list-style: disc;
@@ -708,7 +711,7 @@ label {
 
 /**
 *  Grid Layout
-*  Column-Total: 20
+*  Column-Total: 28
 *  Max-Width: 1280px
 *  Column-width: 64px
 *  Gutter: 10px
@@ -720,6 +723,7 @@ label {
 .col-2,
 .col-3,
 .col-4,
+#home .banner .home-mailing-list-module .button,
 .col-5,
 .col-6,
 .col-7,
@@ -736,6 +740,7 @@ label {
 .col-18,
 .col-19,
 .col-20,
+#home .banner .home-mailing-list-module .mailing-list-input,
 .col-21,
 .col-22,
 .col-23,
@@ -746,6 +751,7 @@ label {
     .col-2,
     .col-3,
     .col-4,
+    #home .banner .home-mailing-list-module .button,
     .col-5,
     .col-6,
     .col-7,
@@ -762,6 +768,7 @@ label {
     .col-18,
     .col-19,
     .col-20,
+    #home .banner .home-mailing-list-module .mailing-list-input,
     .col-21,
     .col-22,
     .col-23,
@@ -774,6 +781,7 @@ label {
       .col-2:first-of-type,
       .col-3:first-of-type,
       .col-4:first-of-type,
+      #home .banner .home-mailing-list-module .button:first-of-type,
       .col-5:first-of-type,
       .col-6:first-of-type,
       .col-7:first-of-type,
@@ -790,6 +798,7 @@ label {
       .col-18:first-of-type,
       .col-19:first-of-type,
       .col-20:first-of-type,
+      #home .banner .home-mailing-list-module .mailing-list-input:first-of-type,
       .col-21:first-of-type,
       .col-22:first-of-type,
       .col-23:first-of-type,
@@ -797,55 +806,103 @@ label {
         margin-left: 0; } }
   @media only screen and (min-width: 47.5em) and (min-width: 47.5em) {
     .col-1.left,
+    #home .banner .home-mailing-list-module .col-1.mailing-list-input,
     .col-2.left,
+    #home .banner .home-mailing-list-module .col-2.mailing-list-input,
     .col-3.left,
+    #home .banner .home-mailing-list-module .col-3.mailing-list-input,
     .col-4.left,
+    #home .banner .home-mailing-list-module .col-4.mailing-list-input,
+    #home .banner .home-mailing-list-module .mailing-list-input.button, #home .banner .home-mailing-list-module .left.button,
     .col-5.left,
+    #home .banner .home-mailing-list-module .col-5.mailing-list-input,
     .col-6.left,
+    #home .banner .home-mailing-list-module .col-6.mailing-list-input,
     .col-7.left,
+    #home .banner .home-mailing-list-module .col-7.mailing-list-input,
     .col-8.left,
+    #home .banner .home-mailing-list-module .col-8.mailing-list-input,
     .col-9.left,
+    #home .banner .home-mailing-list-module .col-9.mailing-list-input,
     .col-10.left,
+    #home .banner .home-mailing-list-module .col-10.mailing-list-input,
     .col-11.left,
+    #home .banner .home-mailing-list-module .col-11.mailing-list-input,
     .col-12.left,
+    #home .banner .home-mailing-list-module .col-12.mailing-list-input,
     .col-13.left,
+    #home .banner .home-mailing-list-module .col-13.mailing-list-input,
     .col-14.left,
+    #home .banner .home-mailing-list-module .col-14.mailing-list-input,
     .col-15.left,
+    #home .banner .home-mailing-list-module .col-15.mailing-list-input,
     .col-16.left,
+    #home .banner .home-mailing-list-module .col-16.mailing-list-input,
     .col-17.left,
+    #home .banner .home-mailing-list-module .col-17.mailing-list-input,
     .col-18.left,
+    #home .banner .home-mailing-list-module .col-18.mailing-list-input,
     .col-19.left,
+    #home .banner .home-mailing-list-module .col-19.mailing-list-input,
     .col-20.left,
+    #home .banner .home-mailing-list-module .mailing-list-input,
     .col-21.left,
+    #home .banner .home-mailing-list-module .col-21.mailing-list-input,
     .col-22.left,
+    #home .banner .home-mailing-list-module .col-22.mailing-list-input,
     .col-23.left,
-    .col-24.left {
+    #home .banner .home-mailing-list-module .col-23.mailing-list-input,
+    .col-24.left, #home .banner .home-mailing-list-module .col-24.mailing-list-input {
       float: left; } }
   @media only screen and (min-width: 47.5em) and (min-width: 47.5em) {
     .col-1.right,
+    #home .banner .home-mailing-list-module .col-1.button,
     .col-2.right,
+    #home .banner .home-mailing-list-module .col-2.button,
     .col-3.right,
+    #home .banner .home-mailing-list-module .col-3.button,
     .col-4.right,
+    #home .banner .home-mailing-list-module .button,
     .col-5.right,
+    #home .banner .home-mailing-list-module .col-5.button,
     .col-6.right,
+    #home .banner .home-mailing-list-module .col-6.button,
     .col-7.right,
+    #home .banner .home-mailing-list-module .col-7.button,
     .col-8.right,
+    #home .banner .home-mailing-list-module .col-8.button,
     .col-9.right,
+    #home .banner .home-mailing-list-module .col-9.button,
     .col-10.right,
+    #home .banner .home-mailing-list-module .col-10.button,
     .col-11.right,
+    #home .banner .home-mailing-list-module .col-11.button,
     .col-12.right,
+    #home .banner .home-mailing-list-module .col-12.button,
     .col-13.right,
+    #home .banner .home-mailing-list-module .col-13.button,
     .col-14.right,
+    #home .banner .home-mailing-list-module .col-14.button,
     .col-15.right,
+    #home .banner .home-mailing-list-module .col-15.button,
     .col-16.right,
+    #home .banner .home-mailing-list-module .col-16.button,
     .col-17.right,
+    #home .banner .home-mailing-list-module .col-17.button,
     .col-18.right,
+    #home .banner .home-mailing-list-module .col-18.button,
     .col-19.right,
+    #home .banner .home-mailing-list-module .col-19.button,
     .col-20.right,
+    #home .banner .home-mailing-list-module .right.mailing-list-input,
+    #home .banner .home-mailing-list-module .mailing-list-input.button, #home .banner .home-mailing-list-module .col-20.button,
     .col-21.right,
+    #home .banner .home-mailing-list-module .col-21.button,
     .col-22.right,
+    #home .banner .home-mailing-list-module .col-22.button,
     .col-23.right,
-    .col-24.right {
+    #home .banner .home-mailing-list-module .col-23.button,
+    .col-24.right, #home .banner .home-mailing-list-module .col-24.button {
       float: right; } }
 
 @media only screen and (min-width: 47.5em) {
@@ -855,7 +912,7 @@ label {
     width: 8.28125%; }
   .col-3 {
     width: 12.42188%; }
-  .col-4 {
+  .col-4, #home .banner .home-mailing-list-module .button {
     width: 16.5625%; }
   .col-5 {
     width: 20.70312%; }
@@ -887,7 +944,7 @@ label {
     width: 74.53125%; }
   .col-19 {
     width: 78.67188%; }
-  .col-20 {
+  .col-20, #home .banner .home-mailing-list-module .mailing-list-input {
     width: 82.8125%; }
   .col-21 {
     width: 86.95312%; }
@@ -1374,6 +1431,12 @@ header {
       transition: all 0.2s ease-in-out; }
     #home .banner .button:hover .icon-circle-right {
       right: 1.25rem; }
+  #home .banner .home-mailing-list-module .mailing-list-input {
+    height: 3.375rem; }
+  #home .banner .home-mailing-list-module .button {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0; }
 
 .the-tasting-title {
   border-top: 4px double #474747;
@@ -1721,19 +1784,19 @@ footer {
   footer p,
   footer li {
     font-size: 0.875rem; }
-  footer .left {
+  footer .left, footer #home .banner .home-mailing-list-module .mailing-list-input, #home .banner .home-mailing-list-module footer .mailing-list-input {
     margin-bottom: 1.25rem;
     padding-top: 2.6875rem; }
-    footer .left p {
+    footer .left p, footer #home .banner .home-mailing-list-module .mailing-list-input p, #home .banner .home-mailing-list-module footer .mailing-list-input p {
       margin-bottom: 0; }
   @media only screen and (min-width: 30em) {
     footer {
       text-align: left; }
-      footer .left {
+      footer .left, footer #home .banner .home-mailing-list-module .mailing-list-input, #home .banner .home-mailing-list-module footer .mailing-list-input {
         float: left;
         padding-top: 0;
         margin-bottom: 0; }
-      footer .right {
+      footer .right, footer #home .banner .home-mailing-list-module .button, #home .banner .home-mailing-list-module footer .button {
         float: right; } }
   footer .icon-facebook2 {
     font-size: 1.875rem;
