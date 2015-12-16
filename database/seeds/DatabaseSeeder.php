@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call(EventsTableSeeder::class);
         $this->call(TeamsTableSeeder::class);
         $this->call(ParticipantsTableSeeder::class);
+        $this->call(MailingListTableSeeder::class);
 
         Model::reguard();
     }
