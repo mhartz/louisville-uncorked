@@ -23,6 +23,16 @@
           @endif
           
           <div class="form-group">
+            {!! Form::label('name', 'You Name', array('class'=>'text-left'))  !!}
+            {!! Form::text('name', null,
+                array( 
+                  'id'=>'mailing-list-name',
+                  'class'=>'mailing-list-input',
+                  'placeholder'=>'Your full name'
+                )
+              ) 
+            !!}
+            
             {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left')) !!}
             {!! Form::text('email', null,
                 array(

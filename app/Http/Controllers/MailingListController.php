@@ -43,13 +43,14 @@ class MailingListController extends Controller
             return \Redirect::route('/')->withErrors($validator)->withInput();
         }
         else {
-            $input = $request->only('email');
+            $input = $request->all();
             
             $teamId = MailingList::create([
-                'email' => $input['email']
+                'email' => $input['email'],
+                'name' => $input['name']
             ]);
             
-            return \Redirect::route('/')->with('message', 'Your email was successfully added!');
+            return \Redirect::route('/')->with('message', 'You have successfully signed up to our mailing list!');
         }
     }
 

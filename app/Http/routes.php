@@ -42,4 +42,4 @@ Route::post('contact', ['as' => 'contact-store', 'uses' => 'ContactController@st
  * Mailing List
  * -- Single email signup (Might need to go on every page, as of now is only on the homepage)
  */
-Route::post('mailing-list', ['as' => 'mailing-list-store', 'uses' => 'MailingListController@store']);
+Route::post('/', ['as' => 'mailing-list-store', 'uses' => 'MailingListController@store']);
