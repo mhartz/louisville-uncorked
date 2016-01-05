@@ -27,6 +27,8 @@ class MailingListController extends Controller
      */
     public function create()
     {
+        $pageName = "Mailing List";
+        return view('pages/mailing-list', compact('pageName'));
     }
 
     /**
@@ -41,6 +43,11 @@ class MailingListController extends Controller
 
         if ($validator->fails()) {
             return \Redirect::route('/')->withErrors($validator)->withInput();
+        }
+        else if($this->captchaCheck() == false) {
+            return redirect()->back()
+                ->withErrors(['Wrong Captcha'])
+                ->withInput();
         }
         else {
             $input = $request->all();

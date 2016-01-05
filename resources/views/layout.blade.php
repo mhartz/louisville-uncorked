@@ -10,6 +10,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="nofollow" /> 
   <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}" />
+  @if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'mailing-list')
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+  @endif
 </head>
 <body id="{{ strtolower(preg_replace("/[\s_]/", "-", $pageName)) }}">
   <a href="#main" class="wai-aria">Skip to main content</a>

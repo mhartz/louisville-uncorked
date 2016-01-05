@@ -3,57 +3,12 @@
 @section('banner')
   <div class="banner">
     <section class="wrapper">
-      <h1 class="large-heading mb-10">Signup to our mailing list to be the first to hear about our next event.</h1>
-      
-      <div class="home-mailing-list-module">
-        {!! Form::open(array('route' => 'mailing-list-store', 'id' => 'mailing-list-form')) !!}
-
-          @if ($errors->has())
-            <div class="alert alert-danger">
-                @foreach ($errors->all() as $error)
-                    {{ $error }}<br>        
-                @endforeach
-            </div>
-          @endif
-          
-          @if(Session::has('message'))
-              <div class="alert alert-info">
-                {{ Session::get('message') }}
-              </div>
-          @endif
-          
-          <div class="form-group">
-            {!! Form::label('name', 'You Name', array('class'=>'text-left'))  !!}
-            {!! Form::text('name', null,
-                array( 
-                  'id'=>'mailing-list-name',
-                  'class'=>'mailing-list-input',
-                  'placeholder'=>'Your full name'
-                )
-              ) 
-            !!}
-            
-            {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left')) !!}
-            {!! Form::text('email', null,
-                array(
-                  'required', 
-                  'id'=>'mailing-list-email',
-                  'class'=>'mailing-list-input',
-                  'placeholder'=>'Your e-mail address'
-                )
-              ) 
-            !!}
-            
-            {!! Form::submit('Sign Up', array('class'=>'button')) !!}
-          </div>
-        {!! Form::close() !!}
-      </div>
-    
-      {{-- <h1 class="banner-heading mb-10">Register Now for the Fall 2015 Tasting</h1>
+      <h1 class="banner-heading mb-10">Register Now for the Fall 2015 Tasting</h1>
       <h2 class="small-heading secondary">October 22, 2015</h2>
       <h2 class="small-heading secondary">7:30pm - 10:30pm</h2>
       <h2 class="small-heading secondary mb-10">The Foundry at the Glassworks</h2>
-      <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a> --}}
+      <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
+      <a href="/mailing-list" class="button inline-block">Join Our Mailing List</a>
     </section>
   </div>
 @stop

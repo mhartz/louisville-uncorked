@@ -484,7 +484,8 @@ header {
 #team-registration,
 #contact-us,
 #photos,
-#faq {
+#faq,
+#mailing-list {
   
   .banner {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/wine-glasses-large.jpg');
@@ -494,7 +495,8 @@ header {
 }
 
 .registration-form,
-.contact-form {
+.contact-form,
+.mailing-list-form {
   padding-top: rem(20);
   padding-bottom: rem(20);
   
@@ -532,7 +534,8 @@ header {
   @include clear();
 }
 
-.team-form-section {
+.team-form-section,
+.mailing-list-section {
   padding: rem(30);
 }
 
