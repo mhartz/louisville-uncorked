@@ -54,6 +54,10 @@ class ContactController extends Controller
             $toEmail = 'mshartz5@gmail.com';
         }
         else if($data['reason'] === '2') {
+            $subject = "Louisville Uncorked: Sponsor Request from ".$data['name'];
+            $toEmail = 'mshartz5@gmail.com';
+        }
+        else if($data['reason'] === '3') {
             $subject = 'Louisville Uncorked: Website Problem or Bug';
             $toEmail = 'mshartz5@gmail.com';
         }

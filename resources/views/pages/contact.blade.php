@@ -9,8 +9,8 @@
 @stop
 
 @section('content')
-<div class="tiny-wrapper contact-form">
-  <div class="form-group card-1 p-30">
+<div class="small-wrapper contact-form">
+  <div class="card-1 p-30 col-13 left clear">
     {!! Form::open(array('route' => 'contact-store', 'id' => 'contact-form')) !!}
 
     @if ($errors->has())
@@ -55,7 +55,7 @@
     
     <div class="form-group">
       {!! Form::label('Reason for Contact') !!}
-      {!! Form::select('reason', ['Questions/Comments', 'Charity', 'Website problem or bug report'], 
+      {!! Form::select('reason', ['Questions/Comments', 'Charity', 'Sponsor', 'Website problem or bug report'], 
           array(
             'id'=>'contact-reason',
             'class'=>'form-control'
@@ -81,6 +81,15 @@
       {!! Form::submit('Contact Us!', array('class'=>'button')) !!}
     </div>
       {!! Form::close() !!}
+  </div>
+  
+  <div class="col-10 mt-30 right">
+    <h2 class="main-heading">Email Contact:</h2>
+    <p>If you are a charity that is interested in representation, or your company is would like to sponsor an event, please fill out the form and we will get in contact with you as soon as we can.</p>
+    <p class="bottom-border pb-30">If you have any questions or discovered an issue with the website, please select the corresponding option from the dropdown menu.</p>
+    
+    <h2 class="main-heading">Mailing Address:</h2>
+    <p>710 West Main Street, 4th Floor, Louisville, Kentucky 40202.</p>
   </div>
 </div>
 
