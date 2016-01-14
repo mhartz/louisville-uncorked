@@ -31,7 +31,7 @@
       
       <div class="mailing-list-section card-1 clear">
         <div class="form-group">
-          {!! Form::label('name', 'You Name', array('class'=>'text-left'))  !!}
+          {!! Form::label('name', 'Your Name', array('class'=>'text-left'))  !!}
           {!! Form::text('name', null,
               array( 
                 'id'=>'mailing-list-name',
@@ -40,22 +40,27 @@
               )
             ) 
           !!}
-          
-          {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left')) !!}
-          {!! Form::text('email', null,
-              array(
-                'required', 
-                'id'=>'mailing-list-email',
-                'class'=>'mailing-list-input',
-                'placeholder'=>'Your e-mail address'
-              )
-            ) 
-          !!}
+        </div>
+
+          <div class="form-group small-margin">
+            {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left')) !!}
+            {!! Form::text('email', null,
+                array(
+                  'required', 
+                  'id'=>'mailing-list-email',
+                  'class'=>'mailing-list-input',
+                  'placeholder'=>'Your e-mail address'
+                )
+              ) 
+            !!}
+          </div>
+          <div class="form-group small-margin">
+            <script src='https://www.google.com/recaptcha/api.js'></script>
+            <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>  
+          </div>
           
           {!! Form::submit('Sign Up', array('class'=>'button')) !!}
         </div>
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-        <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>
       {!! Form::close() !!}
       </div>
   </div>

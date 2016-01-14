@@ -612,7 +612,7 @@ label.error,
 }
 
 /**
- *  Photoa
+ *  Photos
  */
 .photos-nav {
   background: $primary;
@@ -647,8 +647,33 @@ label.error,
 }
 
 /**
-*  FAQ
+*  Mailing List Signup
 */
+.mailing-list-module {
+  max-width: rem(360);
+}
+
+.mailing-list-section {
+  width: 100%;
+  
+  .form-group {
+    margin-bottom: 0;
+    
+    &.small-margin {
+      margin-bottom: rem(14);
+      padding-bottom: 0;
+    }
+  }
+  
+  .mailing-list-input {
+    height: rem(50);
+  }
+  
+  .button {
+    width: 100%;
+    height: rem(64);
+  }
+}
 
 
 /**

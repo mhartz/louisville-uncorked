@@ -2,14 +2,66 @@
 
 @section('banner')
   <div class="banner">
-    <section class="wrapper">
+  <div class="mailing-list-module">
+    {!! Form::open(array('route' => 'mailing-list-store', 'id' => 'mailing-list-form')) !!}
+
+      @if ($errors->has())
+        <div class="alert alert-danger">
+            @foreach ($errors->all() as $error)
+                {{ $error }}<br>        
+            @endforeach
+        </div>
+      @endif
+      
+      @if(Session::has('message'))
+          <div class="alert alert-info">
+            {{ Session::get('message') }}
+          </div>
+      @endif
+      
+      <div class="mailing-list-section card-1 clear">
+        <div class="form-group">
+          {!! Form::label('name', 'Your Name', array('class'=>'text-left'))  !!}
+          {!! Form::text('name', null,
+              array( 
+                'id'=>'mailing-list-name',
+                'class'=>'mailing-list-input',
+                'placeholder'=>'Your full name'
+              )
+            ) 
+          !!}
+        </div>
+
+          <div class="form-group small-margin">
+            {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left')) !!}
+            {!! Form::text('email', null,
+                array(
+                  'required', 
+                  'id'=>'mailing-list-email',
+                  'class'=>'mailing-list-input',
+                  'placeholder'=>'Your e-mail address'
+                )
+              ) 
+            !!}
+          </div>
+          <div class="form-group small-margin">
+            <script src='https://www.google.com/recaptcha/api.js'></script>
+            <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>  
+          </div>
+          
+          {!! Form::submit('Sign Up', array('class'=>'button')) !!}
+        </div>
+      {!! Form::close() !!}
+      </div>
+  </div>
+    {{-- <section class="wrapper">
       <h1 class="banner-heading mb-10">Register Now for the Fall 2015 Tasting</h1>
       <h2 class="small-heading secondary">October 22, 2015</h2>
       <h2 class="small-heading secondary">7:30pm - 10:30pm</h2>
       <h2 class="small-heading secondary mb-10">The Foundry at the Glassworks</h2>
       <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
       <a href="/mailing-list" class="button inline-block">Join Our Mailing List</a>
-    </section>
+    </section> --}}
   </div>
 @stop
 
@@ -35,7 +87,7 @@
       <p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>
     </section>
     
-    <iframe class="upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12531.998506803531!2d-85.76454129999999!3d38.256314700000026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x733dc6070e8332a5!2sThe+Foundry+at+Glassworks!5e0!3m2!1sen!2sus!4v1441746165022" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12531.998506803531!2d-85.76454129999999!3d38.256314700000026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x733dc6070e8332a5!2sThe+Foundry+at+Glassworks!5e0!3m2!1sen!2sus!4v1441746165022" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
 

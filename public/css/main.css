@@ -648,6 +648,9 @@ label {
 .zoomed-in span {
   display: inline-block; }
 
+.map {
+  pointer-events: none; }
+
 /**
 *  Colors
 *  ----------------------------------------
@@ -1755,7 +1758,7 @@ label.error,
   color: #474747; }
 
 /**
- *  Photoa
+ *  Photos
  */
 .photos-nav {
   background: #f44336;
@@ -1777,8 +1780,24 @@ label.error,
     padding-bottom: 2.5rem; }
 
 /**
-*  FAQ
+*  Mailing List Signup
 */
+.mailing-list-module {
+  max-width: 22.5rem; }
+
+.mailing-list-section {
+  width: 100%; }
+  .mailing-list-section .form-group {
+    margin-bottom: 0; }
+    .mailing-list-section .form-group.small-margin {
+      margin-bottom: 0.875rem;
+      padding-bottom: 0; }
+  .mailing-list-section .mailing-list-input {
+    height: 3.125rem; }
+  .mailing-list-section .button {
+    width: 100%;
+    height: 4rem; }
+
 /**
 *  Footer
 */

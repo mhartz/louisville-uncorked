@@ -42,7 +42,7 @@ class MailingListController extends Controller
         $validator = \Validator::make($request->only('email'), MailingList::$rules);
 
         if ($validator->fails()) {
-            return \Redirect::route('/')->withErrors($validator)->withInput();
+            return \Redirect::to('/')->withErrors($validator)->withInput();
         }
         else if($this->captchaCheck() == false) {
             return redirect()->back()
@@ -57,7 +57,7 @@ class MailingListController extends Controller
                 'name' => $input['name']
             ]);
             
-            return \Redirect::route('/')->with('message', 'You have successfully signed up to our mailing list!');
+            return \Redirect::to('/')->with('message', 'You have successfully signed up to our mailing list!');
         }
     }
 
