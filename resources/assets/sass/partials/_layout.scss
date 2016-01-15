@@ -454,6 +454,12 @@ label {
   padding-left: rem(10);
 }
 
+.p-0 { padding: 0; }
+.pt-0 { padding-top: 0; }
+.pr-0 { padding-right: 0; }
+.pb-0 { padding-bottom: 0; }
+.pl-0 { padding-left: 0; }
+
 @include bp(tablet) {
   .p-10 { padding: rem(10) }
   .p-20 { padding: rem(20) }

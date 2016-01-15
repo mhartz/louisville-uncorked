@@ -83,13 +83,14 @@
       {!! Form::close() !!}
   </div>
   
-  <div class="col-10 mt-30 right">
+  <div class="col-10 mt-40 pt-10 right">
     <h2 class="main-heading">Email Contact:</h2>
-    <p>If you are a charity that is interested in representation, or your company is would like to sponsor an event, please fill out the form and we will get in contact with you as soon as we can.</p>
+    <p>If you are a charity that is interested in becoming a benefactor or your company would like to sponsor an event, please fill out the form and we will get in contact with you as soon as we can.</p>
     <p class="bottom-border pb-30">If you have any questions or discovered an issue with the website, please select the corresponding option from the dropdown menu.</p>
     
     <h2 class="main-heading">Mailing Address:</h2>
-    <p>710 West Main Street, 4th Floor, Louisville, Kentucky 40202.</p>
+    <p class="mb-0">710 West Main Street, 4th Floor</p>
+    <p>Louisville, Kentucky 40202.</p>
   </div>
 </div>
 

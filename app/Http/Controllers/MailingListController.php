@@ -1,12 +1,10 @@
-<?php
-
-namespace App\Http\Controllers;
+<?php namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\MailingList;
-
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Traits\CaptchaTrait;
 
 class MailingListController extends Controller
 {
@@ -39,12 +37,12 @@ class MailingListController extends Controller
      */
     public function store(Request $request)
     {
-        $validator = \Validator::make($request->only('email'), MailingList::$rules);
+        $validator = \Validator::make($request->only('email', 'g-recaptcha-response'), MailingList::$rules);
 
         if ($validator->fails()) {
             return \Redirect::to('/')->withErrors($validator)->withInput();
         }
-        else if($this->captchaCheck() == false) {
+        else if ($this->captchaCheck() == false) {
             return redirect()->back()
                 ->withErrors(['Wrong Captcha'])
                 ->withInput();
