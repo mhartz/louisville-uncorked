@@ -26,7 +26,7 @@
       <nav id="main-nav" class="main-navigation" role="navigation">
         <ul>
           <li><a class="team-registration-navlink" href="/registration">Registration</a></li>
-          <li><a class="photos-navlink" href="/photos">Photos</a></li>
+          <li><a class="photos-navlink" href="/photos/2015-fall-event">Photos</a></li>
           <li><a class="faq-navlink" href="/faq">FAQ</a></li>
           <li><a class="contact-us-navlink" href="/contact">Contact Us</a></li>
         </ul>

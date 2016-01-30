@@ -16,7 +16,6 @@
  */
 Route::get('/', 'PagesController@index');
 Route::get('about', 'PagesController@about');
-Route::get('photos', 'PagesController@photos');
 Route::get('faq', 'PagesController@faq');
 
 /**
@@ -44,3 +43,31 @@ Route::post('contact', ['as' => 'contact-store', 'uses' => 'ContactController@st
  */
 Route::get('mailing-list', ['as' => 'mailing-list', 'uses' => 'MailingListController@create']);
 Route::post('mailing-list', ['as' => 'mailing-list-store', 'uses' => 'MailingListController@store']);
+
+/**
+ * Photos
+ * -- Different pages for the photos
+ */
+Route::get('photos/2015-fall-event', 'PagesController@photosCurrent');
+Route::get('photos/2015-fall-meeting', 'PagesController@photosPast');
+Route::get('photos/2015-winter-meeting', 'PagesController@photosPastOld');
+
+
+
+
+
+
+
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Admin Routes
+|--------------------------------------------------------------------------
+|
+| All the routes related to the admin are containted here
+|
+*/
+Route::get('admin/photos', 'AdminPhotosController@create');

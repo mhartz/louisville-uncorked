@@ -12,14 +12,15 @@
   <div class="photos-nav">
     <div class="small-wrapper">
       <ul>
-        <li class="active"><a href="#0">2015 Winter Tasting at Mellwood Arts Center</a></li>
-        <li class="active"><a href="#0">2015 Host Committee Meeting for the Winter Event</a></li>
+        <li><a href="/photos/2015-fall-event">2015 Fall Tasting</a></li>
+        <li class="active"><a href="/photos/2015-fall-meeting">2015 Fall Committee Meeting</a></li>
+        <li><a href="/photos/2015-winter-meeting">2015 Winter Tasting</a></li>
       </ul>
     </div>
   </div>
   <div class="small-wrapper photos-content">
     <section class="photo-section mb-40 mt-30 bottom-border">
-      <h2 class="main-heading mb-40">Host Committee Meeting for the 2015 Fall Event</h2>
+      <h2 class="main-heading mb-40">2015 Fall Committee Meeting</h2>
       <ul class="photo-gallery-list">
         <li class="col-16"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos1.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos1.jpg') }}" alt=""></a></li>
         <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos2.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos2.jpg') }}" alt=""></a></li>

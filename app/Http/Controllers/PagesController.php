@@ -24,13 +24,23 @@ class PagesController extends Controller
         return view('pages/charity', compact('pageName'));
     }
     
-    public function photos() {
-        $pageName = 'Photos';
-        return view('pages/photos', compact('pageName'));
-    }
-    
     public function faq() {
         $pageName = 'FAQ';
         return view('pages/faq', compact('pageName'));
+    }
+    
+    public function photosCurrent() {
+        $pageName = 'Photos';
+        return view('pages/photos/2015-fall-event', compact('pageName'));
+    }
+    
+    public function photosPast() {
+        $pageName = 'Photos';
+        return view('pages/photos/2015-fall-meeting', compact('pageName'));
+    }
+    
+    public function photosPastOld() {
+        $pageName = 'Photos';
+        return view('pages/photos/2015-winter-event', compact('pageName'));
     }
 }

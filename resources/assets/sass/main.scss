@@ -614,6 +614,15 @@ label.error,
 /**
  *  Photos
  */
+.photos {
+  
+  &.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/wine-glasses-large.jpg');
+    background-position: center left;
+    background-size: cover;
+  }
+}
+
 .photos-nav {
   background: $primary;
   width: 100%;
