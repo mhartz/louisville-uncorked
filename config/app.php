@@ -96,6 +96,20 @@ return [
     */
 
     'log' => 'single',
+    
+    
+    /*
+    |--------------------------------------------------------------------------
+    | Drag and Drop Image sizes
+    |--------------------------------------------------------------------------
+    |
+    | The service providers listed here set the icon and the full size
+    | of the images dropped in by the admin
+    |
+    */
+    'full_size'   => env('UPLOAD_FULL_SIZE'),
+    'icon_size'   => env('UPLOAD_ICON_SIZE'),
+    
 
     /*
     |--------------------------------------------------------------------------

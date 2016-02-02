@@ -70,4 +70,6 @@ Route::get('photos/2015-winter-meeting', 'PagesController@photosPastOld');
 | All the routes related to the admin are containted here
 |
 */
-Route::get('admin/photos', 'AdminPhotosController@create');
+Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
+Route::post('upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
+Route::post('upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
