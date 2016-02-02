@@ -1,12 +1,12 @@
 @extends('layout')
 
 @section('head')
-    {!! HTML::style('/packages/dropzone/dropzone.css') !!}
+    <link rel="stylesheet" href="{{ URL::asset('/packages/dropzone/dropzone.css') }}" />
 @stop
 
 @section('footer')
-    {!! HTML::script('/packages/dropzone/dropzone.js') !!}
-    {!! HTML::script('/assets/js/dropzone-config.js') !!}
+    <script src="{{ URL::asset('/packages/dropzone/dropzone.js') }}"></script>
+    <script src="{{ URL::asset('/assets/js/dropzone-config.js') }}"></script>
 @stop
 
 @section('content')
