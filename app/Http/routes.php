@@ -71,5 +71,5 @@ Route::get('photos/2015-winter-meeting', 'PagesController@photosPastOld');
 |
 */
 Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
-Route::post('upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
-Route::post('upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
+Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
+Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);

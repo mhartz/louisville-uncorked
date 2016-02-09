@@ -16,7 +16,7 @@ class ImageController extends Controller
 
     public function getUpload()
     {
-        return view('admin.pages.upload');
+        return view('pages.upload');
     }
 
     public function postUpload()
