@@ -31,8 +31,7 @@ ol, ul {
 blockquote,
 q {
   quotes: none; }
-  blockquote:before,
-  blockquote:after,
+  blockquote:before, blockquote:after,
   q:before,
   q:after {
     content: '';
@@ -100,7 +99,7 @@ html {
   font-style: normal;
   font-weight: 100;
   src: local("Lato Hairline"), local("Lato-Hairline"), url(../fonts/Lato-Hairline.ttf) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
 @font-face {
@@ -108,7 +107,7 @@ html {
   font-style: normal;
   font-weight: 100;
   src: local("Lato Hairline"), local("Lato-Hairline"), url(../fonts/Lato-Hairline.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin-ext */
 @font-face {
@@ -116,7 +115,7 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local("Lato Regular"), local("Lato-Regular"), url(../fonts/Lato-Regular.ttf) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
 @font-face {
@@ -124,7 +123,7 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local("Lato Regular"), local("Lato-Regular"), url(../fonts/Lato-Regular.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin-ext */
 @font-face {
@@ -132,7 +131,7 @@ html {
   font-style: normal;
   font-weight: 700;
   src: local("Lato Bold"), local("Lato-Bold"), url(../fonts/Lato-Bold.ttf) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
 @font-face {
@@ -140,7 +139,7 @@ html {
   font-style: normal;
   font-weight: 700;
   src: local("Lato Bold"), local("Lato-Bold"), url(../fonts/Lato-Bold.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin */
 @font-face {
@@ -148,7 +147,7 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local("Montserrat-Regular"), url(../fonts/Montserrat-Regular.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin */
 @font-face {
@@ -156,7 +155,7 @@ html {
   font-style: normal;
   font-weight: 700;
   src: local("Montserrat-Bold"), url(../fonts/Montserrat-Bold.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin-ext */
 @font-face {
@@ -164,7 +163,7 @@ html {
   font-style: normal;
   font-weight: 300;
   src: local("Merriweather Light"), local("Merriweather-Light"), url(../fonts/Merriweather-Light.ttf) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
 @font-face {
@@ -172,7 +171,7 @@ html {
   font-style: normal;
   font-weight: 300;
   src: local("Merriweather Light"), local("Merriweather-Light"), url(../fonts/Merriweather-Light.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin-ext */
 @font-face {
@@ -180,7 +179,7 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local("Merriweather"), url(../fonts/Merriweather.ttf) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
 @font-face {
@@ -188,7 +187,7 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local("Merriweather"), url(../fonts/Merriweather.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin-ext */
 @font-face {
@@ -196,7 +195,7 @@ html {
   font-style: normal;
   font-weight: 700;
   src: local("Merriweather Bold"), local("Merriweather-Bold"), url(../fonts/Merriweather-Bold.ttf) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
 @font-face {
@@ -204,7 +203,7 @@ html {
   font-style: normal;
   font-weight: 700;
   src: local("Merriweather Bold"), local("Merriweather-Bold"), url(../fonts/Merriweather-Bold.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin-ext */
 @font-face {
@@ -212,7 +211,7 @@ html {
   font-style: italic;
   font-weight: 400;
   src: local("Merriweather Italic"), local("Merriweather-Italic"), url(../fonts/Merriweather-Italic.ttf) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
 @font-face {
@@ -220,7 +219,7 @@ html {
   font-style: italic;
   font-weight: 400;
   src: local("Merriweather Italic"), local("Merriweather-Italic"), url(../fonts/Merriweather-Italic.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* latin-ext */
 @font-face {
@@ -228,7 +227,7 @@ html {
   font-style: italic;
   font-weight: 700;
   src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url(../fonts/Merriweather-BoldItalic.ttf) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
 @font-face {
@@ -236,7 +235,7 @@ html {
   font-style: italic;
   font-weight: 700;
   src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url(../fonts/Merriweather-BoldItalic.ttf) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
   font-family: 'icomoon';
@@ -478,10 +477,12 @@ strong {
 
 .wai-aria {
   display: block !important;
-  height: 1px !important;
+  height: 0px !important;
   overflow: hidden !important;
   white-space: nowrap !important;
-  width: 1px !important; }
+  width: 0px !important;
+  margin: 0 !important;
+  padding: 0 !important; }
 
 input[type=text],
 input[type=email],
@@ -533,12 +534,12 @@ label {
   display: inline-block; }
 
 @media only screen and (min-width: 47.5em) {
-  .left, #home .banner .home-mailing-list-module .mailing-list-input {
+  .left, #home .banner .home-mailing-list-module .form-group {
     float: left;
     margin-bottom: 0.625rem; } }
 
 @media only screen and (min-width: 47.5em) {
-  .left, #home .banner .home-mailing-list-module .mailing-list-input {
+  .left, #home .banner .home-mailing-list-module .form-group {
     margin-bottom: 0; } }
 
 @media only screen and (min-width: 47.5em) {
@@ -574,7 +575,9 @@ label {
   .subtitle-rules li {
     margin: 0 0 0.625rem 1.25rem; }
 
-@includ flex-row();
+.flex-row {
+  @includ flex-row(); }
+
 .flex {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -592,7 +595,7 @@ label {
   line-height: normal;
   vertical-align: baseline;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   background: #f44336;
   border-radius: 10px; }
@@ -726,7 +729,6 @@ label {
 .col-2,
 .col-3,
 .col-4,
-#home .banner .home-mailing-list-module .button,
 .col-5,
 .col-6,
 .col-7,
@@ -743,7 +745,6 @@ label {
 .col-18,
 .col-19,
 .col-20,
-#home .banner .home-mailing-list-module .mailing-list-input,
 .col-21,
 .col-22,
 .col-23,
@@ -754,7 +755,6 @@ label {
     .col-2,
     .col-3,
     .col-4,
-    #home .banner .home-mailing-list-module .button,
     .col-5,
     .col-6,
     .col-7,
@@ -771,7 +771,6 @@ label {
     .col-18,
     .col-19,
     .col-20,
-    #home .banner .home-mailing-list-module .mailing-list-input,
     .col-21,
     .col-22,
     .col-23,
@@ -784,7 +783,6 @@ label {
       .col-2:first-of-type,
       .col-3:first-of-type,
       .col-4:first-of-type,
-      #home .banner .home-mailing-list-module .button:first-of-type,
       .col-5:first-of-type,
       .col-6:first-of-type,
       .col-7:first-of-type,
@@ -801,71 +799,68 @@ label {
       .col-18:first-of-type,
       .col-19:first-of-type,
       .col-20:first-of-type,
-      #home .banner .home-mailing-list-module .mailing-list-input:first-of-type,
       .col-21:first-of-type,
       .col-22:first-of-type,
       .col-23:first-of-type,
       .col-24:first-of-type {
         margin-left: 0; } }
   @media only screen and (min-width: 47.5em) and (min-width: 47.5em) {
-    .col-1.left,
-    #home .banner .home-mailing-list-module .col-1.mailing-list-input,
+    .col-1.left, #home .banner .home-mailing-list-module .col-1.form-group,
     .col-2.left,
-    #home .banner .home-mailing-list-module .col-2.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-2.form-group,
     .col-3.left,
-    #home .banner .home-mailing-list-module .col-3.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-3.form-group,
     .col-4.left,
-    #home .banner .home-mailing-list-module .col-4.mailing-list-input,
-    #home .banner .home-mailing-list-module .mailing-list-input.button, #home .banner .home-mailing-list-module .left.button,
+    #home .banner .home-mailing-list-module .col-4.form-group,
     .col-5.left,
-    #home .banner .home-mailing-list-module .col-5.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-5.form-group,
     .col-6.left,
-    #home .banner .home-mailing-list-module .col-6.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-6.form-group,
     .col-7.left,
-    #home .banner .home-mailing-list-module .col-7.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-7.form-group,
     .col-8.left,
-    #home .banner .home-mailing-list-module .col-8.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-8.form-group,
     .col-9.left,
-    #home .banner .home-mailing-list-module .col-9.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-9.form-group,
     .col-10.left,
-    #home .banner .home-mailing-list-module .col-10.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-10.form-group,
     .col-11.left,
-    #home .banner .home-mailing-list-module .col-11.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-11.form-group,
     .col-12.left,
-    #home .banner .home-mailing-list-module .col-12.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-12.form-group,
     .col-13.left,
-    #home .banner .home-mailing-list-module .col-13.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-13.form-group,
     .col-14.left,
-    #home .banner .home-mailing-list-module .col-14.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-14.form-group,
     .col-15.left,
-    #home .banner .home-mailing-list-module .col-15.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-15.form-group,
     .col-16.left,
-    #home .banner .home-mailing-list-module .col-16.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-16.form-group,
     .col-17.left,
-    #home .banner .home-mailing-list-module .col-17.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-17.form-group,
     .col-18.left,
-    #home .banner .home-mailing-list-module .col-18.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-18.form-group,
     .col-19.left,
-    #home .banner .home-mailing-list-module .col-19.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-19.form-group,
     .col-20.left,
-    #home .banner .home-mailing-list-module .mailing-list-input,
+    #home .banner .home-mailing-list-module .col-20.form-group,
     .col-21.left,
-    #home .banner .home-mailing-list-module .col-21.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-21.form-group,
     .col-22.left,
-    #home .banner .home-mailing-list-module .col-22.mailing-list-input,
+    #home .banner .home-mailing-list-module .col-22.form-group,
     .col-23.left,
-    #home .banner .home-mailing-list-module .col-23.mailing-list-input,
-    .col-24.left, #home .banner .home-mailing-list-module .col-24.mailing-list-input {
+    #home .banner .home-mailing-list-module .col-23.form-group,
+    .col-24.left,
+    #home .banner .home-mailing-list-module .col-24.form-group {
       float: left; } }
   @media only screen and (min-width: 47.5em) and (min-width: 47.5em) {
-    .col-1.right,
-    #home .banner .home-mailing-list-module .col-1.button,
+    .col-1.right, #home .banner .home-mailing-list-module .col-1.button,
     .col-2.right,
     #home .banner .home-mailing-list-module .col-2.button,
     .col-3.right,
     #home .banner .home-mailing-list-module .col-3.button,
     .col-4.right,
-    #home .banner .home-mailing-list-module .button,
+    #home .banner .home-mailing-list-module .col-4.button,
     .col-5.right,
     #home .banner .home-mailing-list-module .col-5.button,
     .col-6.right,
@@ -897,64 +892,64 @@ label {
     .col-19.right,
     #home .banner .home-mailing-list-module .col-19.button,
     .col-20.right,
-    #home .banner .home-mailing-list-module .right.mailing-list-input,
-    #home .banner .home-mailing-list-module .mailing-list-input.button, #home .banner .home-mailing-list-module .col-20.button,
+    #home .banner .home-mailing-list-module .col-20.button,
     .col-21.right,
     #home .banner .home-mailing-list-module .col-21.button,
     .col-22.right,
     #home .banner .home-mailing-list-module .col-22.button,
     .col-23.right,
     #home .banner .home-mailing-list-module .col-23.button,
-    .col-24.right, #home .banner .home-mailing-list-module .col-24.button {
+    .col-24.right,
+    #home .banner .home-mailing-list-module .col-24.button {
       float: right; } }
 
 @media only screen and (min-width: 47.5em) {
   .col-1 {
-    width: 4.14062%; }
+    width: 4.140625%; }
   .col-2 {
     width: 8.28125%; }
   .col-3 {
-    width: 12.42188%; }
-  .col-4, #home .banner .home-mailing-list-module .button {
+    width: 12.421875%; }
+  .col-4 {
     width: 16.5625%; }
   .col-5 {
-    width: 20.70312%; }
+    width: 20.703125%; }
   .col-6 {
     width: 24.84375%; }
   .col-7 {
-    width: 28.98438%; }
+    width: 28.984375%; }
   .col-8 {
     width: 33.125%; }
   .col-9 {
-    width: 37.26562%; }
+    width: 37.265625%; }
   .col-10 {
     width: 41.40625%; }
   .col-11 {
-    width: 45.54688%; }
+    width: 45.546875%; }
   .col-12 {
     width: 49.6875%; }
   .col-13 {
-    width: 53.82813%; }
+    width: 53.828125%; }
   .col-14 {
     width: 57.96875%; }
   .col-15 {
-    width: 62.10938%; }
+    width: 62.109375%; }
   .col-16 {
     width: 66.25%; }
   .col-17 {
-    width: 70.39062%; }
+    width: 70.390625%; }
   .col-18 {
     width: 74.53125%; }
   .col-19 {
-    width: 78.67188%; }
-  .col-20, #home .banner .home-mailing-list-module .mailing-list-input {
+    width: 78.671875%; }
+  .col-20 {
     width: 82.8125%; }
   .col-21 {
-    width: 86.95312%; }
+    width: 86.953125%; }
   .col-22 {
     width: 91.09375%; }
   .col-23 {
-    width: 95.23438%; }
+    width: 95.234375%; }
   .col-24 {
     width: 99.375%; } }
 
@@ -1370,8 +1365,7 @@ header {
       .main-navigation a {
         display: inline-block;
         padding: 0 0 0.1875rem 0; } }
-    .main-navigation a:hover,
-    .main-navigation a.active {
+    .main-navigation a:hover, .main-navigation a.active {
       border-bottom: 3px solid #f44336; }
 
 .show-hide-nav {
@@ -1449,12 +1443,35 @@ header {
       transition: all 0.2s ease-in-out; }
     #home .banner .button:hover .icon-circle-right {
       right: 1.25rem; }
+  #home .banner .home-mailing-list-module .mailing-list-section {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 19rem; }
+    @media only screen and (min-width: 47.5em) {
+      #home .banner .home-mailing-list-module .mailing-list-section {
+        max-width: 760px;
+        padding: 0 0.75rem; } }
+  #home .banner .home-mailing-list-module .form-group {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0; }
+    @media only screen and (min-width: 47.5em) {
+      #home .banner .home-mailing-list-module .form-group {
+        width: 49.6875%; } }
   #home .banner .home-mailing-list-module .mailing-list-input {
-    height: 3.375rem; }
+    height: 2.5rem; }
   #home .banner .home-mailing-list-module .button {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0; }
+    width: 100%;
+    height: auto; }
+  #home .banner .home-mailing-list-module .g-recaptcha {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0; }
+
+@media (max-width: 390px) {
+  .g-recaptcha {
+    margin: 1px; } }
 
 .the-tasting-title {
   border-top: 4px double #474747;
@@ -1550,7 +1567,7 @@ header {
       margin-top: 0;
       border-top: 0;
       border-left: 3px solid #f44336;
-      width: 62.10938%; } }
+      width: 62.109375%; } }
   .charity-right .main-heading a {
     color: #E2C15D; }
 
@@ -1803,7 +1820,8 @@ label.error,
 *  Mailing List Signup
 */
 .mailing-list-module {
-  max-width: 22.5rem; }
+  max-width: 22.5rem;
+  margin: 0 auto; }
 
 .mailing-list-section {
   width: 100%; }
@@ -1833,15 +1851,15 @@ footer {
   footer p,
   footer li {
     font-size: 0.875rem; }
-  footer .left, footer #home .banner .home-mailing-list-module .mailing-list-input, #home .banner .home-mailing-list-module footer .mailing-list-input {
+  footer .left, footer #home .banner .home-mailing-list-module .form-group, #home .banner .home-mailing-list-module footer .form-group {
     margin-bottom: 1.25rem;
     padding-top: 2.6875rem; }
-    footer .left p, footer #home .banner .home-mailing-list-module .mailing-list-input p, #home .banner .home-mailing-list-module footer .mailing-list-input p {
+    footer .left p, footer #home .banner .home-mailing-list-module .form-group p, #home .banner .home-mailing-list-module footer .form-group p {
       margin-bottom: 0; }
   @media only screen and (min-width: 30em) {
     footer {
       text-align: left; }
-      footer .left, footer #home .banner .home-mailing-list-module .mailing-list-input, #home .banner .home-mailing-list-module footer .mailing-list-input {
+      footer .left, footer #home .banner .home-mailing-list-module .form-group, #home .banner .home-mailing-list-module footer .form-group {
         float: left;
         padding-top: 0;
         margin-bottom: 0; }

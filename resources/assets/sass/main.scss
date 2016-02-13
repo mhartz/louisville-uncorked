@@ -203,22 +203,53 @@ header {
     }
     
     .home-mailing-list-module {
+      
+      .mailing-list-section { 
+        margin: 0 auto;
+        padding: 0;
+        max-width: rem(304);
+        
+        @include bp(tablet) {
+          max-width: 760px;
+          padding: 0 rem(12);
+        }
+      }
+      
+      .form-group {
+        width: 100%;
+        margin-bottom: rem(8);
+        padding-bottom: 0;
+        
+        @include bp(tablet) {
+          @extend .left;
+          width: 49.6875%;
+        }
+      }
   
       .mailing-list-input {
-        @extend .col-20;
-        @extend .left;
-        height: rem(54);
+        height: rem(40);
       }
       
       .button {
-        @extend .col-4;
         @extend .right;
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
+        width: 100%;
+        height: auto;
+      }
+      
+      .g-recaptcha {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        transform-origin: 0 0;
+        -webkit-transform-origin:0 0;
       }
     }
   }
+}
+
+@media(max-width: 390px) {
+    .g-recaptcha {
+        margin: 1px;
+    }
 }
 
 .the-tasting-title {
@@ -660,6 +691,7 @@ label.error,
 */
 .mailing-list-module {
   max-width: rem(360);
+  margin: 0 auto;
 }
 
 .mailing-list-section {

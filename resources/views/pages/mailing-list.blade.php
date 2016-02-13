@@ -3,14 +3,13 @@
 @section('banner')
   <div class="banner">
     <section class="small-wrapper">
-      <h1 class="large-heading">{{ $pageName }}</h1>
+      <h1 class="large-heading">Sign up to our {{ $pageName }}</h1>
     </section>
   </div>
 @stop
 
 @section('content')
 <div class="tiny-wrapper mailing-list-form">
-  <h2 class="main-heading">Sign Up</h2>
   <ul class="subtitle-rules">
   <div class="mailing-list-module">
     {!! Form::open(array('route' => 'mailing-list-store', 'id' => 'mailing-list-form')) !!}

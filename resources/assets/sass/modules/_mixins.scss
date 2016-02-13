@@ -33,10 +33,12 @@
 
 @mixin text-wai() {
   display: block !important;
-  height: 1px !important;
+  height: 0px !important;
   overflow: hidden !important;
   white-space: nowrap !important;
-  width: 1px !important;
+  width: 0px !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 @mixin clear() {
