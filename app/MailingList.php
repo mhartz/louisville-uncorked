@@ -14,7 +14,7 @@ class MailingList extends Model
   ];
   
   public static $rules = [
-    'email' => 'required|email',
+    'email' => '|required|email|unique:mailing_list',
     'g-recaptcha-response'  => 'required'
   ];
 }

@@ -20,7 +20,12 @@ class MailingListController extends Controller
         $validator = \Validator::make($request->only('email', 'g-recaptcha-response'), MailingList::$rules);
 
         if ($validator->fails()) {
-            return \Redirect::to('/')->withErrors($validator)->withInput();
+            if ($request->is('/')) {
+                return \Redirect::to('/')->withErrors($validator)->withInput();
+            }
+            else {
+                return \Redirect::to('mailing-list')->withErrors($validator)->withInput();
+            }
         }
         else if ($this->captchaCheck() == false) {
             return redirect()->back()
@@ -30,15 +35,20 @@ class MailingListController extends Controller
         else {
             $input = $request->all();
             
-            $teamId = MailingList::create([
+            MailingList::create([
                 'email' => $input['email'],
                 'name' => $input['name']
             ]);
-            
-            return \Redirect::to('/')->with('message', 'You have successfully signed up to our mailing list!');
+
+            if ($request->is('/')) {
+                return \Redirect::to('/')->with('message', 'You have successfully signed up to our mailing list!');
+            }
+            else {
+                return \Redirect::to('mailing-list')->with('message', 'You have successfully signed up to our mailing list!');
+            }
+
         }
     }
-
 
     public function show($id)
     {
@@ -58,7 +68,6 @@ class MailingListController extends Controller
         } else {
             return false;
         }
-
     }
 
     /**
