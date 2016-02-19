@@ -29,6 +29,7 @@
       @endif
       
       <div class="mailing-list-section card-1 clear">
+      <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <div class="form-group">
           {!! Form::label('name', 'Your Name', array('class'=>'text-left'))  !!}
           {!! Form::text('name', null,

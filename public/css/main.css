@@ -1420,6 +1420,9 @@ header {
   @media only screen and (min-width: 67.5em) {
     #home .banner {
       padding: 12.5rem 20% 0; } }
+  @media only screen and (min-width: 67.5em) {
+    #home .banner.mailing-list-active {
+      padding: 11.875rem 0 0; } }
   #home .banner .small-heading {
     line-height: 1.75rem;
     text-transform: uppercase;
@@ -1458,20 +1461,41 @@ header {
     @media only screen and (min-width: 47.5em) {
       #home .banner .home-mailing-list-module .form-group {
         width: 49.6875%; } }
+    @media only screen and (min-width: 47.5em) {
+      #home .banner .home-mailing-list-module .form-group.right, #home .banner .home-mailing-list-module .form-group.button {
+        float: right; } }
   #home .banner .home-mailing-list-module .mailing-list-input {
     height: 2.5rem; }
+  #home .banner .home-mailing-list-module .submission-container {
+    width: 100%; }
+    #home .banner .home-mailing-list-module .submission-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    @media only screen and (min-width: 47.5em) {
+      #home .banner .home-mailing-list-module .submission-container {
+        width: 54%;
+        float: right; } }
   #home .banner .home-mailing-list-module .button {
     width: 100%;
     height: auto; }
-  #home .banner .home-mailing-list-module .g-recaptcha {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0; }
+    #home .banner .home-mailing-list-module .button:hover {
+      padding-left: 2.125rem;
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05); }
+    @media only screen and (min-width: 47.5em) {
+      #home .banner .home-mailing-list-module .button {
+        width: 10.3125rem; } }
+  @media only screen and (min-width: 47.5em) {
+    #home .banner .home-mailing-list-module .g-recaptcha {
+      transform: scale(0.71);
+      -webkit-transform: scale(0.71);
+      transform-origin: 0 0;
+      -webkit-transform-origin: 0 0; } }
 
-@media (max-width: 390px) {
-  .g-recaptcha {
-    margin: 1px; } }
+@media only screen and (min-width: 47.5em) {
+  .home-recaptcha-container {
+    width: 18.75rem; } }
 
 .the-tasting-title {
   border-top: 4px double #474747;

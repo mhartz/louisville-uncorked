@@ -3,38 +3,18 @@
 use Illuminate\Http\Request;
 use App\MailingList;
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use App\Traits\CaptchaTrait;
+use ReCaptcha\ReCaptcha;
+use Input;
 
 class MailingListController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return Response
-     */
-    public function index()
-    {
-        //
-    }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
     public function create()
     {
         $pageName = "Mailing List";
         return view('pages/mailing-list', compact('pageName'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  Request  $request
-     * @return Response
-     */
     public function store(Request $request)
     {
         $validator = \Validator::make($request->only('email', 'g-recaptcha-response'), MailingList::$rules);
@@ -59,38 +39,26 @@ class MailingListController extends Controller
         }
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
+
     public function show($id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function edit($id)
+    public function captchaCheck()
     {
-        //
-    }
+        $response = Input::get('g-recaptcha-response');
+        $remoteip = $_SERVER['REMOTE_ADDR'];
+        $secret   = env('RE_CAP_SECRET');
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  Request  $request
-     * @param  int  $id
-     * @return Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
+        $recaptcha = new ReCaptcha($secret);
+        $resp = $recaptcha->verify($response, $remoteip);
+        if ($resp->isSuccess()) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
     /**

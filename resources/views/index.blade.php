@@ -1,10 +1,10 @@
 @extends('layout')
 
 @section('banner')
-  <div class="banner">
+  <div class="banner mailing-list-active">
     <div class="wrapper mb-20">
         <h1 class="banner-heading mb-10">Signup to Our Mailing List</h1>
-        <h2 class="small-heading secondary">To recieve updates on our upcoming events!</h2>
+        <h2 class="main-heading secondary">To recieve updates on our upcoming events!</h2>
     </div>
     <div class="home-mailing-list-module">
       {!! Form::open(array('route' => 'mailing-list-store', 'id' => 'mailing-list-form')) !!}
@@ -24,6 +24,7 @@
         @endif
         
         <div class="mailing-list-section clear">
+        <input type="hidden" name="_token" value="{{ csrf_token() }}">
           <div class="form-group">
             {!! Form::label('name', 'Your Name', array('class'=>'text-left wai-aria'))  !!}
             {!! Form::text('name', null,
@@ -36,7 +37,7 @@
             !!}
           </div>
 
-            <div class="form-group small-margin">
+            <div class="form-group small-margin right">
               {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left wai-aria')) !!}
               {!! Form::text('email', null,
                   array(
@@ -48,12 +49,15 @@
                 ) 
               !!}
             </div>
-            <div class="form-group small-margin">
-              <script src='https://www.google.com/recaptcha/api.js'></script>
-              <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>  
-            </div>
             
-            {!! Form::submit('Sign Up', array('class'=>'button')) !!}
+            <div class="submission-container">
+              <div class="home-recaptcha-container form-group small-margin">
+                <script src='https://www.google.com/recaptcha/api.js'></script>
+                <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>  
+              </div>
+              
+              {!! Form::submit('Sign Up', array('class'=>'button')) !!}
+              </div>
           </div>
         {!! Form::close() !!}
       </div>

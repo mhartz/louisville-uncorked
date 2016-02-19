@@ -167,6 +167,13 @@ header {
       padding: rem(200) 20% 0;
     }
     
+    &.mailing-list-active {
+      
+      @include bp(desk-l) {
+        padding: rem(190) 0 0; 
+      }
+    }
+    
     .small-heading {
       line-height: rem(28);
       text-transform: uppercase;
@@ -224,32 +231,61 @@ header {
           @extend .left;
           width: 49.6875%;
         }
+        
+        &.right {
+          @include bp(tablet) {
+            float: right;
+          }
+        }
       }
   
       .mailing-list-input {
         height: rem(40);
       }
       
+      .submission-container {
+        @include clear();
+        width: 100%;
+        
+        @include bp(tablet) {
+          width: 54%;
+          float: right;
+        }
+      }
+      
       .button {
         @extend .right;
         width: 100%;
         height: auto;
+        
+        &:hover {
+          padding-left: rem(34);
+          transform: scale(1.05);
+          -webkit-transform: scale(1.05);
+        }
+        
+        @include bp(tablet) {
+          width: rem(165);
+        }
       }
       
       .g-recaptcha {
-        transform: scale(1);
-        -webkit-transform: scale(1);
-        transform-origin: 0 0;
-        -webkit-transform-origin:0 0;
+        
+        @include bp(tablet) {
+          transform: scale(0.71);
+          -webkit-transform: scale(0.71);
+          transform-origin: 0 0;
+          -webkit-transform-origin: 0 0;
+        }
       }
     }
   }
 }
 
-@media(max-width: 390px) {
-    .g-recaptcha {
-        margin: 1px;
-    }
+.home-recaptcha-container {
+  @include bp(tablet) {
+    width: rem(300);
+  }
 }
 
 .the-tasting-title {
