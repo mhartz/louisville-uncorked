@@ -172,6 +172,13 @@ header {
       @include bp(desk-l) {
         padding: rem(190) 0 0; 
       }
+      
+      .button {
+        
+        @include bp(tablet) {
+          max-width: rem(160);
+        }
+      }
     }
     
     .small-heading {

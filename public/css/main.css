@@ -1444,6 +1444,9 @@ header {
   @media only screen and (min-width: 67.5em) {
     #home .banner.mailing-list-active {
       padding: 11.875rem 0 0; } }
+  @media only screen and (min-width: 47.5em) {
+    #home .banner.mailing-list-active .button {
+      max-width: 10rem; } }
   #home .banner .small-heading {
     line-height: 1.75rem;
     text-transform: uppercase;
