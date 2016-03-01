@@ -725,7 +725,8 @@ label.error,
 /**
 *  Mailing List Signup
 */
-.mailing-list-module {
+.mailing-list-module,
+.home-mailing-list-modal {
   max-width: rem(360);
   margin: 0 auto;
 }
@@ -754,6 +755,13 @@ label.error,
 
 .contact-form {
   margin-bottom: rem(40);
+}
+
+.home-mailing-list-modal {
+  position: fixed;
+  z-index: 9999;
+  top: 28%;
+  left: 35%;
 }
 
 

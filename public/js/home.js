@@ -17,4 +17,15 @@
     $(this).css('pointer-events', 'none'); 
     console.log("mouseout");
   });
+  
+  $('#mail-signup-trigger').click(function() {
+    console.log("clicked")
+      $('#mailing-list-modal').addClass('show');
+      $('#modal-overlay').addClass('show');
+  });
+  
+  $('#close-modal').click(function() {
+    $('#modal-overlay').removeClass('show');
+    $('#mailing-list-modal').removeClass('show');
+  });
 }());
