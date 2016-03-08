@@ -63,7 +63,7 @@
       </ul>
     </section>
   
-    <section class="photo-section mb-40 bottom-border">
+    <section class="photo-section mb-40">
       <h2 class="main-heading mb-40">2015 Fall Tasting Continued</h2>
       <ul class="photo-gallery-list">
         <li class="col-16"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_021_.jpg') }}" data-lightbox="image-1" data-title="2015 Fall Event At the Foundry"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_021_.jpg') }}" alt=""></a></li>

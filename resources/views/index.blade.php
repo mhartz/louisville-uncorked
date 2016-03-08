@@ -5,7 +5,7 @@
     <div class="wrapper mb-20">
         <h1 class="banner-heading mb-10">Signup to Our Mailing List</h1>
         <h2 class="main-heading secondary">To recieve updates on our upcoming events!</h2>
-        <button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>
+        <button id="mail-signup-trigger" class="button">Sign Up</button>
     </div>
     
   </div>
