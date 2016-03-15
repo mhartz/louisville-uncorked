@@ -4,8 +4,8 @@
   <div class="banner mailing-list-active">
     <div class="wrapper mb-20">
         <h1 class="banner-heading mb-10">Signup to Our Mailing List</h1>
-        <h2 class="main-heading secondary">To recieve updates on our upcoming events!</h2>
-        <button id="mail-signup-trigger" class="button">Sign Up</button>
+        <h2 class="main-heading secondary">To receive updates on our upcoming events!</h2>
+        <button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>
     </div>
     
   </div>
@@ -22,7 +22,7 @@
 
 @section('content')
 <div class="about-louisville-uncorked">
-  <section class="wrapper center row bottom-border">
+  <section class="wrapper center row">
     <h1 class="large-heading mb-20">What is Louisville Uncorked?</h1>
     <p class="centered-width mb-40">Louisville Uncorked organizes wine tasting events for members and guests that raise money for local charities.</p>
     <h2 class="the-tasting-title main-heading">The Tasting</h2>
@@ -31,7 +31,7 @@
     <a class="centered-width" href="/faq">Have any questions?</a>
   </section>
   
-  <div class="upcoming-event row wrapper">
+  {{-- <div class="upcoming-event row wrapper">
     <section class="upcoming-event-details col-11">
       <h2 class="main-heading mb-30">Upcoming Event</h2>
       <p><span class="icon-calendar2"></span><i>Date: </i>October 22, 2015</p>
@@ -43,12 +43,12 @@
     </section>
     
     <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12531.998506803531!2d-85.76454129999999!3d38.256314700000026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x733dc6070e8332a5!2sThe+Foundry+at+Glassworks!5e0!3m2!1sen!2sus!4v1441746165022" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
+  </div> --}}
 </div>
 
 <div class="row dark-bg">
   <section class="wrapper">
-    <h1 class="large-heading center">The Charity</h1>
+    <h1 class="large-heading center">Featured Charity</h1>
     
     <div class="charity-left">
       <a href="//fundforthearts.com/"><img src="{{ URL::asset('images/white-FFTA-Logo.png') }}" alt="Fund for the Arts"></a>
@@ -63,6 +63,55 @@
 </div>
 
 <div class="row">
+  <section class="wrapper">
+    <h1 class="large-heading center">Our Last Event</h1>
+    <div class="col-10 right">
+      <img class="full-image" src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_082_.jpg') }}" alt="Uncorked Fall 2015 Crowd">
+    </div>
+    <div class="col-13 left">
+      <h2 class="main-heading">Fall 2015 Tasting at The Foundry</h2>
+      <h3 class="small-heading text-light">Benefitting The Fund Through the Arts</h3>
+      <p>Louisville Uncorked held the Fall event on October 2015 which benefitted The Fund Through the Arts and raised over $X,XXX and significant community awareness. There were more than XXXX number of participants split between XXXX teams tasting some of the best Chardonnays.</p>
+    </div>
+  </section>
+</div>
+
+<div class="row grey-bg center">
+  <section class="wrapper">
+    <h1 class="large-heading">The Winners of the Fall 2015 Tasting</h1>
+    <div class="place-card col-7">
+      <div class="image-trophy-container">
+        <img class="full-image" src="{{ URL::asset('images/photos/estampa-red.jpg') }}" alt="">
+        <span class="icon-trophy gold"></span>
+      </div>
+      <h2 class="main-heading">1<span>st</span></h2>
+      <p>WINE XXXX</p>
+      <p>Brought by XXXX XXXX</p>
+    </div>
+    
+    <div class="place-card col-7">
+      <div class="image-trophy-container">
+        <img class="full-image" src="{{ URL::asset('images/photos/new-age-red.jpg') }}" alt="">
+        <span class="icon-trophy silver"></span>
+      </div>
+      <h2 class="main-heading">2<span>nd</span></h2>
+      <p>WINE XXXX</p>
+      <p>Brought by XXXX XXXX</p>
+    </div>
+    
+    <div class="place-card col-7">
+      <div class="image-trophy-container">
+        <img class="full-image" src="{{ URL::asset('images/photos/filus-red.jpg') }}" alt="">
+        <span class="icon-trophy bronze"></span>
+      </div>
+      <h2 class="main-heading">3<span>rd</span></h2>
+      <p>WINE XXXX</p>
+      <p>Brought by XXXX XXXX</p>
+    </div>
+  </section>
+</div>
+
+{{-- <div class="row">
   <section class="wrapper">
     <h1 class="large-heading center">Our Last Event</h1>
     <div class="col-10 right">
@@ -109,7 +158,7 @@
       <p>Brought by Joanna Jolgren</p>
     </div>
   </section>
-</div>
+</div> --}}
 
 <div class="row photo-gallery">
   <section class="small-wrapper">
@@ -128,7 +177,7 @@
       <li class="col-8"><a href="{{ URL::asset('images/photos/2015-winter-event/winter-2015-sharing.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-winter-event/winter-2015-sharing.jpg') }}" alt=""></a></li>
     </ul>
     
-    <a class="button mt-20" href="/photos">See more photos<span class="icon-circle-right"></span></a>
+    <a class="button mt-20" href="/photos/2015-fall-event">See more photos<span class="icon-circle-right"></span></a>
   </section>
 </div>
 
@@ -139,63 +188,63 @@
   </div>
 </div>
 
-<div id="mailing-list-modal" class="home-mailing-list-modal hide">
-  <span id="close-modal" class="close-modal">X</span>
-  {!! Form::open(array('route' => 'mailing-list-store', 'id' => 'mailing-list-form')) !!}
+<div id="modal-overlay" class="modal-overlay hide">
+  <div id="mailing-list-modal" class="home-mailing-list-modal hide">
+    <span id="close-modal" class="close-modal">X</span>
+    {!! Form::open(array('route' => 'mailing-list-store', 'id' => 'mailing-list-form')) !!}
 
-    @if ($errors->has())
-      <div class="alert alert-danger">
-          @foreach ($errors->all() as $error)
-              {{ $error }}<br>        
-          @endforeach
-      </div>
-    @endif
-    
-    @if(Session::has('message'))
-        <div class="alert alert-info">
-          {{ Session::get('message') }}
+      @if ($errors->has())
+        <div class="alert alert-danger">
+            @foreach ($errors->all() as $error)
+                {{ $error }}<br>        
+            @endforeach
         </div>
-    @endif
-    
-    <div class="mailing-list-section card-1 clear">
-    <input type="hidden" name="_token" value="{{ csrf_token() }}">
-      <div class="form-group">
-        {!! Form::label('name', 'Your Name', array('class'=>'text-left'))  !!}
-        {!! Form::text('name', null,
-            array( 
-              'id'=>'mailing-list-name',
-              'class'=>'mailing-list-input',
-              'placeholder'=>'Your full name'
-            )
-          ) 
-        !!}
-      </div>
-
-        <div class="form-group small-margin right">
-          {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left')) !!}
-          {!! Form::text('email', null,
-              array(
-                'required', 
-                'id'=>'mailing-list-email',
+      @endif
+      
+      @if(Session::has('message'))
+          <div class="alert alert-info">
+            {{ Session::get('message') }}
+          </div>
+      @endif
+      
+      <div class="mailing-list-section card-1 clear">
+      <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        <div class="form-group">
+          {!! Form::label('name', 'Your Name', array('class'=>'text-left'))  !!}
+          {!! Form::text('name', null,
+              array( 
+                'id'=>'mailing-list-name',
                 'class'=>'mailing-list-input',
-                'placeholder'=>'Your e-mail address'
+                'placeholder'=>'Your full name'
               )
             ) 
           !!}
         </div>
-        
-        <div class="submission-container">
-          <div class="home-recaptcha-container form-group small-margin">
-            <script src='https://www.google.com/recaptcha/api.js'></script>
-            <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>  
+
+          <div class="form-group small-margin right">
+            {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left')) !!}
+            {!! Form::text('email', null,
+                array(
+                  'required', 
+                  'id'=>'mailing-list-email',
+                  'class'=>'mailing-list-input',
+                  'placeholder'=>'Your e-mail address'
+                )
+              ) 
+            !!}
           </div>
           
-          {!! Form::submit('Sign Up', array('class'=>'button')) !!}
-          </div>
-      </div>
-    {!! Form::close() !!}
+          <div class="submission-container">
+            <div class="home-recaptcha-container form-group small-margin">
+              <script src='https://www.google.com/recaptcha/api.js'></script>
+              <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>  
+            </div>
+            
+            {!! Form::submit('Sign Up', array('class'=>'button')) !!}
+            </div>
+        </div>
+      {!! Form::close() !!}
+    </div>
   </div>
-  
-  <div id="modal-overlay" class="modal-overlay hide"></div>
 
 @stop

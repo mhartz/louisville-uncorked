@@ -170,7 +170,14 @@ header {
     &.mailing-list-active {
       
       @include bp(desk-l) {
-        padding: rem(190) 0 0; 
+        padding: rem(190) 0 0;
+      }
+      
+      .button {
+        
+        @include bp(tablet) {
+          width: rem(170);
+        }
       }
     }
     
@@ -270,6 +277,10 @@ header {
       }
       
       .g-recaptcha {
+        transform: scale(0.71);
+        -webkit-transform: scale(0.71);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
         
         @include bp(tablet) {
           transform: scale(0.71);
@@ -727,8 +738,12 @@ label.error,
 */
 .mailing-list-module,
 .home-mailing-list-modal {
-  max-width: rem(360);
   margin: 0 auto;
+  max-width: rem(312);
+  
+  @include bp(tablet) {
+    max-width: rem(360);
+  }
 }
 
 .mailing-list-section {
@@ -758,10 +773,34 @@ label.error,
 }
 
 .home-mailing-list-modal {
-  position: fixed;
-  z-index: 9999;
-  top: 28%;
-  left: 35%;
+  margin: rem(23) auto;
+  position: relative;
+  
+  .g-recaptcha {
+    transform: scale(0.78);
+    -webkit-transform: scale(0.78);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    
+    @include bp(tablet) {
+      transform: scale(0.84);
+      -webkit-transform: scale(0.84);
+      transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+    }
+    
+    @include bp(desk) {
+      transform: scale(0.84);
+      -webkit-transform: scale(0.84);
+      transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+    }
+  }
+  
+  @include bp(desk) {
+    top: 28%;
+    left: 35%;
+  }
 }
 
 

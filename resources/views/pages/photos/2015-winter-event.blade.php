@@ -20,25 +20,6 @@
   </div>
   <div class="small-wrapper photos-content">
     <section class="photo-section mb-40 mt-30 bottom-border">
-      <h2 class="main-heading mb-40">2015 Winter Tasting</h2>
-      <ul class="photo-gallery-list">
-        <li class="col-16"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos1.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos1.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos2.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos2.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos3.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos3.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos4.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos4.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos5.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos5.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos6.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos6.jpg') }}" alt=""></a></li>
-        <li class="col-16"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos7.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos7.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos8.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos8.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos9.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos9.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos10.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos10.jpg') }}" alt=""></a></li>
-        <li class="col-16"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos11.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos11.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos12.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos12.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos14.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos14.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos15.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos15.jpg') }}" alt=""></a></li>
-        <li class="col-8"><a href="{{ URL::asset('images/photos/2015-fall-meetup/photos16.jpg') }}" data-lightbox="image-1" data-title="Host Committee Meeting for the 2015 Fall Event"><img src="{{ URL::asset('images/photos/2015-fall-meetup/photos16.jpg') }}" alt=""></a></li>
-      </ul>
-    </section>
   
     <section class="photo-section mb-40">
       <h2 class="main-heading mb-40">Winter 2015 Tasting at Mellwood Arts Center</h2>
