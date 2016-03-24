@@ -798,8 +798,7 @@ label.error,
   }
   
   @include bp(desk) {
-    top: 28%;
-    left: 35%;
+    margin-top: rem(75);
   }
 }
 

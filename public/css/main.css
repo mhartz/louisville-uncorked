@@ -1919,8 +1919,7 @@ label.error,
         -webkit-transform-origin: 0 0; } }
   @media only screen and (min-width: 56.25em) {
     .home-mailing-list-modal {
-      top: 28%;
-      left: 35%; } }
+      margin-top: 4.6875rem; } }
 
 /**
 *  Footer

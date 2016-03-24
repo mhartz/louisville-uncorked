@@ -81,32 +81,32 @@
     <h1 class="large-heading">The Winners of the Fall 2015 Tasting</h1>
     <div class="place-card col-7">
       <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/estampa-red.jpg') }}" alt="">
+        <img class="full-image" src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_092_.jpg') }}" alt="">
         <span class="icon-trophy gold"></span>
       </div>
       <h2 class="main-heading">1<span>st</span></h2>
-      <p>WINE XXXX</p>
-      <p>Brought by XXXX XXXX</p>
+      <p>Slow Press Chardonnay</p>
+      <p>Brought by Anne Billington Adair</p>
     </div>
     
     <div class="place-card col-7">
       <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/new-age-red.jpg') }}" alt="">
+        <img class="full-image" src="{{ URL::asset('images/photos/2015-Fall-Foundry/silver-winner.jpg') }}" alt="">
         <span class="icon-trophy silver"></span>
       </div>
       <h2 class="main-heading">2<span>nd</span></h2>
-      <p>WINE XXXX</p>
-      <p>Brought by XXXX XXXX</p>
+      <p>Three Wishes Chardonnay</p>
+      <p>Brought by Paul Grignon</p>
     </div>
     
     <div class="place-card col-7">
       <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/filus-red.jpg') }}" alt="">
+        <img class="full-image" src="{{ URL::asset('images/photos/2015-Fall-Foundry/bronze-winner.jpg') }}" alt="">
         <span class="icon-trophy bronze"></span>
       </div>
       <h2 class="main-heading">3<span>rd</span></h2>
-      <p>WINE XXXX</p>
-      <p>Brought by XXXX XXXX</p>
+      <p>Beringer Chardonnay</p>
+      <p>Brought by Jimmy Scott</p>
     </div>
   </section>
 </div>
