@@ -277,14 +277,21 @@ header {
       }
       
       .g-recaptcha {
-        transform: scale(0.71);
-        -webkit-transform: scale(0.71);
+        transform: scale(0.84);
+        -webkit-transform: scale(0.84);
         transform-origin: 0 0;
         -webkit-transform-origin: 0 0;
         
         @include bp(tablet) {
-          transform: scale(0.71);
-          -webkit-transform: scale(0.71);
+          transform: scale(0.84);
+          -webkit-transform: scale(0.84);
+          transform-origin: 0 0;
+          -webkit-transform-origin: 0 0;
+        }
+        
+        @tablet bp(tablet-l) {
+          transform: scale(1);
+          -webkit-transform: scale(1);
           transform-origin: 0 0;
           -webkit-transform-origin: 0 0;
         }
