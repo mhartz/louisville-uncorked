@@ -153,6 +153,8 @@ return [
         Illuminate\Html\HtmlServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Uncorked\Newsletters\NewsletterListServiceProvider::class,
+        Uncorked\Notifications\NotificationsServiceProvider::class,
 
         /*
          * Application Service Providers...
