@@ -1607,14 +1607,14 @@ header {
   margin: 1.25rem auto 0; }
   @media only screen and (min-width: 56.25em) {
     .charity-left img {
-      margin-top: 50%;
+      margin-top: 20%;
       max-width: none; } }
   @media only screen and (min-width: 67.5em) {
     .charity-left img {
-      margin-top: 8.75rem; } }
+      margin-top: 2.5rem; } }
   @media only screen and (min-width: 80em) {
     .charity-left img {
-      margin-top: 6.25rem; } }
+      margin-top: 3.75rem; } }
 
 .charity-right {
   border-top: 3px solid #f44336;

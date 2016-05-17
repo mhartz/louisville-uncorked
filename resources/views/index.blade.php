@@ -22,7 +22,7 @@
 
 @section('content')
 <div class="about-louisville-uncorked">
-  <section class="wrapper center row">
+  <section class="wrapper center row bottom-border">
     <h1 class="large-heading mb-20">What is Louisville Uncorked?</h1>
     <p class="centered-width mb-40">Louisville Uncorked organizes wine tasting events for members and guests that raise money for local charities.</p>
     <h2 class="the-tasting-title main-heading">The Tasting</h2>
@@ -31,19 +31,19 @@
     <a class="centered-width" href="/faq">Have any questions?</a>
   </section>
   
-  {{-- <div class="upcoming-event row wrapper">
+  <div class="upcoming-event row wrapper">
     <section class="upcoming-event-details col-11">
       <h2 class="main-heading mb-30">Upcoming Event</h2>
-      <p><span class="icon-calendar2"></span><i>Date: </i>October 22, 2015</p>
-      <p><span class="icon-clock2"></span><i>Time: </i>7:30pm - 10:30pm</p>
-      <p><span class="icon-location"></span><i>Location: </i>The Foundry at the Glassworks, 815 W Market St, Louisville, KY 40202</p>
-      <p><span class="icon-glass"></span><i>Tasting Variety: </i>Chardonnay</p>
+      <p><span class="icon-calendar2"></span><i>Date: </i>June 16, 2016</p>
+      <p><span class="icon-clock2"></span><i>Time: </i>7:00pm - 10:00pm</p>
+      <p><span class="icon-location"></span><i>Location: </i>Muhammad Ali Center, 144 N 6th St, Louisville, KY 40202</p>
+      <p><span class="icon-glass"></span><i>Tasting Variety: </i>Pinot Noir</p>
       <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>
       <p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>
     </section>
-    
-    <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12531.998506803531!2d-85.76454129999999!3d38.256314700000026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x733dc6070e8332a5!2sThe+Foundry+at+Glassworks!5e0!3m2!1sen!2sus!4v1441746165022" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div> --}}
+
+    <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12531.663498360223!2d-85.7599341!3d38.2582571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1b30c2d7430ca77!2sMuhammad+Ali+Center!5e0!3m2!1sen!2sus!4v1463519395283" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
 </div>
 
 <div class="row dark-bg">
@@ -51,15 +51,15 @@
     <h1 class="large-heading center">Featured Charity</h1>
     
     <div class="charity-left">
-      <a href="//fundforthearts.com/"><img src="{{ URL::asset('images/white-FFTA-Logo.png') }}" alt="Fund for the Arts"></a>
+      <a href="//spinabifidakentucky.org"><img src="{{ URL::asset('images/Events/2016-summer/sbaklogowhite3.png') }}" alt="Spina Bifida Association of Kentucky"></a>
     </div>
     
     <div class="charity-right">
-      <h2 class="main-heading"><a href="//fundforthearts.com/">Fund for the Arts</a></h2>
-      <h3 class="small-heading secondary-ondark-light">Together through the Arts we create a great American city.</h3>
-      <p>The Fund for the Arts is the oldest united Arts fund in the country and has raised more than $196 million since its establishment in 1949. In 2014, the Fund for the Arts awarded 516 grants to schools and community organizations throughout the region to provide financing for Arts experiences and administrative support. In addition to operating the only community-wide fundraising effort for the Arts, a sister organization of the Fund for the Arts, FFTA Properties, Inc., owns and manages ArtSpace. Located at 323 West Broadway, ArtSpace is a mixed-use development that includes the Brown Theatre, as well as a non-profit business incubator, Arts administrative offices, classrooms, meeting spaces, a rehearsal hall and costume shop.</p>
+      <h2 class="main-heading"><a href="//spinabifidakentucky.org">Spina Bifida Association of Kentucky</a></h2>
+      <h3 class="small-heading secondary-ondark-light">To promote the prevention of Spina Bifida and to enhance the lives of all affected.</h3>
+      <p>SBAK is the resource center which provides free services and programs to children and adults with Spina Bifida and their families.</p>
+      </div>
     </section>
-    </div>
 </div>
 
 <div class="row">
