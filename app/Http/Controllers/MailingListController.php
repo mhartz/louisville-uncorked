@@ -15,6 +15,11 @@ class MailingListController extends Controller
         return view('pages/mailing-list', compact('pageName'));
     }
 
+    public function createUnsubscribe() {
+        $pageName = "Unsubscribe from Newsletter";
+        return view('pages/mailing-list/unsubscribe', compact('pageName'));
+    }
+
     public function store(Request $request)
     {
         $validator = \Validator::make($request->only('email', 'g-recaptcha-response'), MailingList::$rules);
@@ -48,6 +53,11 @@ class MailingListController extends Controller
             }
 
         }
+    }
+
+
+    public function unsubscribe() {
+
     }
 
     public function show($id)

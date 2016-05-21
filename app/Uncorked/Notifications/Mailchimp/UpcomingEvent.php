@@ -46,7 +46,7 @@ class UpcomingEvent implements \Uncorked\Notifications\UpcomingEvent
             'text' => strip_tags($body)
         ];
 
-        $compaign = $this->mailchimp->campaigns->create('regular', $options, $content);
+        $campaign = $this->mailchimp->campaigns->create('regular', $options, $content);
 
         $this->mailchimp->campaigns->send($campaign['id']);
     }

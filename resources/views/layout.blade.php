@@ -8,7 +8,7 @@
   <link rel="icon" href="favicon.png" sizes="32x32">
   <title>{{ $pageName }} | Lousville Uncorked</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="nofollow" /> 
+  <meta name="robots" content="nofollow" />
   <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}" />
 </head>
 <body id="{{ strtolower(preg_replace("/[\s_]/", "-", $pageName)) }}">
@@ -45,7 +45,7 @@
       </div>
       
       <ul class="right">
-        <li>Connect with us <a href="https://www.facebook.com/events/141439455995443/" class="external-link icon-facebook2" target="_blank"></a></li>
+        <li>Connect with us <a href="//www.facebook.com/groups/LouisvilleUncorked/" class="external-link icon-facebook2" target="_blank" title="Visit our Facebook page"><span class="wai-aria">Our Facebook Group (This link opens in a new window)</span></a></li>
       </ul>
       
       <span class="lu-icon"></span>

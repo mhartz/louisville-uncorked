@@ -176,7 +176,8 @@ body {
 
 .banner-heading,
 .large-heading,
-.main-heading {
+.main-heading,
+.medium-heading {
   font-family: $title-stack;
 }
 
@@ -213,6 +214,13 @@ body {
     font-size: rem(35);
     line-height: rem(37);
   }
+}
+
+.medium-heading {
+  font-size: rem(24);
+  line-height: rem(20);
+  font-weight: bold;
+  margin-bottom: rem(10);
 }
 
 .small-heading {
@@ -258,6 +266,10 @@ li {
   @include bp(tablet) {
     font-size: rem(16);
   }
+}
+
+.dotted-underline {
+  border-bottom: 1px dotted $primary;
 }
 
 .uppercase {

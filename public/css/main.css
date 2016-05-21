@@ -262,7 +262,8 @@ body {
 
 .banner-heading,
 .large-heading,
-.main-heading {
+.main-heading,
+.medium-heading {
   font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 .banner-heading {
@@ -293,6 +294,12 @@ body {
     .main-heading {
       font-size: 2.1875rem;
       line-height: 2.3125rem; } }
+
+.medium-heading {
+  font-size: 1.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem; }
 
 .small-heading {
   font-size: 1rem;
@@ -327,6 +334,9 @@ li {
   @media only screen and (min-width: 47.5em) {
     li {
       font-size: 1rem; } }
+
+.dotted-underline {
+  border-bottom: 1px dotted #f44336; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -1521,13 +1531,30 @@ header {
         -webkit-transform: scale(0.84);
         transform-origin: 0 0;
         -webkit-transform-origin: 0 0; } }
+    @media only screen and (min-width: 50em) {
+      #home .banner .home-mailing-list-module .g-recaptcha {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0; } }
 
-@tablet bp(tablet-l) {
-  #home .banner .home-mailing-list-module .g-recaptcha {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0; } }
+.sign-up-bar .small-wrapper {
+  text-align: center; }
+
+.sign-up-bar .medium-heading {
+  width: 100%;
+  padding: 0 0 0.75rem 0;
+  line-height: 1.625rem;
+  text-align: center; }
+  @media only screen and (min-width: 67.5em) {
+    .sign-up-bar .medium-heading {
+      width: auto;
+      float: left;
+      padding: 0.875rem 0 0 0; } }
+
+@media only screen and (min-width: 67.5em) {
+  .sign-up-bar .button .button {
+    float: right; } }
 
 @media only screen and (min-width: 47.5em) {
   .home-recaptcha-container {
@@ -1614,7 +1641,7 @@ header {
       margin-top: 2.5rem; } }
   @media only screen and (min-width: 80em) {
     .charity-left img {
-      margin-top: 3.75rem; } }
+      margin-top: 2.1875rem; } }
 
 .charity-right {
   border-top: 3px solid #f44336;
@@ -1908,20 +1935,14 @@ label.error,
   margin: 1.4375rem auto;
   position: relative; }
   .home-mailing-list-modal .g-recaptcha {
-    transform: scale(0.78);
-    -webkit-transform: scale(0.78);
+    transform: scale(0.83);
+    -webkit-transform: scale(0.83);
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0; }
     @media only screen and (min-width: 47.5em) {
       .home-mailing-list-modal .g-recaptcha {
-        transform: scale(0.84);
-        -webkit-transform: scale(0.84);
-        transform-origin: 0 0;
-        -webkit-transform-origin: 0 0; } }
-    @media only screen and (min-width: 56.25em) {
-      .home-mailing-list-modal .g-recaptcha {
-        transform: scale(0.84);
-        -webkit-transform: scale(0.84);
+        transform: scale(1);
+        -webkit-transform: scale(1);
         transform-origin: 0 0;
         -webkit-transform-origin: 0 0; } }
   @media only screen and (min-width: 56.25em) {

@@ -1,22 +1,30 @@
 @extends('layout')
 
 @section('banner')
-  <div class="banner mailing-list-active">
-    <div class="wrapper mb-20">
-        <h1 class="banner-heading mb-10">Signup to Our Mailing List</h1>
-        <h2 class="main-heading secondary">To receive updates on our upcoming events!</h2>
-        <button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>
-    </div>
-    
+  {{--<div class="banner mailing-list-active">--}}
+    {{--<div class="wrapper mb-20">--}}
+        {{--<h1 class="banner-heading mb-10">Signup to Our Mailing List</h1>--}}
+        {{--<h2 class="main-heading secondary">To receive updates on our upcoming events!</h2>--}}
+        {{--<button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>--}}
+    {{--</div>--}}
+    {{----}}
+  {{--</div>--}}
+  <div class="banner">
+      <section class="wrapper">
+          <h1 class="banner-heading mb-10">Register Now for the Summer 2016 Tasting</h1>
+          <h2 class="small-heading secondary">June 16, 2016</h2>
+          <h2 class="small-heading secondary">7:00pm - 10:00pm</h2>
+          <h2 class="small-heading secondary mb-10">Muhammad Ali Center</h2>
+          <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
+      </section>
   </div>
-    {{-- <section class="wrapper">
-      <h1 class="banner-heading mb-10">Register Now for the Fall 2015 Tasting</h1>
-      <h2 class="small-heading secondary">October 22, 2015</h2>
-      <h2 class="small-heading secondary">7:30pm - 10:30pm</h2>
-      <h2 class="small-heading secondary mb-10">The Foundry at the Glassworks</h2>
-      <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
-      <a href="/mailing-list" class="button inline-block">Join Our Mailing List</a>
-    </section> --}}
+
+
+  <div class="sign-up-bar grey-bg p-20">
+      <div class="small-wrapper">
+          <p class="left medium-heading"><i class="fa fa-envelope-o" aria-hidden="true"></i>Signup to our <a class="dotted-underline" href="/mailing-list">Mailing List</a> to receive updates on our upcoming events</p>
+          <button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>
+      </div>
   </div>
 @stop
 
@@ -110,55 +118,6 @@
     </div>
   </section>
 </div>
-
-{{-- <div class="row">
-  <section class="wrapper">
-    <h1 class="large-heading center">Our Last Event</h1>
-    <div class="col-10 right">
-      <img class="full-image" src="{{ URL::asset('images/photos/2015-winter-event/winter-2015-crowd.jpg') }}" alt="Louisville Uncorked shirt with branded wine glasses">
-    </div>
-    <div class="col-13 left">
-      <h2 class="main-heading">Winter 2015 Tasting at Mellwood Arts Center</h2>
-      <h3 class="small-heading text-light">Benefitting the Family and Childrens Place</h3>
-      <p>After a 3 year haitus, Louisville Uncorked held its first event on February 2015 which benefitted Family &amp; Children's Place and raised over $7,000 and significant community awareness. There were more than XXXX number of participants split between XXXX teams tasting some of the best South American red wines.</p>
-    </div>
-  </section>
-</div>
-
-<div class="row grey-bg center">
-  <section class="wrapper">
-    <h1 class="large-heading">The Winners of the Winter 2015 Tasting</h1>
-    <div class="place-card col-7">
-      <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/estampa-red.jpg') }}" alt="">
-        <span class="icon-trophy gold"></span>
-      </div>
-      <h2 class="main-heading">1<span>st</span></h2>
-      <p>Estampa Malbec</p>
-      <p>Brought by Brian Bennett</p>
-    </div>
-    
-    <div class="place-card col-7">
-      <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/new-age-red.jpg') }}" alt="">
-        <span class="icon-trophy silver"></span>
-      </div>
-      <h2 class="main-heading">2<span>nd</span></h2>
-      <p>New Age Red</p>
-      <p>Brought by Daniel Johnson</p>
-    </div>
-    
-    <div class="place-card col-7">
-      <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/filus-red.jpg') }}" alt="">
-        <span class="icon-trophy bronze"></span>
-      </div>
-      <h2 class="main-heading">3<span>rd</span></h2>
-      <p>Filus 2011</p>
-      <p>Brought by Joanna Jolgren</p>
-    </div>
-  </section>
-</div> --}}
 
 <div class="row photo-gallery">
   <section class="small-wrapper">

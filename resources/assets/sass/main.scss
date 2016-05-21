@@ -289,12 +289,41 @@ header {
           -webkit-transform-origin: 0 0;
         }
         
-        @tablet bp(tablet-l) {
+        @include bp(tablet-l) {
           transform: scale(1);
           -webkit-transform: scale(1);
           transform-origin: 0 0;
           -webkit-transform-origin: 0 0;
         }
+      }
+    }
+  }
+}
+
+.sign-up-bar {
+
+  .small-wrapper {
+    text-align: center;
+  }
+
+  .medium-heading {
+    width: 100%;
+    padding: 0 0 rem(12) 0;
+    line-height: rem(26);
+    text-align: center;
+
+    @include bp(desk-l) {
+      width: auto;
+      float: left;
+      padding: rem(14) 0 0 0;
+    }
+  }
+
+  .button {
+
+    @include bp(desk-l) {
+      .button {
+        float: right;
       }
     }
   }
@@ -401,7 +430,7 @@ header {
     }
     
     @include bp(full) {
-      margin-top: rem(60);
+      margin-top: rem(35);
     }
   }
 }
@@ -784,21 +813,14 @@ label.error,
   position: relative;
   
   .g-recaptcha {
-    transform: scale(0.78);
-    -webkit-transform: scale(0.78);
+    transform: scale(0.83);
+    -webkit-transform: scale(0.83);
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
-    
+
     @include bp(tablet) {
-      transform: scale(0.84);
-      -webkit-transform: scale(0.84);
-      transform-origin: 0 0;
-      -webkit-transform-origin: 0 0;
-    }
-    
-    @include bp(desk) {
-      transform: scale(0.84);
-      -webkit-transform: scale(0.84);
+      transform: scale(1);
+      -webkit-transform: scale(1);
       transform-origin: 0 0;
       -webkit-transform-origin: 0 0;
     }

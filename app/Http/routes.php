@@ -43,6 +43,7 @@ Route::post('contact', ['as' => 'contact-store', 'uses' => 'ContactController@st
  */
 Route::get('mailing-list', ['as' => 'mailing-list', 'uses' => 'MailingListController@create']);
 Route::post('mailing-list', ['as' => 'mailing-list-store', 'uses' => 'MailingListController@store']);
+Route::get('mailing-list/edit', 'MailingListController@createUnsubscribe');
 
 /**
  * Photos
