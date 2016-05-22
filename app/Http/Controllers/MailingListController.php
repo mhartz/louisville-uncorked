@@ -15,7 +15,8 @@ class MailingListController extends Controller
         return view('pages/mailing-list', compact('pageName'));
     }
 
-    public function createUnsubscribe() {
+    public function createUnsubscribe()
+    {
         $pageName = "Unsubscribe from Newsletter";
         return view('pages/mailing-list/unsubscribe', compact('pageName'));
     }
@@ -39,11 +40,17 @@ class MailingListController extends Controller
         }
         else {
             $input = $request->all();
-            
-            MailingList::create([
-                'email' => $input['email'],
-                'name' => $input['name']
-            ]);
+            $emailCheck = MailingList::where('email', $input['email']);
+
+            if ($emailCheck->count() > 0) {
+                MailingList::where('email', $input['email'])->update(['active' =>1]);
+            }
+            else {
+                MailingList::create([
+                    'email' => $input['email'],
+                    'name' => $input['name']
+                ]);
+            }
 
             if ($request->is('/')) {
                 return \Redirect::to('/')->with('message', 'You have successfully signed up to our mailing list!');
@@ -51,13 +58,23 @@ class MailingListController extends Controller
             else {
                 return \Redirect::to('mailing-list')->with('message', 'You have successfully signed up to our mailing list!');
             }
-
         }
     }
 
 
-    public function unsubscribe() {
+    public function unsubscribe(Request $request)
+    {
+        $validator = \Validator::make($request->only('email'), MailingList::$unsubRules);
 
+        if ($validator->fails()) {
+            return \Redirect::to('mailing-list/unsubscribe')->withErrors($validator)->withInput();
+        }
+        else {
+            $input = $request->all();
+
+            MailingList::where('email', $input['email'])->update(['active' => 0]);
+            return \Redirect::to('mailing-list/unsubscribe')->with('message', 'You have successfully unsubscribed from the newsletter mailing list.');
+        }
     }
 
     public function show($id)

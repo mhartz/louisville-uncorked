@@ -297,7 +297,7 @@ body {
 
 .medium-heading {
   font-size: 1.5rem;
-  line-height: 1.25rem;
+  line-height: 1.875rem;
   font-weight: bold;
   margin-bottom: 0.625rem; }
 
@@ -1761,6 +1761,10 @@ header {
       .bottom-register .white-outline-button {
         float: right; } }
 
+#mailing-list main,
+#unsubscribe-from-newsletter main {
+  min-height: 43.75rem; }
+
 /**
  *  Registration
  */
@@ -1768,25 +1772,29 @@ header {
 #contact-us .banner,
 #photos .banner,
 #faq .banner,
-#mailing-list .banner {
+#mailing-list .banner,
+#unsubscribe-from-newsletter .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/wine-glasses-large.jpg");
   background-position: center left;
   background-size: cover; }
 
 .registration-form,
 .contact-form,
-.mailing-list-form {
+.mailing-list-form,
+.unsubscribe-form {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem; }
   @media only screen and (min-width: 37.5em) {
     .registration-form,
     .contact-form,
-    .mailing-list-form {
+    .mailing-list-form,
+    .unsubscribe-form {
       padding-top: 1.875rem;
       padding-bottom: 1.875rem; } }
   .registration-form .submit,
   .contact-form .submit,
-  .mailing-list-form .submit {
+  .mailing-list-form .submit,
+  .unsubscribe-form .submit {
     display: inline-block;
     float: right;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -1794,7 +1802,8 @@ header {
     border-radius: 2px; }
     .registration-form .submit:hover,
     .contact-form .submit:hover,
-    .mailing-list-form .submit:hover {
+    .mailing-list-form .submit:hover,
+    .unsubscribe-form .submit:hover {
       text-decoration: none;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
       background: #f55a4e;
@@ -1803,7 +1812,8 @@ header {
       color: #fff; }
     .registration-form .submit span,
     .contact-form .submit span,
-    .mailing-list-form .submit span {
+    .mailing-list-form .submit span,
+    .unsubscribe-form .submit span {
       font-size: 1.125rem;
       vertical-align: text-top;
       margin-left: 0.75rem; }
@@ -1948,6 +1958,13 @@ label.error,
   @media only screen and (min-width: 56.25em) {
     .home-mailing-list-modal {
       margin-top: 4.6875rem; } }
+
+/**
+*  Unsubscribe
+*/
+.unsubscribe-form .card-1 {
+  float: none;
+  margin: 0 auto; }
 
 /**
 *  Footer

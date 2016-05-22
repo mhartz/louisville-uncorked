@@ -591,6 +591,14 @@ header {
   }
 }
 
+#mailing-list,
+#unsubscribe-from-newsletter {
+
+  main {
+    min-height: rem(700);
+  }
+}
+
 
 /**
  *  Registration
@@ -599,7 +607,8 @@ header {
 #contact-us,
 #photos,
 #faq,
-#mailing-list {
+#mailing-list,
+#unsubscribe-from-newsletter {
   
   .banner {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/wine-glasses-large.jpg');
@@ -610,7 +619,8 @@ header {
 
 .registration-form,
 .contact-form,
-.mailing-list-form {
+.mailing-list-form,
+.unsubscribe-form{
   padding-top: rem(20);
   padding-bottom: rem(20);
   
@@ -828,6 +838,18 @@ label.error,
   
   @include bp(desk) {
     margin-top: rem(75);
+  }
+}
+
+
+/**
+*  Unsubscribe
+*/
+.unsubscribe-form {
+
+  .card-1 {
+    float: none;
+    margin: 0 auto;
   }
 }
 
