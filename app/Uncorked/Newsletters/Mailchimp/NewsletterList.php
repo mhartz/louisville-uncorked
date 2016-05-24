@@ -54,7 +54,7 @@ class NewsletterList implements NewsLetterListInterface {
      */
     public function unsubscribeFrom($list, $email)
     {
-        return $this->mailchimp->lists->subscribe(
+        return $this->mailchimp->lists->unsubscribe(
             $this->lists[$listName],
             ['email' => $email],
             false, // delete the member permanently

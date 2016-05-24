@@ -62,8 +62,6 @@ Route::get('photos/2015-winter-meeting', 'PagesController@photosPastOld');
 
 
 
-
-
 /*
 |--------------------------------------------------------------------------
 | Admin Routes
@@ -72,6 +70,17 @@ Route::get('photos/2015-winter-meeting', 'PagesController@photosPastOld');
 | All the routes related to the admin are containted here
 |
 */
+
+/**
+ * Images
+ * -- Different pages for the photos
+ */
 Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
 Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
 Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
+
+/**
+ * Newsletter
+ * -- Send a newsletter to the entire newsletter group
+ */
+Route::get('admin/newsletter', ['as' => 'newsletter', 'uses' => 'NewsletterController@create']);

@@ -10,19 +10,15 @@ class MailingListController extends Controller
 {
     protected $image;
 
-    public function getUpload()
+    public function create()
+    {
+        $pageName = "Admin Newsletter";
+        return view('admin/pages/mailing-list', compact('pageName'));
+    }
+
+    public function newsletter()
     {
 
     }
 
-    public function postUpload()
-    {
-
-    }
-
-    public function deleteUpload()
-    {
-
-
-    }
 }

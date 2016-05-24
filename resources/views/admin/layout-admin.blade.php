@@ -27,7 +27,7 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/">Upload</a></li>
+                <li><a href="/admin/newsletter">Newsletter</a></li>
             </ul>
         </div>
     </div>

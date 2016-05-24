@@ -23,11 +23,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Admin Control Center</a>
+            <a class="navbar-brand" href="/admin/newsletter">Admin Control Center</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/">Upload</a></li>
+                <li><a href="/admin/newsletter">Newsletter</a></li>
             </ul>
         </div>
     </div>

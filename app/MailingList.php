@@ -21,4 +21,9 @@ class MailingList extends Model
   public static $unsubRules = [
     'email' => '|required|email|exists:mailing_list'
   ];
+
+  public static $newsletterRules = [
+    'title' => 'required',
+    'message' => 'required'
+  ];
 }
