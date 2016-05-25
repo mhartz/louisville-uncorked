@@ -10,7 +10,7 @@ use Input;
 class MailingListController extends Controller
 {
 
-    const LESSON_SUBSCRIBERS_ID = '4d3cb9de6e';
+    const NEWSLETTER_ID = '4d3cb9de6e';
     protected $mailchimp;
     protected $lists = [
         'newsletterSubscribers' => '4d3cb9de6e'
@@ -37,6 +37,11 @@ class MailingListController extends Controller
     {
         $pageName = "Unsubscribe from Newsletter";
         return view('pages/mailing-list/unsubscribe', compact('pageName'));
+    }
+
+    public function createAdminNewsletter() {
+        $pageName = "Send the Newsletter";
+        return view('admin/pages/mailing-list', compact('pageName'));
     }
 
     /**
@@ -153,24 +158,27 @@ class MailingListController extends Controller
         }
     }
 
-    public function notify($title, $body)
+    public function notify(Request $request)
     {
+        $input = $request->all();
+
         $options = [
-            'list_id' => self::LESSON_SUBSCRIBERS_ID,
-            'subject' => 'Upcoming Event: ' . $title,
+            'list_id' => self::NEWSLETTER_ID,
+            'subject' => $input['title'],
             'from_name' => 'Nikki Carver',
             'from_email' => 'mshartz5@gmail.com',
             'to_name' => 'Louisville Uncorked Subscriber'
         ];
 
         $content = [
-            'html' => $body,
-            'text' => strip_tags($body)
+            'html' => $input['body'],
+            'text' => strip_tags($input['body'])
         ];
 
         $campaign = $this->mailchimp->campaigns->create('regular', $options, $content);
-
         $this->mailchimp->campaigns->send($campaign['id']);
+
+        return \Redirect::to('/admin/newsletter')->with('message', 'Email successfully sent.');
     }
 
     /**

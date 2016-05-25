@@ -75,12 +75,13 @@ Route::get('photos/2015-winter-meeting', 'PagesController@photosPastOld');
  * Images
  * -- Different pages for the photos
  */
-Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
-Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
-Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
+//Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
+//Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
+//Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
 
 /**
  * Newsletter
  * -- Send a newsletter to the entire newsletter group
  */
-Route::get('admin/newsletter', ['as' => 'newsletter', 'uses' => 'NewsletterController@create']);
+//Route::get('admin/newsletter', ['as' => 'newsletter', 'uses' => 'MailingListController@createAdminNewsletter']);
+//Route::post('admin/newsletter', ['as' => 'newsletter-notify', 'uses' =>'MailingListController@notify']);

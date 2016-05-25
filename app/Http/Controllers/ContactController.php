@@ -40,26 +40,25 @@ class ContactController extends Controller
      */
     public function store(ContactFormRequest $request)
     {
-        $fromEmail = 'mshartz5@gmail.com';
         $toEmail = 'mshartz5@gmail.com';
         $data = $request->only('name', 'email', 'reason');
         $data['messageLines'] = explode("\n", $request->get('message'));
         
         if ($data['reason'] === '0') {
             $subject = "Louisville Uncorked: Question or comment";
-            $toEmail = 'mshartz5@gmail.com';
+            $toEmail = env('MAIL_USERNAME');
         }
         else if($data['reason'] === '1') {
             $subject = "Louisville Uncorked: Charity Request from ".$data['name'];
-            $toEmail = 'mshartz5@gmail.com';
+            $toEmail = env('MAIL_USERNAME');
         }
         else if($data['reason'] === '2') {
             $subject = "Louisville Uncorked: Sponsor Request from ".$data['name'];
-            $toEmail = 'mshartz5@gmail.com';
+            $toEmail = env('MAIL_USERNAME');
         }
         else if($data['reason'] === '3') {
             $subject = 'Louisville Uncorked: Website Problem or Bug';
-            $toEmail = 'mshartz5@gmail.com';
+            $toEmail = env('MAIL_TECHUSERNAME');
         }
 
         Mail::send('emails.contact', $data, function($message) use ($data, $toEmail, $subject)
@@ -67,7 +66,7 @@ class ContactController extends Controller
             $message->subject($subject)
                 ->to($toEmail)
                 ->replyTo($data['email'])
-                ->from('mshartz5@gmail.com', $data['name']);
+                ->from($data['email'], $data['name']);
         });
         
         if( count(Mail::failures()) > 0 ) {

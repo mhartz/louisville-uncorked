@@ -22,27 +22,27 @@
                 <h3 class="m-t-0">Send newsletter</h3>
                 <p>This will send a formatted email using the text entered in the text area below to all users that are subscribed to receive the newsletter.</p>
 
-                {!! Form::open(array('route' => 'unsubscribe', 'id' => 'unsubscribe-form')) !!}
+                {!! Form::open(array('route' => 'newsletter-notify', 'id' => 'newsletter-form')) !!}
 
                 <div class="form-group">
-                    {!! Form::label('Subject') !!}
-                    {!! Form::text('subject', null,
+                    {!! Form::label('Title') !!}
+                    {!! Form::text('title', null,
                         array(
                           'required',
-                          'id'=>'subject',
-                          'class'=>'subject-text form-control',
-                          'placeholder'=>'Add the email subject here...'
+                          'id'=>'title',
+                          'class'=>'title-text form-control',
+                          'placeholder'=>'Add the email title here...'
                         )
                       )
                     !!}
                 </div>
 
                 <div class="form-group">
-                    {!! Form::label('Message') !!}
-                    {!! Form::textarea('message', null,
+                    {!! Form::label('Body') !!}
+                    {!! Form::textarea('body', null,
                         array(
                           'required',
-                          'id'=>'message',
+                          'id'=>'body',
                           'class'=>'message-text-area form-control',
                           'placeholder'=>'Type the body of the email message here...'
                         )
