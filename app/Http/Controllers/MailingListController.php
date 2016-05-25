@@ -16,6 +16,8 @@ class MailingListController extends Controller
         'newsletterSubscribers' => '4d3cb9de6e'
     ];
 
+
+
     public function __construct(Mailchimp $mailchimp)
     {
         $this->mailchimp = $mailchimp;

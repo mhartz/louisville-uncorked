@@ -40,7 +40,7 @@ class ContactController extends Controller
      */
     public function store(ContactFormRequest $request)
     {
-        $toEmail = 'mshartz5@gmail.com';
+        $toEmail = 'contact@louisvilleuncorked.com';
         $data = $request->only('name', 'email', 'reason');
         $data['messageLines'] = explode("\n", $request->get('message'));
         

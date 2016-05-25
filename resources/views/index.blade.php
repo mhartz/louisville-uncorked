@@ -79,7 +79,7 @@
     <div class="col-13 left">
       <h2 class="main-heading">Fall 2015 Tasting at The Foundry</h2>
       <h3 class="small-heading text-light">Benefitting The Fund Through the Arts</h3>
-      <p>Louisville Uncorked held the Fall event on October 2015 which benefitted The Fund Through the Arts and raised over $X,XXX and significant community awareness. There were more than XXXX number of participants split between XXXX teams tasting some of the best Chardonnays.</p>
+      <p>Louisville Uncorked held the Fall event on October 2015 which benefitted The Fund Through the Arts and raised over $7,200 and significant community awareness. There were more than 500 participants split between 220 teams tasting some of the best Chardonnays.</p>
     </div>
   </section>
 </div>

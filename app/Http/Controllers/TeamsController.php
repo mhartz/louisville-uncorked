@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 use App\Teams;
 use App\Events;
 use App\Participants;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Validation\Validator;
 
 class TeamsController extends Controller
@@ -41,8 +42,9 @@ class TeamsController extends Controller
      */
     public function store(Request $request) {
       
-      $nameValidationPasses = TRUE;
-      $validationErrorMessage = [];
+        $nameValidationPasses = TRUE;
+        $validationErrorMessage = [];
+        //private $subject = 'Louisville Uncorked Registration';
       
       // validate against the inputs from our form
       $validator = \Validator::make($request->all(), Teams::$rules);
@@ -107,6 +109,13 @@ class TeamsController extends Controller
             'email' => $input['registrant_email'],
             'is_admin' => 1
           ]);
+
+//          Mail::send('emails.registered', $input, function($message) use ($input, $input['registrant_email'], $subject)
+//          {
+//              $message->subject($subject)
+//                  ->to($input['registrant_email'])
+//                  ->from(env('MAIL_USERNAME'), env('MAIL_NAME'));
+//          });
           
           //check if the First Teammate exists, if so, validate and create
           if(!empty($request->get('first_participant_first_name')) || !empty($request->get('first_participant_last_name'))) {
