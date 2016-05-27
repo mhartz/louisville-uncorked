@@ -2,12 +2,284 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec6f07ba-1362-431b-ade9-5d2c6aebbd2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/emails/registered.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MailingListController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MailingListController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TeamsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TeamsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/Black-FFTA-Logo.jpg" afterPath="$PROJECT_DIR$/public/images/Black-FFTA-Logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/Black-FFTA-Logo.png" afterPath="$PROJECT_DIR$/public/images/Black-FFTA-Logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/Events/2016-summer/sbaklogowhite3.png" afterPath="$PROJECT_DIR$/public/images/Events/2016-summer/sbaklogowhite3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/logo-icon.png" afterPath="$PROJECT_DIR$/public/images/logo-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/lu-shirt-glass-winter2014.jpg" afterPath="$PROJECT_DIR$/public/images/lu-shirt-glass-winter2014.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_001_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_001_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_002_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_002_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_003_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_003_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_004_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_004_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_005_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_005_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_006_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_006_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_007_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_007_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_008_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_008_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_009_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_009_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_010_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_010_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_011_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_011_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_012_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_012_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_013_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_013_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_014_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_014_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_015_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_015_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_016_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_016_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_017_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_017_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_018_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_018_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_019_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_019_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_020_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_020_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_021_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_021_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_022_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_022_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_023_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_023_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_024_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_024_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_025_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_025_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_026_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_026_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_027_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_027_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_028_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_028_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_029_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_029_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_030_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_030_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_031_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_031_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_032_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_032_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_033_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_033_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_034_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_034_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_035_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_035_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_036_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_036_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_037_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_037_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_038_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_038_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_039_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_039_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_040_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_040_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_041_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_041_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_042_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_042_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_043_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_043_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_044_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_044_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_045_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_045_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_046_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_046_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_047_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_047_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_048_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_048_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_049_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_049_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_050_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_050_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_051_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_051_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_052_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_052_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_053_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_053_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_054_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_054_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_055_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_055_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_056_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_056_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_057_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_057_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_058_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_058_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_059_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_059_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_060_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_060_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_061_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_061_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_062_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_062_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_063_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_063_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_064_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_064_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_065_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_065_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_066_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_066_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_067_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_067_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_068_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_068_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_069_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_069_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_070_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_070_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_071_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_071_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_072_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_072_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_073_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_073_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_074_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_074_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_075_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_075_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_076_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_076_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_077_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_077_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_078_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_078_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_079_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_079_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_080_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_080_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_081_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_081_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_082_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_082_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_083_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_083_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_084_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_084_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_085_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_085_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_086_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_086_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_087_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_087_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_088_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_088_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_089_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_089_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_090_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_090_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_091_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_091_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_092_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_092_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_093_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_093_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_094_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_094_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_095_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_095_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_096_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_096_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_097_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_097_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_098_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_098_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_099_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_099_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_100_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_100_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_101_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_101_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_102_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_102_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_103_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_103_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_104_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_104_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_105_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_105_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_106_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_106_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_107_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_107_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_108_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_108_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_109_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_109_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_110_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_110_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_111_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_111_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_112_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_112_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_113_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_113_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_114_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_114_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_115_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_115_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_116_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_116_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_117_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_117_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_118_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_118_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_119_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_119_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_120_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_120_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_121_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_121_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_122_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_122_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_123_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_123_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_124_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_124_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_125_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_125_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_126_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_126_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_127_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_127_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_128_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_128_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_129_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_129_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_130_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_130_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_131_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_131_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_132_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_132_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_133_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_133_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_134_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_134_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_135_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_135_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_136_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_136_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_137_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_137_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_138_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_138_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_139_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_139_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_140_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_140_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_141_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_141_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_142_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_142_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_143_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_143_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_144_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_144_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_145_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_145_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_146_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_146_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_147_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_147_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_148_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_148_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_149_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_149_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_150_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_150_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_151_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_151_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_152_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_152_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_153_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_153_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_154_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_154_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_155_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_155_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_156_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_156_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_157_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_157_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_158_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_158_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_159_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_159_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_160_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_160_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_161_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_161_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_162_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_162_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_163_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_163_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_164_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_164_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_165_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_165_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_166_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_166_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_167_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_167_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_168_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_168_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_169_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_169_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_170_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_170_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_171_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_171_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_172_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_172_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_173_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_173_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_174_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_174_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_175_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_175_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_176_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_176_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_177_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_177_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_178_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_178_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_179_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_179_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_180_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_180_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_181_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_181_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_182_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_182_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_183_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_183_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_184_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_184_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_185_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_185_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_186_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_186_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_187_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_187_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_188_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_188_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_189_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_189_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_190_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_190_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_191_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_191_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_192_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_192_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_193_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_193_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_194_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_194_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_195_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_195_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_196_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_196_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_197_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_197_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_198_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_198_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_199_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_199_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_200_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_200_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_201_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_201_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_202_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_202_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_203_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_203_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_204_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_204_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_205_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_205_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_206_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_206_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_207_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_207_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_208_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_208_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_209_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_209_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_210_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_210_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_211_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_211_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_212_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_212_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_213_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_213_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_214_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_214_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_215_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_215_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_216_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_216_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_217_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_217_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_218_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_218_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_219_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_219_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_220_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_220_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_221_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_221_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_222_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_222_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_223_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_223_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_224_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_224_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_225_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_225_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_226_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_226_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_227_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_227_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_228_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_228_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_229_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_229_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_230_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_230_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_231_.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_231_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/bronze-winner.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/bronze-winner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/silver-winner.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-Fall-Foundry/silver-winner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos1.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos10.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos11.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos12.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos13.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos14.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos15.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos16.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos2.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos3.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos4.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos5.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos6.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos7.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos8.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos9.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-fall-meetup/photos9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-crowd.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-crowd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-goofy.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-goofy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-group-girls.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-group-girls.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-group-mixed.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-group-mixed.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-painting.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-painting.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-pink-dress.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-pink-dress.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-sharing.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-sharing.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-small-group.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-small-group.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-smiling.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-smiling.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-socializing.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-socializing.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-voting.jpg" afterPath="$PROJECT_DIR$/public/images/photos/2015-winter-event/winter-2015-voting.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/estampa-red.jpg" afterPath="$PROJECT_DIR$/public/images/photos/estampa-red.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/photos/filus-red.jpg" afterPath="$PROJECT_DIR$/public/images/photos/filus-red.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/vendor/lightbox/close.png" afterPath="$PROJECT_DIR$/public/images/vendor/lightbox/close.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/vendor/lightbox/next.png" afterPath="$PROJECT_DIR$/public/images/vendor/lightbox/next.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/vendor/lightbox/prev.png" afterPath="$PROJECT_DIR$/public/images/vendor/lightbox/prev.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/white-FFTA-Logo.png" afterPath="$PROJECT_DIR$/public/images/white-FFTA-Logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/white-logo-2.png" afterPath="$PROJECT_DIR$/public/images/white-logo-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/white-logo.png" afterPath="$PROJECT_DIR$/public/images/white-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/wine-glass-logo-icon.jpg" afterPath="$PROJECT_DIR$/public/images/wine-glass-logo-icon.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/wine-glasses-large.jpg" afterPath="$PROJECT_DIR$/public/images/wine-glasses-large.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/images/white-logo-2.png" afterPath="$PROJECT_DIR$/resources/assets/images/white-logo-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/images/white-logo.png" afterPath="$PROJECT_DIR$/resources/assets/images/white-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/images/wine-glass.png" afterPath="$PROJECT_DIR$/resources/assets/images/wine-glass.png" />
     </list>
     <ignored path="louisvilleuncorked.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +304,7 @@
       <file leaf-file-name="MailingListController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MailingListController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.652174">
+            <state vertical-scroll-proportion="25.043478">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#39#67#0#PHP" expanded="true" />
@@ -63,20 +335,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.57427716">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.4347825">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55510205">
+            <state vertical-scroll-proportion="-23.652174">
               <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
               <folding>
                 <marker date="1464151909000" expanded="true" signature="11245:11472" placeholder="..." />
@@ -140,12 +432,12 @@
         <option value="$PROJECT_DIR$/app/Uncorked/Newsletters/Mailchimp/NewsletterList.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/pages/mailing-list.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MailingListController.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/registered.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TeamsController.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -383,46 +675,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="louisvilleuncorked.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="louisvilleuncorked.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="louisvilleuncorked.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="louisvilleuncorked.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -556,27 +808,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21105528">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Participants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049029622">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/teams/teams-list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51481104">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/teams/participants-list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39223698">
@@ -873,16 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MailingListController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.652174">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/node_modules/express/lib/router/route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -896,16 +1117,6 @@
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TeamsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.913044">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,17 +1154,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55510205">
+        <state vertical-scroll-proportion="-23.652174">
           <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
           <folding>
             <marker date="1464151909000" expanded="true" signature="11245:11472" placeholder="..." />
@@ -963,6 +1166,58 @@
             <marker date="1464151909000" expanded="true" signature="11666:11917" placeholder="..." />
             <marker date="1464151909000" expanded="true" signature="11703:11901" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MailingListController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.043478">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TeamsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.913044">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4347825">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57427716">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
