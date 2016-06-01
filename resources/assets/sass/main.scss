@@ -275,27 +275,6 @@ header {
           width: rem(165);
         }
       }
-      
-      .g-recaptcha {
-        transform: scale(0.84);
-        -webkit-transform: scale(0.84);
-        transform-origin: 0 0;
-        -webkit-transform-origin: 0 0;
-        
-        @include bp(tablet) {
-          transform: scale(0.84);
-          -webkit-transform: scale(0.84);
-          transform-origin: 0 0;
-          -webkit-transform-origin: 0 0;
-        }
-        
-        @include bp(tablet-l) {
-          transform: scale(1);
-          -webkit-transform: scale(1);
-          transform-origin: 0 0;
-          -webkit-transform-origin: 0 0;
-        }
-      }
     }
   }
 }
@@ -782,6 +761,21 @@ label.error,
 /**
 *  Mailing List Signup
 */
+#mailing-list {
+  .g-recaptcha {
+    transform: scale(0.83);
+    -webkit-transform: scale(0.83);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+
+    @include bp(tablet) {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+    }
+  }
+}
 .mailing-list-module,
 .home-mailing-list-modal {
   margin: 0 auto;
