@@ -63,6 +63,7 @@
 @endif
 @if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'photos')
   <script src="{{ URL::asset('js/photos.js') }}"></script>
+  <script src="{{ URL::asset('js/lib/unveil.js') }}"></script>
   <script src="{{ URL::asset('js/lib/lightbox.js') }}"></script>
 @endif
 <script src="{{ URL::asset('js/_global.js') }}"></script>
