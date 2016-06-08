@@ -3,9 +3,9 @@
 <!--[if gt IE 9]><html lang="en"><!--<![endif]-->
 <head>
   <meta charset="UTF-8" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="tileicon.png">
-  <link rel="apple-touch-icon-precomposed" sizes="96x96" href="favicon.png">
-  <link rel="icon" href="favicon.png" sizes="32x32">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/tileicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="96x96" href="/favicon.png">
+  <link rel="icon" href="/favicon.png" sizes="32x32">
   <title>{{ $pageName }} | Lousville Uncorked</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="nofollow" />
