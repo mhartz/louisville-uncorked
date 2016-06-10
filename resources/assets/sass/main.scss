@@ -120,6 +120,9 @@ header {
 .banner {
   padding: rem(20) 0;
   color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/wine-glasses-large.jpg');
+  background-position: center left;
+  background-size: cover;
   
   .large-heading {
     margin-bottom: 0;
@@ -129,6 +132,7 @@ header {
     padding: rem(40) 0;
   }
 }
+
 
 
 
@@ -578,24 +582,18 @@ header {
   }
 }
 
+#error404,
+#error503 {
 
-/**
- *  Registration
- */
-#team-registration,
-#contact-us,
-#photos,
-#faq,
-#mailing-list,
-#unsubscribe-from-newsletter {
-  
-  .banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/wine-glasses-large.jpg');
-    background-position: center left;
-    background-size: cover;
+  main {
+    min-height: rem(600);
   }
 }
 
+
+  /**
+   *  Registration
+   */
 .registration-form,
 .contact-form,
 .mailing-list-form,

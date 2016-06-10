@@ -1,47 +1,20 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Be right back.</title>
+<?php $pageName = "Error503" ?>
 
-        <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@extends('layout')
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+@section('banner')
+    <div class="banner">
+        <section class="small-wrapper">
+            <h1 class="large-heading">503</h1>
+        </section>
+    </div>
+@stop
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                color: #B0BEC5;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 72px;
-                margin-bottom: 40px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Be right back.</div>
-            </div>
-        </div>
-    </body>
-</html>
+@section('content')
+    <div class="faq-content tiny-wrapper mt-40 mb-40">
+        <section class="faq-section mb-40">
+            <h3 class="question large-heading center">Service Unavailable</h3>
+            <p class="answer">The service you are trying to use is currently unavailable. Please try again later.</p>
+        </section>
+    </div>
+@stop
