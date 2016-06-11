@@ -10,18 +10,18 @@ use Input;
 class MailingListController extends Controller
 {
 
-    const NEWSLETTER_ID = '4d3cb9de6e';
-    protected $mailchimp;
-    protected $lists = [
-        'newsletterSubscribers' => '4d3cb9de6e'
-    ];
+//    const NEWSLETTER_ID = '4d3cb9de6e';
+//    protected $mailchimp;
+//    protected $lists = [
+//        'newsletterSubscribers' => '4d3cb9de6e'
+//    ];
 
 
 
-    public function __construct(Mailchimp $mailchimp)
-    {
-        $this->mailchimp = $mailchimp;
-    }
+//    public function __construct(Mailchimp $mailchimp)
+//    {
+//        $this->mailchimp = $mailchimp;
+//    }
 
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
@@ -75,14 +75,14 @@ class MailingListController extends Controller
             if ($emailCheck->count() > 0) {
                 MailingList::where('email', $input['email'])->update(['active' =>1]);
 
-                $this->mailchimp->lists->subscribe(
-                    $this->lists[$listName],
-                    ['email' => $input['email']],
-                    array('FNAME' => $input['name']),
-                    'html', // email type
-                    false, // require double opt in?
-                    true // update existing customers?
-                );
+//                $this->mailchimp->lists->subscribe(
+//                    $this->lists[$listName],
+//                    ['email' => $input['email']],
+//                    array('FNAME' => $input['name']),
+//                    'html', // email type
+//                    false, // require double opt in?
+//                    true // update existing customers?
+//                );
             }
             else {
                 MailingList::create([
@@ -90,14 +90,14 @@ class MailingListController extends Controller
                     'name' => $input['name']
                 ]);
 
-                $this->mailchimp->lists->subscribe(
-                    $this->lists[$listName],
-                    ['email' => $input['email']],
-                    array('FNAME' => $input['name']),
-                    'html', // email type
-                    false, // require double opt in?
-                    true // update existing customers?
-                );
+//                $this->mailchimp->lists->subscribe(
+//                    $this->lists[$listName],
+//                    ['email' => $input['email']],
+//                    array('FNAME' => $input['name']),
+//                    'html', // email type
+//                    false, // require double opt in?
+//                    true // update existing customers?
+//                );
             }
 
             if ($request->is('/')) {
@@ -126,13 +126,13 @@ class MailingListController extends Controller
             $input = $request->all();
 
             MailingList::where('email', $input['email'])->update(['active' => 0]);
-            $this->mailchimp->lists->unsubscribe(
-                $this->lists[$listName],
-                ['email' => $input['email']],
-                false, // delete the member permanently
-                false, // send goodbye email?
-                false // send unsubscribe notifitcation email?
-            );
+//            $this->mailchimp->lists->unsubscribe(
+//                $this->lists[$listName],
+//                ['email' => $input['email']],
+//                false, // delete the member permanently
+//                false, // send goodbye email?
+//                false // send unsubscribe notifitcation email?
+//            );
             return \Redirect::to('mailing-list/unsubscribe')->with('message', 'You have successfully unsubscribed from the newsletter mailing list.');
         }
     }
@@ -177,8 +177,8 @@ class MailingListController extends Controller
             'text' => strip_tags($input['body'])
         ];
 
-        $campaign = $this->mailchimp->campaigns->create('regular', $options, $content);
-        $this->mailchimp->campaigns->send($campaign['id']);
+//        $campaign = $this->mailchimp->campaigns->create('regular', $options, $content);
+//        $this->mailchimp->campaigns->send($campaign['id']);
 
         return \Redirect::to('/admin/newsletter')->with('message', 'Email successfully sent.');
     }

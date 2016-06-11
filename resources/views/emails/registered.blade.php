@@ -6,7 +6,7 @@
     </tr>
     <tr>
         <td width="3" bgcolor="#000"></td>
-        <td width="594" bgcolor="#f5f5f5" align="center"><a style="text-decoration: none;border" href="//louisvilleuncorked.com" alt="Louisville Uncorked Homepage"><img src="{{ URL::asset('images/emailers/emailer-logo.jpg') }}" width="594" height="151" alt="Louisville Uncorked Logo"></a></td>
+        <td width="594" bgcolor="#f5f5f5" align="center"><a style="text-decoration: none;border" href="http://louisvilleuncorked.com" alt="Louisville Uncorked Homepage"><img src="{{ URL::asset('images/emailers/emailer-logo.jpg') }}" width="594" height="151" alt="Louisville Uncorked Logo"></a></td>
         <td width="3" bgcolor="#000"></td>
     </tr>
     <tr>
