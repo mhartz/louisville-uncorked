@@ -383,6 +383,7 @@ header {
 
 .upcoming-event-media {
   @include card(1);
+  min-height: 100%;
   
   @media (max-width: rem(600)) {
     width: 100%;
