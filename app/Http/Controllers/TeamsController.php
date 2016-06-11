@@ -110,12 +110,17 @@ class TeamsController extends Controller
             'is_admin' => 1
           ]);
 
-//          Mail::send('emails.registered', $input, function($message) use ($input, $input['registrant_email'], $subject)
-//          {
-//              $message->subject($subject)
-//                  ->to($input['registrant_email'])
-//                  ->from(env('MAIL_USERNAME'), env('MAIL_NAME'));
-//          });
+          //Send confirmation email to registrant
+          $toEmail = $input['registrant_email'];
+          $subject = "Louisville Uncorked Registration";
+
+          Mail::send('emails.registered', $input, function($message) use ($input, $toEmail, $subject)
+          {
+              $message->subject($subject)
+                  ->to($input['registrant_email'])
+                  ->from(env('MAIL_USERNAME'), env('MAIL_NAME'));
+          });
+
           
           //check if the First Teammate exists, if so, validate and create
           if(!empty($request->get('first_participant_first_name')) || !empty($request->get('first_participant_last_name'))) {
