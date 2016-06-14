@@ -118,7 +118,7 @@ class TeamsController extends Controller
           {
               $message->subject($subject)
                   ->to($input['registrant_email'])
-                  ->from(env('MAIL_USERNAME'), env('MAIL_NAME'));
+                  ->from(env('MAIL_NOREPLYUSERNAME'), env('MAIL_NOREPLYNAME'));
           });
 
           
