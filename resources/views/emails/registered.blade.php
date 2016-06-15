@@ -6,7 +6,7 @@
     </tr>
     <tr>
         <td width="3" bgcolor="#000"></td>
-        <td width="594" bgcolor="#f5f5f5" align="center"><a style="text-decoration: none;border" href="http://louisvilleuncorked.com" alt="Louisville Uncorked Homepage"><img src="{{ URL::asset('images/emailers/emailer-logo.jpg') }}" width="594" height="151" alt="Louisville Uncorked Logo"></a></td>
+        <td width="594" bgcolor="#f5f5f5" align="center"><a style="text-decoration: none;border" href="http://louisvilleuncorked.com" alt="Louisville Uncorked Homepage"><img src="http://louisvilleuncorked.com/images/emailers/emailer-logo.jpg" width="594" height="151" alt="Louisville Uncorked Logo" title="Louisville Uncorked Logo" style="display:block;"></a></td>
         <td width="3" bgcolor="#000"></td>
     </tr>
     <tr>
@@ -31,7 +31,7 @@
                         <p style="margin-bottom:0;padding-bottom:0">Cheers!</p>
                         <p style="margin-bottom: 50px; margin-top:0;padding-top:0">Louisville Uncorked</p>
 
-                        <p><center><b>Visit Our Webpage:</b> <a href="//louisvilleuncorked.com" style="color: #f44336;">Louisvilleuncorked.com</a></center></p>
+                        <p><center><b>Visit Our Webpage:</b> <a href="http://louisvilleuncorked.com" style="color: #f44336;">Louisvilleuncorked.com</a></center></p>
 
                         <p><center><b>Contact Us:</b> <a href="mailto:mshartz5@gmail.com" style="color: #f44336;">Contact@louisvilleuncorked.com</a></center></p>
                     </td>
@@ -61,7 +61,7 @@
                     <td bgcolor="#000"><table width="594" border="0" cellspacing="0" cellpadding="0" bgcolor="#000">
                             <tr>
                                 <td bgcolor="#000" width="263"></td>
-                                <td bgcolor="#000" width="16"><a href="//www.facebook.com/groups/LouisvilleUncorked/" style="border: 0;"><img src="{{ URL::asset('images/emailers/facebook.gif') }}" width="16" height="17" alt="Facebook" style="border: 0;"></a></td>
+                                <td bgcolor="#000" width="16"><a href="//www.facebook.com/groups/LouisvilleUncorked/" style="border: 0;"><img src="http://louisvilleuncorked.com/images/emailers/facebook.gif" width="16" height="17" alt="Facebook" title="Facebook" style="border: 0;display: block;"></a></td>
                                 <td bgcolor="#000" width="263"></td>
                             </tr>
                         </table>

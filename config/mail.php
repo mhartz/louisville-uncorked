@@ -17,6 +17,7 @@ return [
 
     'driver' => env('MAIL_DRIVER'),
     'techDriver' => env('MAIL_TECHDRIVER'),
+    'noreplyDriver' => env('MAIL_NOREPLYDRIVER'),
 
     /*
     |--------------------------------------------------------------------------
@@ -31,6 +32,7 @@ return [
 
     'host' => env('MAIL_HOST'),
     'techHost' => env('MAIL_TECHHOST'),
+    'noreplyHost' => env('MAIL_NOREPLYHOST'),
 
     /*
     |--------------------------------------------------------------------------
@@ -45,6 +47,7 @@ return [
 
     'port' => env('MAIL_PORT'),
     'techPort' => env('MAIL_TECHPORT'),
+    'noreplyPort' => env('MAIL_NOREPLYPORT'),
 
     /*
     |--------------------------------------------------------------------------
@@ -85,6 +88,7 @@ return [
 
     'username' => env('MAIL_USERNAME'),
     'techUsername' => env('MAIL_TECHUSERNAME'),
+    'noreplyUsername' => env('MAIL_NOREPLYUSERNAME'),
     
     
     /*
@@ -98,6 +102,7 @@ return [
     
     'name' => env('MAIL_NAME'),
     'techName' => env('MAIL_TECHNAME'),
+    'noreplyName' => env('MAIL_NOREPLYNAME'),
 
     /*
     |--------------------------------------------------------------------------
@@ -112,6 +117,7 @@ return [
 
     'password' => env('MAIL_PASSWORD'),
     'techPassword' => env('MAIL_TECHPASSWORD'),
+    'noreplyPassword' => env('MAIL_NOREPLYPASSWORD'),
 
     /*
     |--------------------------------------------------------------------------
