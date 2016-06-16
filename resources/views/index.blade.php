@@ -11,11 +11,10 @@
   {{--</div>--}}
   <div class="banner">
       <section class="wrapper">
-          <h1 class="banner-heading mb-10">Register Now for the Summer 2016 Tasting</h1>
-          <h2 class="small-heading secondary">June 16, 2016</h2>
-          <h2 class="small-heading secondary">7:00pm - 10:00pm</h2>
-          <h2 class="small-heading secondary mb-10">Muhammad Ali Center</h2>
-          <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
+          <h1 class="banner-heading mb-10">Summer 2016 Tasting</h1>
+          <h2 class="main-heading secondary">June 16, 2016</h2>
+          <h2 class="main-heading secondary">7:00pm - 10:00pm</h2>
+          <h2 class="main-heading secondary mb-10">Muhammad Ali Center</h2>
       </section>
   </div>
 

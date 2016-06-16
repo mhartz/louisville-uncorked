@@ -23,9 +23,9 @@ Route::get('faq', 'PagesController@faq');
  * -- Form with 3 Fields for Team Registration Table
  * -- Extra form with 2 fields for adding team members
  */
-Route::get('registration', ['as' => 'registration', 'uses' => 'TeamsController@create']);
-Route::post('registration', 'TeamsController@store');
-Route::get('registration-successful', 'TeamsController@success');
+//Route::get('registration', ['as' => 'registration', 'uses' => 'TeamsController@create']);
+//Route::post('registration', 'TeamsController@store');
+//Route::get('registration-successful', 'TeamsController@success');
 Route::get('teams-list', 'TeamsController@teamsList');
 Route::get('participants-list', 'ParticipantsController@show');
 Route::get('team/edit/{id}', 'TeamsController@show');
