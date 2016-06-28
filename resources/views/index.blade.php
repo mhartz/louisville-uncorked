@@ -1,30 +1,30 @@
 @extends('layout')
 
 @section('banner')
-  {{--<div class="banner mailing-list-active">--}}
-    {{--<div class="wrapper mb-20">--}}
-        {{--<h1 class="banner-heading mb-10">Signup to Our Mailing List</h1>--}}
-        {{--<h2 class="main-heading secondary">To receive updates on our upcoming events!</h2>--}}
-        {{--<button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>--}}
-    {{--</div>--}}
-    {{----}}
+  <div class="banner mailing-list-active">
+    <div class="wrapper mb-20">
+        <h1 class="banner-heading mb-10">Signup to Our Mailing List</h1>
+        <h2 class="main-heading secondary">To receive updates on our upcoming events!</h2>
+        <button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>
+    </div>
+
+  </div>
+  {{--<div class="banner">--}}
+      {{--<section class="wrapper">--}}
+          {{--<h1 class="banner-heading mb-10">Summer 2016 Tasting</h1>--}}
+          {{--<h2 class="main-heading secondary">June 16, 2016</h2>--}}
+          {{--<h2 class="main-heading secondary">7:00pm - 10:00pm</h2>--}}
+          {{--<h2 class="main-heading secondary mb-10">Muhammad Ali Center</h2>--}}
+      {{--</section>--}}
   {{--</div>--}}
-  <div class="banner">
-      <section class="wrapper">
-          <h1 class="banner-heading mb-10">Summer 2016 Tasting</h1>
-          <h2 class="main-heading secondary">June 16, 2016</h2>
-          <h2 class="main-heading secondary">7:00pm - 10:00pm</h2>
-          <h2 class="main-heading secondary mb-10">Muhammad Ali Center</h2>
-      </section>
-  </div>
 
 
-  <div class="sign-up-bar grey-bg p-20">
-      <div class="small-wrapper">
-          <p class="left medium-heading"><i class="fa fa-envelope-o" aria-hidden="true"></i>Signup to our <a class="dotted-underline" href="/mailing-list">Mailing List</a> to receive updates on our upcoming events</p>
-          <button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>
-      </div>
-  </div>
+  {{--<div class="sign-up-bar grey-bg p-20">--}}
+      {{--<div class="small-wrapper">--}}
+          {{--<p class="left medium-heading"><i class="fa fa-envelope-o" aria-hidden="true"></i>Signup to our <a class="dotted-underline" href="/mailing-list">Mailing List</a> to receive updates on our upcoming events</p>--}}
+          {{--<button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>--}}
+      {{--</div>--}}
+  {{--</div>--}}
 @stop
 
 @section('content')
@@ -139,10 +139,16 @@
   </section>
 </div>
 
-<div class="row bottom-register">
-  <div class="tiny-wrapper">
-    <h2 class="main-heading">Register your team and join us!</h2>
-    <a class="white-outline-button" href="/registration">Register Here</a>
+{{--<div class="row bottom-register">--}}
+  {{--<div class="tiny-wrapper">--}}
+    {{--<h2 class="main-heading">Register your team and join us!</h2>--}}
+    {{--<a class="white-outline-button" href="/registration">Register Here</a>--}}
+  {{--</div>--}}
+{{--</div>--}}
+<div class="sign-up-bar grey-bg p-20">
+  <div class="small-wrapper p-20">
+    <p class="left medium-heading"><i class="fa fa-envelope-o" aria-hidden="true"></i>Signup to our <a class="dotted-underline" href="/mailing-list">Mailing List</a> to receive updates on our upcoming events</p>
+    <button id="mail-signup-trigger-bottom" class="button">Sign Up <span class="icon-circle-right"></span></button>
   </div>
 </div>
 

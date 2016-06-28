@@ -10,16 +10,13 @@
   
   $('.upcoming-event').click(function () {
     $('.upcoming-event .map').css('pointer-events', 'auto');
-    console.log("Clicked");
   });
 
   $( '.map' ).mouseleave(function() {
-    $(this).css('pointer-events', 'none'); 
-    console.log("mouseout");
+    $(this).css('pointer-events', 'none');
   });
   
-  $('#mail-signup-trigger').click(function() {
-    console.log("clicked")
+  $('#mail-signup-trigger, #mail-signup-trigger-bottom').click(function() {
       $('#mailing-list-modal').addClass('show');
       $('#modal-overlay').addClass('show');
   });
