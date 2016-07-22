@@ -3,7 +3,11 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 100;
-  src: local('Lato Hairline'), local('Lato-Hairline'), url(../fonts/Lato-Hairline.ttf) format('woff2');
+  src: local('Lato Hairline'),
+       local('Lato-Hairline'),
+       url(../fonts/Lato-Hairline.ttf) format('woff2'),
+       url(../fonts/Lato-Hairline.woff2) format('woff2'),
+       url(../fonts/Lato-Hairline.woff) format('woff');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -11,7 +15,11 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 100;
-  src: local('Lato Hairline'), local('Lato-Hairline'), url(../fonts/Lato-Hairline.ttf) format('woff2');
+  src: local('Lato Hairline'),
+        local('Lato-Hairline'),
+        url(../fonts/Lato-Hairline.ttf) format('woff2'),
+        url(../fonts/Lato-Hairline.woff2) format('woff2'),
+        url(../fonts/Lato-Hairline.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -19,7 +27,11 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/Lato-Regular.ttf) format('woff2');
+  src: local('Lato Regular'),
+        local('Lato-Regular'),
+        url(../fonts/Lato-Regular.ttf) format('woff2'),
+        url(../fonts/Lato-Regular.woff2) format('woff2'),
+        url(../fonts/Lato-Regular.woff) format('woff');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -27,7 +39,11 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/Lato-Regular.ttf) format('woff2');
+  src: local('Lato Regular'),
+        local('Lato-Regular'),
+        url(../fonts/Lato-Regular.ttf) format('woff2'),
+        url(../fonts/Lato-Regular.woff2) format('woff2'),
+        url(../fonts/Lato-Regular.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -35,7 +51,11 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(../fonts/Lato-Bold.ttf) format('woff2');
+  src: local('Lato Bold'),
+        local('Lato-Bold'),
+        url(../fonts/Lato-Bold.ttf) format('woff2'),
+        url(../fonts/Lato-Bold.woff2) format('woff2'),
+        url(../fonts/Lato-Bold.woff) format('woff');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -43,7 +63,11 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(../fonts/Lato-Bold.ttf) format('woff2');
+  src: local('Lato Bold'),
+        local('Lato-Bold'),
+        url(../fonts/Lato-Bold.ttf) format('woff2'),
+        url(../fonts/Lato-Bold.woff2) format('woff2'),
+        url(../fonts/Lato-Bold.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -52,7 +76,10 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: local('Montserrat-Regular'), url(../fonts/Montserrat-Regular.ttf) format('woff2');
+  src: local('Montserrat-Regular'),
+        url(../fonts/Montserrat-Regular.ttf) format('woff2'),
+        url(../fonts/Montserrat-Regular.woff2) format('woff2'),
+        url(../fonts/Montserrat-Regular.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin */
@@ -60,7 +87,10 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: local('Montserrat-Bold'), url(../fonts/Montserrat-Bold.ttf) format('woff2');
+  src: local('Montserrat-Bold'),
+        url(../fonts/Montserrat-Bold.ttf) format('woff2'),
+        url(../fonts/Montserrat-Bold.woff2) format('woff2'),
+        url(../fonts/Montserrat-Bold.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -69,7 +99,11 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 300;
-  src: local('Merriweather Light'), local('Merriweather-Light'), url(../fonts/Merriweather-Light.ttf) format('woff2');
+  src: local('Merriweather Light'),
+        local('Merriweather-Light'),
+        url(../fonts/Merriweather-Light.ttf) format('woff2'),
+        url(../fonts/Merriweather-Light.woff2) format('woff2'),
+        url(../fonts/Merriweather-Light.woff) format('woff');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -77,7 +111,11 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 300;
-  src: local('Merriweather Light'), local('Merriweather-Light'), url(../fonts/Merriweather-Light.ttf) format('woff2');
+  src: local('Merriweather Light'),
+        local('Merriweather-Light'),
+        url(../fonts/Merriweather-Light.ttf) format('woff2'),
+        url(../fonts/Merriweather-Light.woff2) format('woff2'),
+        url(../fonts/Merriweather-Light.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -85,7 +123,10 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  src: local('Merriweather'), url(../fonts/Merriweather.ttf) format('woff2');
+  src: local('Merriweather'),
+        url(../fonts/Merriweather.ttf) format('woff2'),
+        url(../fonts/Merriweather.woff2) format('woff2'),
+        url(../fonts/Merriweather.woff) format('woff');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -93,7 +134,10 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  src: local('Merriweather'), url(../fonts/Merriweather.ttf) format('woff2');
+  src: local('Merriweather'),
+        url(../fonts/Merriweather.ttf) format('woff2'),
+        url(../fonts/Merriweather.woff2) format('woff2'),
+        url(../fonts/Merriweather.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -101,7 +145,11 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
-  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(../fonts/Merriweather-Bold.ttf) format('woff2');
+  src: local('Merriweather Bold'),
+        local('Merriweather-Bold'),
+        url(../fonts/Merriweather-Bold.ttf) format('woff2'),
+        url(../fonts/Merriweather-Bold.woff2) format('woff2'),
+        url(../fonts/Merriweather-Bold.woff) format('woff');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -109,7 +157,11 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
-  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(../fonts/Merriweather-Bold.ttf) format('woff2');
+  src: local('Merriweather Bold'),
+        local('Merriweather-Bold'),
+        url(../fonts/Merriweather-Bold.ttf) format('woff2'),
+        url(../fonts/Merriweather-Bold.woff2) format('woff2'),
+        url(../fonts/Merriweather-Bold.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -117,7 +169,11 @@
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 400;
-  src: local('Merriweather Italic'), local('Merriweather-Italic'), url(../fonts/Merriweather-Italic.ttf) format('woff2');
+  src: local('Merriweather Italic'),
+        local('Merriweather-Italic'),
+        url(../fonts/Merriweather-Italic.ttf) format('woff2'),
+        url(../fonts/Merriweather-Italic.woff2) format('woff2'),
+        url(../fonts/Merriweather-Italic.woff) format('woff');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -125,7 +181,11 @@
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 400;
-  src: local('Merriweather Italic'), local('Merriweather-Italic'), url(../fonts/Merriweather-Italic.ttf) format('woff2');
+  src: local('Merriweather Italic'),
+        local('Merriweather-Italic'),
+        url(../fonts/Merriweather-Italic.ttf) format('woff2'),
+        url(../fonts/Merriweather-Italic.woff2) format('woff2'),
+        url(../fonts/Merriweather-Italic.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -133,7 +193,11 @@
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 700;
-  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url(../fonts/Merriweather-BoldItalic.ttf) format('woff2');
+  src: local('Merriweather Bold Italic'),
+        local('Merriweather-BoldItalic'),
+        url(../fonts/Merriweather-BoldItalic.ttf) format('woff2'),
+        url(../fonts/Merriweather-BoldItalic.woff2) format('woff2'),
+        url(../fonts/Merriweather-BoldItalic.woff) format('woff');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -141,7 +205,11 @@
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 700;
-  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url(../fonts/Merriweather-BoldItalic.ttf) format('woff2');
+  src: local('Merriweather Bold Italic'),
+        local('Merriweather-BoldItalic'),
+        url(../fonts/Merriweather-BoldItalic.ttf) format('woff2'),
+        url(../fonts/Merriweather-BoldItalic.woff2) format('woff2'),
+        url(../fonts/Merriweather-BoldItalic.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
