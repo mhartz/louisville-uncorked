@@ -12,9 +12,10 @@
   <div class="photos-nav">
     <div class="small-wrapper">
       <ul>
+        <li><a href="/photos/2016-summer-event">2016 Summer Tasting</a></li>
         <li><a href="/photos/2015-fall-event">2015 Fall Tasting</a></li>
         <li><a href="/photos/2015-fall-meeting">2015 Fall Committee Meeting</a></li>
-        <li class="active"><a href="/photos/2015-winter-meeting">2015 Winter Tasting</a></li>
+        <li class="active"><a href="/photos/2015-winter-event">2015 Winter Tasting</a></li>
       </ul>
     </div>
   </div>

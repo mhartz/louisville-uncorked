@@ -28,18 +28,23 @@ class PagesController extends Controller
         $pageName = 'FAQ';
         return view('pages/faq', compact('pageName'));
     }
-    
+
     public function photosCurrent() {
         $pageName = 'Photos';
-        return view('pages/photos/2015-fall-event', compact('pageName'));
+        return view('pages/photos/2016-summer-event', compact('pageName'));
     }
     
     public function photosPast() {
         $pageName = 'Photos';
+        return view('pages/photos/2015-fall-event', compact('pageName'));
+    }
+    
+    public function photosOld() {
+        $pageName = 'Photos';
         return view('pages/photos/2015-fall-meeting', compact('pageName'));
     }
     
-    public function photosPastOld() {
+    public function photosPastOld1() {
         $pageName = 'Photos';
         return view('pages/photos/2015-winter-event', compact('pageName'));
     }

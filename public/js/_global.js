@@ -13,6 +13,19 @@ $.fn.toggleClick=function(){
     });
 };
 
+/*
+ Center large images
+ */
+function centerTallImage(maxHeight) {
+    $('.photo-gallery-list img').each(function () {
+        var height = $(this).height();
+
+        if (height > maxHeight) {
+            $(this).addClass('center-tall-image');
+        }
+    });
+}
+
 !(function() {
   
   $(function() {

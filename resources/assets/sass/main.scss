@@ -527,6 +527,23 @@ header {
     margin-left: 0;
     overflow: hidden;
     margin-bottom: rem(3);
+    max-height: rem(337);
+
+    @include bp(tablet-s) {
+      max-height: rem(253);
+    }
+
+    @include bp(tablet) {
+      max-height: rem(322);
+    }
+
+    @include bp(desk-l) {
+      max-height: rem(419);
+    }
+
+    @include bp(full) {
+      max-height: rem(429);
+    }
   }
   
   img {
@@ -551,6 +568,10 @@ header {
       }
     }
   }
+}
+
+.center-tall-image {
+  margin-top: -50%;
 }
 
 .bottom-register {
@@ -590,6 +611,8 @@ header {
     min-height: rem(600);
   }
 }
+
+
 
 
   /**
@@ -739,7 +762,7 @@ label.error,
     
     li {
       display: inline-block;
-      padding: rem(18) 5%;
+      padding: rem(18) 4%;
       
       &.active {
         border-bottom: 4px solid lighten($secondary, 10%);

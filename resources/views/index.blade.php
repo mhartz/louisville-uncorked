@@ -29,7 +29,7 @@
 
 @section('content')
 <div class="about-louisville-uncorked">
-  <section class="wrapper center row bottom-border">
+  <section class="wrapper center row">
     <h1 class="large-heading mb-20">What is Louisville Uncorked?</h1>
     <p class="centered-width mb-40">Louisville Uncorked organizes wine tasting events for members and guests that raise money for local charities.</p>
     <h2 class="the-tasting-title main-heading">The Tasting</h2>
@@ -38,19 +38,19 @@
     <a class="centered-width" href="/faq">Have any questions?</a>
   </section>
   
-  <div class="upcoming-event row wrapper">
-    <section class="upcoming-event-details col-11">
-      <h2 class="main-heading mb-30">Upcoming Event</h2>
-      <p><span class="icon-calendar2"></span><i>Date: </i>June 16, 2016</p>
-      <p><span class="icon-clock2"></span><i>Time: </i>7:00pm - 10:00pm</p>
-      <p><span class="icon-location"></span><i>Location: </i>Muhammad Ali Center, 144 N 6th St, Louisville, KY 40202</p>
-      <p><span class="icon-glass"></span><i>Tasting Variety: </i>Pinot Noir</p>
-      <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>
-      <p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>
-    </section>
+  {{--<div class="upcoming-event row wrapper">--}}
+    {{--<section class="upcoming-event-details col-11">--}}
+      {{--<h2 class="main-heading mb-30">Upcoming Event</h2>--}}
+      {{--<p><span class="icon-calendar2"></span><i>Date: </i>June 16, 2016</p>--}}
+      {{--<p><span class="icon-clock2"></span><i>Time: </i>7:00pm - 10:00pm</p>--}}
+      {{--<p><span class="icon-location"></span><i>Location: </i>Muhammad Ali Center, 144 N 6th St, Louisville, KY 40202</p>--}}
+      {{--<p><span class="icon-glass"></span><i>Tasting Variety: </i>Pinot Noir</p>--}}
+      {{--<p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>--}}
+      {{--<p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>--}}
+    {{--</section>--}}
 
-    <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12531.663498360223!2d-85.7599341!3d38.2582571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1b30c2d7430ca77!2sMuhammad+Ali+Center!5e0!3m2!1sen!2sus!4v1463519395283" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
+    {{--<iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12531.663498360223!2d-85.7599341!3d38.2582571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1b30c2d7430ca77!2sMuhammad+Ali+Center!5e0!3m2!1sen!2sus!4v1463519395283" frameborder="0" style="border:0" allowfullscreen></iframe>--}}
+  {{--</div>--}}
 </div>
 
 <div class="row dark-bg">
@@ -73,47 +73,47 @@
   <section class="wrapper">
     <h1 class="large-heading center">Our Last Event</h1>
     <div class="col-10 right">
-      <img class="full-image" src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_082_.jpg') }}" alt="Uncorked Fall 2015 Crowd">
+      <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-42.jpg') }}" alt="Uncorked Fall 2015 Crowd">
     </div>
     <div class="col-13 left">
-      <h2 class="main-heading">Fall 2015 Tasting at The Foundry</h2>
-      <h3 class="small-heading text-light">Benefitting The Fund Through the Arts</h3>
-      <p>Louisville Uncorked held the Fall event on October 2015 which benefitted The Fund Through the Arts and raised over $7,200 and significant community awareness. There were more than 500 participants split between 220 teams tasting some of the best Chardonnays.</p>
+      <h2 class="main-heading">Summer 2016 Tasting at The Muhammad Ali Center</h2>
+      <h3 class="small-heading text-light">Benefitting Spina Bifida Association of Kentucky</h3>
+      <p>Louisville Uncorked held the Summer event on June 16, 2016 which benefitted Spina Bifida Association of Kentucky and raised over $6,500 and significant community awareness. There were more than 400 participants split between 200 teams tasting some of the best Pinot Noirs.</p>
     </div>
   </section>
 </div>
 
 <div class="row grey-bg center">
   <section class="wrapper">
-    <h1 class="large-heading">The Winners of the Fall 2015 Tasting</h1>
+    <h1 class="large-heading">The Winners of Summer 2016 Tasting</h1>
     <div class="place-card col-7">
       <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_092_.jpg') }}" alt="">
+        <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/gold-winner.jpg') }}" alt="">
         <span class="icon-trophy gold"></span>
       </div>
       <h2 class="main-heading">1<span>st</span></h2>
-      <p>Slow Press Chardonnay</p>
-      <p>Brought by Anne Billington Adair</p>
+      <p>Casavecchia Pinot Noir</p>
+      <p>Brought by Lauren Beck</p>
     </div>
     
     <div class="place-card col-7">
       <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/2015-Fall-Foundry/silver-winner.jpg') }}" alt="">
+        <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/silver-winner.jpg') }}" alt="">
         <span class="icon-trophy silver"></span>
       </div>
       <h2 class="main-heading">2<span>nd</span></h2>
-      <p>Three Wishes Chardonnay</p>
-      <p>Brought by Paul Grignon</p>
+      <p>Barefoot Pinot Noir</p>
+      <p>Brought by Tara Shelton</p>
     </div>
     
     <div class="place-card col-7">
       <div class="image-trophy-container">
-        <img class="full-image" src="{{ URL::asset('images/photos/2015-Fall-Foundry/bronze-winner.jpg') }}" alt="">
+        <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/bronze-winner.jpg') }}" alt="">
         <span class="icon-trophy bronze"></span>
       </div>
       <h2 class="main-heading">3<span>rd</span></h2>
-      <p>Beringer Chardonnay</p>
-      <p>Brought by Jimmy Scott</p>
+      <p>Smoking Loon Pinot Noir</p>
+      <p>Brought by Brian Armstrong</p>
     </div>
   </section>
 </div>
@@ -123,19 +123,19 @@
     <h1 class="large-heading center mb-0">Photo Gallery</h1>
     <p class="center">Check out our pics from the latest event!</p>
     <ul class="photo-gallery-list">
-      <li class="col-16"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_080_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_080_.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_037_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_037_.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_065_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_065_.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_068_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_068_.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_101_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_101_.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_018_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_018_.jpg') }}" alt=""></a></li>
-      <li class="col-16"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_038_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_038_.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_007_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_071_.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_029_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_029_.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_081_.jpg') }}" data-lightbox="image-1" data-title="Winter 2015 Tasting at Mellwood"><img src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_081_.jpg') }}" alt=""></a></li>
+      <li class="col-16"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-1.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-1.jpg') }}" alt=""></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-2.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-2.jpg') }}" alt=""></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-3.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-3.jpg') }}" alt=""></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-4.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-4.jpg') }}" alt=""></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-5.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-5.jpg') }}" alt=""></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-6.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-6.jpg') }}" alt=""></a></li>
+      <li class="col-16"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-7.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-7.jpg') }}" alt=""></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-8.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-8.jpg') }}" alt=""></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-9.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-9.jpg') }}" alt=""></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-10.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-10.jpg') }}" alt=""></a></li>
     </ul>
     
-    <a class="button mt-20" href="/photos/2015-fall-event">See more photos<span class="icon-circle-right"></span></a>
+    <a class="button mt-20" href="/photos/2016-summer-event">See more photos<span class="icon-circle-right"></span></a>
   </section>
 </div>
 

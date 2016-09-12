@@ -23,7 +23,7 @@
       <nav id="main-nav" class="main-navigation" role="navigation">
         <ul>
           {{--<li><a class="team-registration-navlink" href="/registration">Registration</a></li>--}}
-          <li><a class="photos-navlink" href="/photos/2015-fall-event">Photos</a></li>
+          <li><a class="photos-navlink" href="/photos/2016-summer-event">Photos</a></li>
           <li><a class="mailing-list-navlink" href="/mailing-list">Mailing List</a></li>
           <li><a class="faq-navlink" href="/faq">FAQ</a></li>
           <li><a class="contact-us-navlink" href="/contact">Contact Us</a></li>
@@ -54,6 +54,7 @@
 
 </body>
 <script src="{{ URL::asset('js/all.js') }}"></script>
+<script src="{{ URL::asset('js/_global.js') }}"></script>
 @if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'team-registration')
   <script src="{{ URL::asset('js/team-registration.js') }}"></script>
 @endif
@@ -66,7 +67,6 @@
   <script src="{{ URL::asset('js/lib/unveil.js') }}"></script>
   <script src="{{ URL::asset('js/lib/lightbox.js') }}"></script>
 @endif
-<script src="{{ URL::asset('js/_global.js') }}"></script>
 @if ( Config::get('app.debug') )
   <script type="text/javascript">
     document.write('<script src="//localhost:35729/livereload.js?snipver=1" type="text/javascript"><\/script>')

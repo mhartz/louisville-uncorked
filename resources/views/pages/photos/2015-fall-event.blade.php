@@ -12,9 +12,10 @@
   <div class="photos-nav">
     <div class="small-wrapper">
       <ul>
+        <li><a href="/photos/2016-summer-event">2016 Summer Tasting</a></li>
         <li class="active"><a href="/photos/2015-fall-event">2015 Fall Tasting</a></li>
         <li><a href="/photos/2015-fall-meeting">2015 Fall Committee Meeting</a></li>
-        <li><a href="/photos/2015-winter-meeting">2015 Winter Tasting</a></li>
+        <li><a href="/photos/2015-winter-event">2015 Winter Tasting</a></li>
       </ul>
     </div>
   </div>
@@ -62,7 +63,7 @@
         <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_040_.jpg') }}" data-lightbox="image-1" data-title="2015 Fall Event At the Foundry"><img src="{{ URL::asset('images/vendor/unveil/loading-icon.gif') }}" data-src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_040_.jpg') }}" alt=""></a></li>
       </ul>
     </section>
-  
+
     <section class="photo-section mb-40 bottom-border">
       <h2 class="main-heading mb-40">2015 Fall Tasting Continued</h2>
       <ul class="photo-gallery-list">
@@ -87,7 +88,7 @@
         <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_040_.jpg') }}" data-lightbox="image-1" data-title="2015 Fall Event At the Foundry"><img src="{{ URL::asset('images/vendor/unveil/loading-icon.gif') }}" data-src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_040_.jpg') }}" alt=""></a></li>
       </ul>
     </section>
-    
+
     <section class="photo-section mb-40 bottom-border">
       <h2 class="main-heading mb-40">2015 Fall Tasting Continued</h2>
       <ul class="photo-gallery-list">
@@ -112,7 +113,7 @@
         <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_060_.jpg') }}" data-lightbox="image-1" data-title="2015 Fall Event At the Foundry"><img src="{{ URL::asset('images/vendor/unveil/loading-icon.gif') }}" data-src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_060_.jpg') }}" alt=""></a></li>
       </ul>
     </section>
-    
+
     <section class="photo-section mb-40 bottom-border">
       <h2 class="main-heading mb-40">2015 Fall Tasting Continued</h2>
       <ul class="photo-gallery-list">
@@ -137,7 +138,7 @@
         <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_080_.jpg') }}" data-lightbox="image-1" data-title="2015 Fall Event At the Foundry"><img src="{{ URL::asset('images/vendor/unveil/loading-icon.gif') }}" data-src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_080_.jpg') }}" alt=""></a></li>
       </ul>
     </section>
-    
+
     <section class="photo-section mb-40 bottom-border">
       <h2 class="main-heading mb-40">2015 Fall Tasting Continued</h2>
       <ul class="photo-gallery-list">
@@ -161,7 +162,7 @@
         <li class="col-8"><a href="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_100_.jpg') }}" data-lightbox="image-1" data-title="2015 Fall Event At the Foundry"><img src="{{ URL::asset('images/vendor/unveil/loading-icon.gif') }}" data-src="{{ URL::asset('images/photos/2015-Fall-Foundry/Uncorked_Fall_2015_100_.jpg') }}" alt=""></a></li>
       </ul>
     </section>
-    
+
     <section class="photo-section mb-40 bottom-border">
       <h2 class="main-heading mb-40">2015 Fall Tasting Continued</h2>
       <ul class="photo-gallery-list">
