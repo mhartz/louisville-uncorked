@@ -538,11 +538,7 @@ header {
     }
 
     @include bp(desk-l) {
-      max-height: rem(419);
-    }
-
-    @include bp(full) {
-      max-height: rem(429);
+      max-height: rem(405);
     }
   }
   

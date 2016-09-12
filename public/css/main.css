@@ -1729,10 +1729,7 @@ header {
         max-height: 20.125rem; } }
     @media only screen and (min-width: 67.5em) {
       .photo-gallery-list li {
-        max-height: 26.1875rem; } }
-    @media only screen and (min-width: 80em) {
-      .photo-gallery-list li {
-        max-height: 26.8125rem; } }
+        max-height: 25.3125rem; } }
   .photo-gallery-list img {
     width: 100%; }
   @media only screen and (min-width: 37.5em) {
