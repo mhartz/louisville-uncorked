@@ -16,7 +16,7 @@
 
   <header role="banner">
     <div class="wrapper">
-      <a class="main-logo grow" href="/"><img src="{{ URL::asset('images/white-logo-2.png') }}" alt="Louisville Uncorked Homepage"></a>
+      <a class="main-logo grow" href="/"><img src="{{ URL::asset('images/white-logo.png') }}" alt="Louisville Uncorked Homepage"></a>
       
       <button id="show-hide-nav" class="show-hide-nav">Menu</button>
       
