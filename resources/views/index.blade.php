@@ -174,7 +174,7 @@
       <div class="mailing-list-section card-1 clear">
       <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <div class="form-group">
-          {!! Form::label('name', 'Your Name', array('class'=>'text-left'))  !!}
+          {!! Form::label('mailing-list-name', 'Your Name', array('class'=>'text-left'))  !!}
           {!! Form::text('name', null,
               array( 
                 'id'=>'mailing-list-name',
@@ -186,7 +186,7 @@
         </div>
 
           <div class="form-group small-margin right">
-            {!! Form::label('email', 'Your E-mail Address', array('class'=>'text-left')) !!}
+            {!! Form::label('mailing-list-email', 'Your E-mail Address', array('class'=>'text-left')) !!}
             {!! Form::text('email', null,
                 array(
                   'required', 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--[if lt IE 10]><html lang="en" class="lt-ie10"><![endif]-->
-<!--[if gt IE 9]><html lang="en"><!--<![endif]-->
+<!--[if gt IE 9]><html lang="en"><![endif]-->
 <head>
   <meta charset="UTF-8" />
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/tileicon.png">
@@ -51,25 +51,24 @@
       <span class="lu-icon"></span>
     </div>
   </footer>
-
+  <script src="{{ URL::asset('js/all.js') }}"></script>
+  <script src="{{ URL::asset('js/_global.js') }}"></script>
+  @if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'team-registration')
+      <script src="{{ URL::asset('js/team-registration.js') }}"></script>
+  @endif
+  @if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'home')
+      <script src="{{ URL::asset('js/lib/lightbox.js') }}"></script>
+      <script src="{{ URL::asset('js/home.js') }}"></script>
+  @endif
+  @if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'photos')
+      <script src="{{ URL::asset('js/photos.js') }}"></script>
+      <script src="{{ URL::asset('js/lib/unveil.js') }}"></script>
+      <script src="{{ URL::asset('js/lib/lightbox.js') }}"></script>
+  @endif
+  @if ( Config::get('app.debug') )
+      <script type="text/javascript">
+          document.write('<script src="//localhost:35729/livereload.js?snipver=1" type="text/javascript"><\/script>')
+      </script>
+  @endif
 </body>
-<script src="{{ URL::asset('js/all.js') }}"></script>
-<script src="{{ URL::asset('js/_global.js') }}"></script>
-@if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'team-registration')
-  <script src="{{ URL::asset('js/team-registration.js') }}"></script>
-@endif
-@if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'home')
-  <script src="{{ URL::asset('js/lib/lightbox.js') }}"></script>
-  <script src="{{ URL::asset('js/home.js') }}"></script>
-@endif
-@if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'photos')
-  <script src="{{ URL::asset('js/photos.js') }}"></script>
-  <script src="{{ URL::asset('js/lib/unveil.js') }}"></script>
-  <script src="{{ URL::asset('js/lib/lightbox.js') }}"></script>
-@endif
-@if ( Config::get('app.debug') )
-  <script type="text/javascript">
-    document.write('<script src="//localhost:35729/livereload.js?snipver=1" type="text/javascript"><\/script>')
-  </script> 
-@endif
 </html>
