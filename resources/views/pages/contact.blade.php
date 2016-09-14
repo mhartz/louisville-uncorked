@@ -78,7 +78,7 @@
     </div>
 
     <div class="form-group">
-      {!! Form::submit('Contact Us!', array('class'=>'button')) !!}
+      {!! Form::button('Contact Us!', array('class'=>'button', 'type' => 'submit')) !!}
     </div>
       {!! Form::close() !!}
   </div>

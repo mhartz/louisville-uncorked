@@ -73,7 +73,7 @@
   <section class="wrapper">
     <h1 class="large-heading center">Our Last Event</h1>
     <div class="col-10 right">
-      <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-42.jpg') }}" alt="Uncorked Fall 2015 Crowd">
+      <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-42.jpg') }}" alt="Uncorked Summer 2016 Crowd">
     </div>
     <div class="col-13 left">
       <h2 class="main-heading">Summer 2016 Tasting at The Muhammad Ali Center</h2>
@@ -123,16 +123,16 @@
     <h1 class="large-heading center mb-0">Photo Gallery</h1>
     <p class="center">Check out our pics from the latest event!</p>
     <ul class="photo-gallery-list">
-      <li class="col-16"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-19.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-19.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-20.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-20.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-30.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-30.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-40.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-40.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-50.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-50.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-60.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-60.jpg') }}" alt=""></a></li>
-      <li class="col-16"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-70.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-70.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-80.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-80.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-90.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-90.jpg') }}" alt=""></a></li>
-      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-100.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-100.jpg') }}" alt=""></a></li>
+      <li class="col-16"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-19.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-19.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 19"></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-20.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-20.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 20"></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-30.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-30.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 30"></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-40.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-40.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 40"></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-50.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-50.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 50"></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-60.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-60.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 60"></a></li>
+      <li class="col-16"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-70.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-70.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali CenterImage 70"></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-80.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-80.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 80"></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-90.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-90.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 90"></a></li>
+      <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-100.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-100.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 100"></a></li>
     </ul>
     
     <a class="button mt-20" href="/photos/2016-summer-event">See more photos<span class="icon-circle-right"></span></a>
@@ -204,7 +204,7 @@
               <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>  
             </div>
             
-            {!! Form::submit('Sign Up', array('class'=>'button')) !!}
+            {!! Form::button('Sign Up', array('class'=>'button', 'type' => 'submit')) !!}
             </div>
         </div>
       {!! Form::close() !!}

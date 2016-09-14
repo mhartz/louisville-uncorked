@@ -59,7 +59,7 @@
                         <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>
                     </div>
 
-                    {!! Form::submit('Sign Up', array('class'=>'button')) !!}
+                    {!! Form::button('Sign Up', array('class'=>'button', 'type' => 'submit')) !!}
                 </div>
                 {!! Form::close() !!}
             </div>
