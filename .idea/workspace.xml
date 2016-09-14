@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec6f07ba-1362-431b-ade9-5d2c6aebbd2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/mailing-list.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/mailing-list.blade.php" />
-    </list>
+    <list default="true" id="ec6f07ba-1362-431b-ade9-5d2c6aebbd2c" name="Default" comment="" />
     <ignored path="louisvilleuncorked.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -70,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.304348">
+            <state vertical-scroll-proportion="-0.32">
               <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
                 <marker date="1473812038000" expanded="true" signature="802:1010" placeholder="..." />
@@ -93,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="registration.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/teams/registration.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7">
+            <state vertical-scroll-proportion="-24.347826">
               <caret line="35" column="153" selection-start-line="35" selection-start-column="153" selection-end-line="35" selection-end-column="153" />
               <folding />
             </state>
@@ -920,9 +916,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/teams/registration.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.347826">
+          <caret line="35" column="153" selection-start-line="35" selection-start-column="153" selection-end-line="35" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.304348">
+        <state vertical-scroll-proportion="-0.32">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <marker date="1473812038000" expanded="true" signature="802:1010" placeholder="..." />
@@ -938,14 +942,6 @@
             <marker date="1473812038000" expanded="true" signature="1818:2012" placeholder="..." />
             <marker date="1473812038000" expanded="true" signature="1851:2002" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/teams/registration.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7">
-          <caret line="35" column="153" selection-start-line="35" selection-start-column="153" selection-end-line="35" selection-end-column="153" />
-          <folding />
         </state>
       </provider>
     </entry>
