@@ -28,7 +28,7 @@
     @endif
 
     <div class="form-group">
-      {!! Form::label('Your Name') !!}
+      {!! Form::label('contact-name', 'Your Name') !!}
       {!! Form::text('name', null, 
           array(
             'required', 
@@ -41,7 +41,7 @@
     </div>
 
     <div class="form-group">
-      {!! Form::label('Your E-mail Address') !!}
+      {!! Form::label('contact-email', 'Your E-mail Address') !!}
       {!! Form::text('email', null,
           array(
             'required',
@@ -54,7 +54,7 @@
     </div>
 
     <div class="form-group">
-      {!! Form::label('Reason for Contact') !!}
+      {!! Form::label('contact-reason', 'Reason for Contact') !!}
       {!! Form::select('reason', ['Questions/Comments', 'Charity', 'Sponsor', 'Website problem or bug report'],
           array(
             'id'=>'contact-reason',
@@ -65,7 +65,7 @@
     </div>
 
     <div class="form-group">
-      {!! Form::label('Your Message') !!}
+      {!! Form::label('contact-message', 'Your Message') !!}
       {!! Form::textarea('message', null,
           array(
             'required',
