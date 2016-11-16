@@ -15,7 +15,7 @@ class PagesController extends Controller
     }
 
     public function about() {
-        $pageName = 'About the Event';
+        $pageName = 'About Us';
         return view('pages/about', compact('pageName'));
     }
     

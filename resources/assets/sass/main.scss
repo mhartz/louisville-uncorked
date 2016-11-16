@@ -867,6 +867,42 @@ label.error,
 
 
 /**
+* About Us
+*/
+.detailed-portrait {
+  width: 100%;
+  text-align: center;
+
+  @include bp(phone) {
+    width: 48%;
+    float: left;
+  }
+
+  @include bp(tablet) {
+    width: 25%;
+  }
+
+  @include bp(desk-l) {
+    width: 20%;
+  }
+
+  img {
+    width: rem(175);
+    border-radius: 50%;
+  }
+
+}
+
+.committee-container {
+  p {
+    font-size: rem(14);
+    font-family: $title-stack;
+    line-height: rem(20);
+  }
+}
+
+
+/**
 *  Footer
 */
 footer {

@@ -62,7 +62,6 @@ Route::get('photos/2015-winter-event', 'PagesController@photosPastOld1');
 
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Admin Routes

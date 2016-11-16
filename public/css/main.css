@@ -1973,6 +1973,31 @@ label.error,
   margin: 0 auto; }
 
 /**
+* About Us
+*/
+.detailed-portrait {
+  width: 100%;
+  text-align: center; }
+  @media only screen and (min-width: 30em) {
+    .detailed-portrait {
+      width: 48%;
+      float: left; } }
+  @media only screen and (min-width: 47.5em) {
+    .detailed-portrait {
+      width: 25%; } }
+  @media only screen and (min-width: 67.5em) {
+    .detailed-portrait {
+      width: 20%; } }
+  .detailed-portrait img {
+    width: 10.9375rem;
+    border-radius: 50%; }
+
+.committee-container p {
+  font-size: 0.875rem;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  line-height: 1.25rem; }
+
+/**
 *  Footer
 */
 footer {
