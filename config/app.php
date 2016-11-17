@@ -155,6 +155,7 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Uncorked\Newsletters\NewsletterListServiceProvider::class,
         Uncorked\Notifications\NotificationsServiceProvider::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
 
         /*
          * Application Service Providers...

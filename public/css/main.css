@@ -1997,6 +1997,9 @@ label.error,
   font-family: "Lato", Helvetica, Arial, sans-serif;
   line-height: 1.25rem; }
 
+.committee-container img {
+  width: 100%; }
+
 /**
 *  Footer
 */

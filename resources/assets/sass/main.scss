@@ -894,10 +894,15 @@ label.error,
 }
 
 .committee-container {
+
   p {
     font-size: rem(14);
     font-family: $title-stack;
     line-height: rem(20);
+  }
+
+  img {
+    width: 100%;
   }
 }
 

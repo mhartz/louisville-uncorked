@@ -56,8 +56,11 @@ Route::get('photos/2015-fall-meeting', 'PagesController@photosOld');
 Route::get('photos/2015-winter-event', 'PagesController@photosPastOld1');
 
 
-
-
+/**
+ * Logs
+ * -- Check the logs
+ */
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 
 
 
