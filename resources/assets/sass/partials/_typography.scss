@@ -336,12 +336,41 @@ li {
   }
 }
 
+.lato {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.merriweather {
+  font-family: "Merriweather", Helvetica, Arial, sans-serif;
+}
+
 .dotted-underline {
   border-bottom: 1px dotted $primary;
 }
 
 .uppercase {
   text-transform: uppercase;
+}
+
+
+.font-size-default {
+  font-size: rem(16);
+}
+
+.font-size-large {
+  font-size: rem(18);
+}
+
+.font-size-larger {
+  font-size: rem(20);
+}
+
+.font-size-largest {
+  font-size: rem(22);
+}
+
+.font-size-double {
+  font-size: rem(32);
 }
 
 .icon-user-tie:before {

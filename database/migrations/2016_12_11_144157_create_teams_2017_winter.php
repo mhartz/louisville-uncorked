@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTeamsTable extends Migration
+class CreateTeams2017Winter extends Migration
 {
     /**
      * Run the migrations.
@@ -17,15 +17,13 @@ class CreateTeamsTable extends Migration
          * --Maybe needs to be by party instead of a single RSVP connected to
          * --another table via relational tables. (maybe ask Bekah or another "business" persons)
          */
-        Schema::create('teams', function (Blueprint $table) {
+        Schema::create('teams_2017_winter', function (Blueprint $table) {
             $table->increments('id')->unique(); //PK
             $table->integer('event_id'); //FK
             $table->string('team_name')->unique();
             $table->string('registrant_first_name');
             $table->string('registrant_last_name');
             $table->string('registrant_email')->unique();
-            // $table->string('Registrant_Password');   FOR PASSWORD
-            // $table->rememberToken();                 FOR PASSWORD
             $table->timestamps();
         });
     }
@@ -37,6 +35,6 @@ class CreateTeamsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('teams');
+        Schema::drop('teams_2017_winter');
     }
 }

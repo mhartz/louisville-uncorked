@@ -335,11 +335,32 @@ li {
     li {
       font-size: 1rem; } }
 
+.lato {
+  font-family: "Lato", Helvetica, Arial, sans-serif; }
+
+.merriweather {
+  font-family: "Merriweather", Helvetica, Arial, sans-serif; }
+
 .dotted-underline {
   border-bottom: 1px dotted #f44336; }
 
 .uppercase {
   text-transform: uppercase; }
+
+.font-size-default {
+  font-size: 1rem; }
+
+.font-size-large {
+  font-size: 1.125rem; }
+
+.font-size-larger {
+  font-size: 1.25rem; }
+
+.font-size-largest {
+  font-size: 1.375rem; }
+
+.font-size-double {
+  font-size: 2rem; }
 
 .icon-user-tie:before {
   content: "\e603"; }
@@ -1622,10 +1643,10 @@ header {
   @media only screen and (min-width: 56.25em) {
     .charity-left img {
       margin-top: 20%;
-      max-width: none; } }
+      max-width: 21.25rem; } }
   @media only screen and (min-width: 67.5em) {
     .charity-left img {
-      margin-top: 2.5rem; } }
+      margin-top: 10%; } }
   @media only screen and (min-width: 80em) {
     .charity-left img {
       margin-top: 2.1875rem; } }

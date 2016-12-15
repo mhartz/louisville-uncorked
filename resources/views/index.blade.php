@@ -1,30 +1,39 @@
 @extends('layout')
 
 @section('banner')
-  <div class="banner mailing-list-active">
-    <div class="wrapper mb-20">
+
+  @if(env('EVENT_ACTIVE') === true)
+    <div class="banner">
+        <section class="wrapper">
+            <h1 class="banner-heading mb-10">Winter 2017 Tasting</h1>
+            <h2 class="main-heading secondary">January 23, 2017</h2>
+            <h2 class="main-heading secondary">7:00pm - 10:00pm</h2>
+            <h2 class="main-heading secondary mb-10">The Gillespie</h2>
+            <p class="lato font-size-large">Registration will open soon! Please check back closer to the event to register your team.</p>
+            @if(env("EVENT_REGISTRATION_OPEN") === true)
+              <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
+            @endif
+        </section>
+    </div>
+
+    <div class="sign-up-bar grey-bg p-20">
+        <div class="small-wrapper">
+            <p class="left medium-heading"><i class="fa fa-envelope-o" aria-hidden="true"></i>Signup to our <a class="dotted-underline" href="/mailing-list">Mailing List</a> to receive updates on our upcoming events</p>
+            <button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>
+        </div>
+    </div>
+
+  @else
+    <div class="banner mailing-list-active">
+      <div class="wrapper mb-20">
         <h1 class="banner-heading mb-10">Signup to Our Mailing List</h1>
         <h2 class="main-heading secondary">To receive updates on our upcoming events!</h2>
         <button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>
+      </div>
+
     </div>
+  @endif
 
-  </div>
-  {{--<div class="banner">--}}
-      {{--<section class="wrapper">--}}
-          {{--<h1 class="banner-heading mb-10">Summer 2016 Tasting</h1>--}}
-          {{--<h2 class="main-heading secondary">June 16, 2016</h2>--}}
-          {{--<h2 class="main-heading secondary">7:00pm - 10:00pm</h2>--}}
-          {{--<h2 class="main-heading secondary mb-10">Muhammad Ali Center</h2>--}}
-      {{--</section>--}}
-  {{--</div>--}}
-
-
-  {{--<div class="sign-up-bar grey-bg p-20">--}}
-      {{--<div class="small-wrapper">--}}
-          {{--<p class="left medium-heading"><i class="fa fa-envelope-o" aria-hidden="true"></i>Signup to our <a class="dotted-underline" href="/mailing-list">Mailing List</a> to receive updates on our upcoming events</p>--}}
-          {{--<button id="mail-signup-trigger" class="button">Sign Up <span class="icon-circle-right"></span></button>--}}
-      {{--</div>--}}
-  {{--</div>--}}
 @stop
 
 @section('content')
@@ -38,19 +47,19 @@
     <a class="centered-width" href="/faq">Have any questions?</a>
   </section>
   
-  {{--<div class="upcoming-event row wrapper">--}}
-    {{--<section class="upcoming-event-details col-11">--}}
-      {{--<h2 class="main-heading mb-30">Upcoming Event</h2>--}}
-      {{--<p><span class="icon-calendar2"></span><i>Date: </i>June 16, 2016</p>--}}
-      {{--<p><span class="icon-clock2"></span><i>Time: </i>7:00pm - 10:00pm</p>--}}
-      {{--<p><span class="icon-location"></span><i>Location: </i>Muhammad Ali Center, 144 N 6th St, Louisville, KY 40202</p>--}}
-      {{--<p><span class="icon-glass"></span><i>Tasting Variety: </i>Pinot Noir</p>--}}
-      {{--<p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>--}}
-      {{--<p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>--}}
-    {{--</section>--}}
+  <div class="upcoming-event row wrapper">
+    <section class="upcoming-event-details col-11">
+      <h2 class="main-heading mb-30">Upcoming Event</h2>
+      <p><span class="icon-calendar2"></span><i>Date: </i>January 23, 2017</p>
+      <p><span class="icon-clock2"></span><i>Time: </i>7:00pm - 10:00pm</p>
+      <p><span class="icon-location"></span><i>Location: </i>The Gillespie, 421 W Market St, Louisville, KY 40202</p>
+      <p><span class="icon-glass"></span><i>Tasting Variety: </i>California Reds</p>
+      <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>
+      <p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>
+    </section>
 
-    {{--<iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12531.663498360223!2d-85.7599341!3d38.2582571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1b30c2d7430ca77!2sMuhammad+Ali+Center!5e0!3m2!1sen!2sus!4v1463519395283" frameborder="0" style="border:0" allowfullscreen></iframe>--}}
-  {{--</div>--}}
+    <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12532.097278423827!2d-85.75767!3d38.255742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9556d13d9c648112!2sThe+Gillespie!5e0!3m2!1sen!2sus!4v1481427256647" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
 </div>
 
 <div class="row dark-bg">
@@ -58,13 +67,13 @@
     <h1 class="large-heading center">Featured Charity</h1>
     
     <div class="charity-left">
-      <a href="//spinabifidakentucky.org"><img src="{{ URL::asset('images/Events/2016-summer/sbaklogowhite3.png') }}" alt="Spina Bifida Association of Kentucky"></a>
+      <a href="//www.craftlouisville.com/" target="_blank"><img src="{{ URL::asset('images/photos/2017-winter-event/craft-cure-cf.png') }}" alt="Cure CF"></a>
     </div>
     
     <div class="charity-right">
-      <h2 class="main-heading"><a href="//spinabifidakentucky.org">Spina Bifida Association of Kentucky</a></h2>
-      <h3 class="small-heading secondary-ondark-light">To promote the prevention of Spina Bifida and to enhance the lives of all affected.</h3>
-      <p>SBAK is the resource center which provides free services and programs to children and adults with Spina Bifida and their families.</p>
+      <h2 class="main-heading"><a href="//www.craftlouisville.com/" target="_blank">Cure CF, Inc.</a></h2>
+      <h3 class="small-heading secondary-ondark-light">Together, we'll change the definition CF from that of a life-shortening, family-destroying, tomorrow-stealing disease into an acronym for CURE FOUND!</h3>
+      <p>Cystic fibrosis (CF) is a life-shortening genetic disease that primarily affects the lungs and digestive system. An estimated 30,000 children and adults in the United States (70,000 worldwide) have CF. Although cystic fibrosis requires daily care, people with the condition are able to attend school and work, and have a better quality of life than in previous decades. With the help of the Cystic Fibrosis Foundation, and donors like you, people with CF are able now live into their 20s and 30s, and some are living into their 40s and 50s.</p>
       </div>
     </section>
 </div>
@@ -139,12 +148,15 @@
   </section>
 </div>
 
-{{--<div class="row bottom-register">--}}
-  {{--<div class="tiny-wrapper">--}}
-    {{--<h2 class="main-heading">Register your team and join us!</h2>--}}
-    {{--<a class="white-outline-button" href="/registration">Register Here</a>--}}
-  {{--</div>--}}
-{{--</div>--}}
+@if(env('EVENT_REGISTRATION_OPEN') === true)
+  <div class="row bottom-register">
+    <div class="tiny-wrapper">
+      <h2 class="main-heading">Register your team and join us!</h2>
+      <a class="white-outline-button" href="/registration">Register Here</a>
+    </div>
+  </div>
+@endif
+
 <div class="sign-up-bar grey-bg p-20">
   <div class="small-wrapper p-20">
     <p class="left medium-heading"><i class="fa fa-envelope-o" aria-hidden="true"></i>Signup to our <a class="dotted-underline" href="/mailing-list">Mailing List</a> to receive updates on our upcoming events</p>

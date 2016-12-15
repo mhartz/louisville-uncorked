@@ -406,13 +406,13 @@ header {
     
     @include bp(desk) {
       margin-top: 20%;
-      max-width: none; 
+      max-width: rem(340);
     }
-    
+
     @include bp(desk-l) {
-      margin-top: rem(40);
+      margin-top: 10%;
     }
-    
+
     @include bp(full) {
       margin-top: rem(35);
     }
