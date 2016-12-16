@@ -6,7 +6,7 @@
     <div class="banner">
         <section class="wrapper">
             <h1 class="banner-heading mb-10">Winter 2017 Tasting</h1>
-            <h2 class="main-heading secondary">January 23, 2017</h2>
+            <h2 class="main-heading secondary">February 23, 2017</h2>
             <h2 class="main-heading secondary">7:00pm - 10:00pm</h2>
             <h2 class="main-heading secondary mb-10">The Gillespie</h2>
             <p class="lato font-size-large">Registration will open soon! Please check back closer to the event to register your team.</p>
@@ -50,7 +50,7 @@
   <div class="upcoming-event row wrapper">
     <section class="upcoming-event-details col-11">
       <h2 class="main-heading mb-30">Upcoming Event</h2>
-      <p><span class="icon-calendar2"></span><i>Date: </i>January 23, 2017</p>
+      <p><span class="icon-calendar2"></span><i>Date: </i>February 23, 2017</p>
       <p><span class="icon-clock2"></span><i>Time: </i>7:00pm - 10:00pm</p>
       <p><span class="icon-location"></span><i>Location: </i>The Gillespie, 421 W Market St, Louisville, KY 40202</p>
       <p><span class="icon-glass"></span><i>Tasting Variety: </i>California Reds</p>
