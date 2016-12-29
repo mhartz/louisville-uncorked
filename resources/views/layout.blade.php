@@ -28,7 +28,7 @@
           <li><a class="photos-navlink" href="/photos/2016-summer-event">Photos</a></li>
           <li><a class="mailing-list-navlink" href="/mailing-list">Mailing List</a></li>
           <li><a class="faq-navlink" href="/faq">FAQ</a></li>
-          {{--<li><a class="about-us-navlink" href="/about">About Us</a></li>--}}
+          <li><a class="about-us-navlink" href="/about">About Us</a></li>
           <li><a class="contact-us-navlink" href="/contact">Contact Us</a></li>
         </ul>
       </nav>
