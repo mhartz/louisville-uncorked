@@ -61,6 +61,21 @@ Route::get('photos/2015-fall-event', 'PagesController@photosOld');
 Route::get('photos/2015-fall-meeting', 'PagesController@photosOld1');
 Route::get('photos/2015-winter-event', 'PagesController@photosPastOld2');
 
+/**
+ * Images
+ * -- Different pages for the photos
+ */
+//Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
+//Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
+//Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
+
+/**
+ * Newsletter
+ * -- Send a newsletter to the entire newsletter group
+ */
+//Route::get('admin/newsletter', ['as' => 'newsletter', 'uses' => 'MailingListController@createAdminNewsletter']);
+//Route::post('admin/newsletter', ['as' => 'newsletter-notify', 'uses' =>'MailingListController@notify']);
+
 
 /**
  * Admin logon
@@ -98,18 +113,19 @@ Route::get('photos/2015-winter-event', 'PagesController@photosPastOld2');
 | All the routes related to the admin are containted here
 |
 */
+// Authentication Routes...
+$this->get('login', 'Auth\AuthController@showLoginForm');
+$this->post('login', 'Auth\AuthController@login');
+$this->get('logout', 'Auth\AuthController@logout');
 
-/**
- * Images
- * -- Different pages for the photos
- */
-//Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
-//Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
-//Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
+// Registration Routes...
+//$this->get('register', 'Auth\AuthController@showRegistrationForm');
+//$this->post('register', 'Auth\AuthController@register');
 
-/**
- * Newsletter
- * -- Send a newsletter to the entire newsletter group
- */
-//Route::get('admin/newsletter', ['as' => 'newsletter', 'uses' => 'MailingListController@createAdminNewsletter']);
-//Route::post('admin/newsletter', ['as' => 'newsletter-notify', 'uses' =>'MailingListController@notify']);
+// Password Reset Routes...
+$this->get('password/reset/{token?}', 'Auth\PasswordController@showResetForm');
+$this->post('password/email', 'Auth\PasswordController@sendResetLinkEmail');
+$this->post('password/reset', 'Auth\PasswordController@reset');
+
+// Post login routes...
+Route::get('/home', 'HomeController@index');
