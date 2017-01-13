@@ -67,7 +67,7 @@
     <h1 class="large-heading center">Featured Charity</h1>
     
     <div class="charity-left">
-      <a href="//www.craftlouisville.com/" target="_blank"><img src="{{ URL::asset('images/photos/2017-winter-event/craft-cure-cf.png') }}" alt="Cure CF"></a>
+      <a href="//www.craftlouisville.com/" target="_blank"><img src="{{ URL::asset('images/photos/2017-winter-event/LouisvilleCFResized.png') }}" alt="Cure CF"></a>
     </div>
     
     <div class="charity-right">
