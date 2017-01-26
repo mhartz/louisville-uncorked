@@ -22,7 +22,7 @@
       
       <nav id="main-nav" class="main-navigation" role="navigation">
         <ul>
-          @if(env('EVENT_REGISTRATION_OPEN') === true)
+          @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
             <li><a class="team-registration-navlink" href="/registration">Registration</a></li>
           @endif
           <li><a class="photos-navlink" href="/photos/2016-summer-event">Photos</a></li>

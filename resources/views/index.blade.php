@@ -2,14 +2,14 @@
 
 @section('banner')
 
-    @if(env('EVENT_ACTIVE') === true)
+    @if(Config::get('constants.EVENT_ACTIVE') === true)
         <div class="banner">
             <section class="wrapper">
                 <h1 class="banner-heading mb-10">Winter 2017 Tasting</h1>
                 <h2 class="main-heading secondary">February 23, 2017</h2>
                 <h2 class="main-heading secondary">6:00pm - 9:00pm</h2>
                 <h2 class="main-heading secondary mb-10">The Gillespie</h2>
-                @if(env("EVENT_REGISTRATION_OPEN") === true)
+                @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
                     <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
                 @else
                     <p class="lato font-size-large">Registration will open soon! Please check back closer to the event to register your team.</p>
@@ -150,7 +150,7 @@
         </section>
     </div>
 
-    @if(env('EVENT_REGISTRATION_OPEN') === true)
+    @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
         <div class="row bottom-register">
             <div class="tiny-wrapper">
                 <h2 class="main-heading">Register your team and join us!</h2>

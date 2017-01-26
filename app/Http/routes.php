@@ -23,7 +23,7 @@ Route::get('faq', 'PagesController@faq');
  * -- Form with 3 Fields for Team Registration Table
  * -- Extra form with 2 fields for adding team members
  */
-if(env('EVENT_REGISTRATION_OPEN') === true) {
+if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true) {
     Route::get('registration', ['as' => 'registration', 'uses' => 'TeamsController@create']);
     Route::post('registration', 'TeamsController@store');
     Route::get('registration-successful', 'TeamsController@success');
