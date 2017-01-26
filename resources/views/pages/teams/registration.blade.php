@@ -29,7 +29,7 @@
     @endif
   <form id="team-registration-form" method="POST" action="/registration" novalidate>
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
-    <input type="hidden" id="event_id" name="event_id" value="1">
+    <input type="hidden" id="event_id" name="event_id" value="2">
     <div class="team-form-section card-1">
       <div class="form-group">
         <label for="team_name">Team Name</label>
