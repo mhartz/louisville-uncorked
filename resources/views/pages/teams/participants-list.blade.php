@@ -13,12 +13,12 @@
     </tr>
     
     @foreach ($participants as $participant)
-      @if ($participant->active === 1)
+      @if ($participant->active == 1)
         <tr>
             <td>{{ $participant->id }}</td>
           <td>{{ $participant->last_name }}, {{ $participant->first_name }}</td>
           @foreach ($teams as $team)
-            @if ($participant->team_id === $team->id)
+            @if ($participant->team_id == $team->id)
               <td>{{ $team->team_name }}</td>
             @endif
           @endforeach
