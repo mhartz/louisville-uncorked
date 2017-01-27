@@ -358,6 +358,24 @@ label {
 }
 
 /**
+*  Tables
+*/
+.data-table {
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+
+  td {
+    border: 1px solid #333;
+    padding: 2%;
+  }
+}
+
+
+/**
 *  Grid Layout
 *  Column-Total: 28
 *  Max-Width: 1280px

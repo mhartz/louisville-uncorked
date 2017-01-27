@@ -30,7 +30,7 @@ if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true) {
 }
 Route::get('teams-list', 'TeamsController@teamsList');
 Route::get('participants-list', 'ParticipantsController@show');
-Route::get('team/edit/{id}', 'TeamsController@show');
+//Route::get('team/edit/{id}', 'TeamsController@show');
 
 /**
  * Contact Us
@@ -62,20 +62,20 @@ Route::get('photos/2015-winter-event', 'PagesController@photosPastOld1');
  * Admin logon
  * -- Stuff for admin to log on and check
  */
-Route::get('admin', function () {
-    return redirect('/admin/post');
-});
-$router->group([
-    'namespace' => 'Admin',
-    'middleware' => 'auth',
-], function () {
-    Route::get('admin/logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
-});
+//Route::get('admin', function () {
+//    return redirect('/admin/post');
+//});
+//$router->group([
+//    'namespace' => 'Admin',
+//    'middleware' => 'auth',
+//], function () {
+//    Route::get('admin/logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+//});
 
 // Logging in and out
-Route::get('/auth/login', 'Auth\AuthController@getLogin');
-Route::post('/auth/login', 'Auth\AuthController@postLogin');
-Route::get('/auth/logout', 'Auth\AuthController@getLogout');
+//Route::get('/auth/login', 'Auth\AuthController@getLogin');
+//Route::post('/auth/login', 'Auth\AuthController@postLogin');
+//Route::get('/auth/logout', 'Auth\AuthController@getLogout');
 
 /**
  * Logs
