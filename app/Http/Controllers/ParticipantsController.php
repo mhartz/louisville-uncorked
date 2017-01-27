@@ -23,7 +23,7 @@ class ParticipantsController extends Controller
     
     public function show()
     {
-        $participants = Participants::orderBy('last_name', 'asc')->get();
+        $participants = Participants::orderBy('id', 'asc')->get();
         $teams = Teams::all();
         
         $pageName = 'Participants List';
