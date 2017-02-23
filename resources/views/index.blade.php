@@ -12,7 +12,7 @@
                 @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
                     <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
                 @else
-                    <p class="lato font-size-large">Registration will open soon! Please check back closer to the event to register your team.</p>
+                    <p class="lato font-size-large">Registration is now closed for the current event. Come back later for details on future events!</p>
                 @endif
 
             </section>
