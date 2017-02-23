@@ -32,6 +32,9 @@ if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true) {
 //Route::get('team/edit/{id}', 'TeamsController@show');
 }
 
+Route::get('teams-list', 'TeamsController@teamsList');
+Route::get('participants-list', 'ParticipantsController@show');
+
 /**
  * Contact Us
  * -- Form with 4 Fields for users to send an email
