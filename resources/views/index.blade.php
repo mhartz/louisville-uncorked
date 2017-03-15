@@ -49,19 +49,21 @@
             <a class="centered-width" href="/faq">Have any questions?</a>
         </section>
 
-        <div class="upcoming-event row wrapper">
-            <section class="upcoming-event-details col-11">
-                <h2 class="main-heading mb-30">Upcoming Event</h2>
-                <p><span class="icon-calendar2"></span><i>Date: </i>February 23, 2017</p>
-                <p><span class="icon-clock2"></span><i>Time: </i>6:00pm - 9:00pm</p>
-                <p><span class="icon-location"></span><i>Location: </i>The Gillespie, 421 W Market St, Louisville, KY 40202</p>
-                <p><span class="icon-glass"></span><i>Tasting Variety: </i>California Reds</p>
-                <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>
-                <p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>
-            </section>
+        @if(Config::get('constants.EVENT_ACTIVE') === true)
+            <div class="upcoming-event row wrapper">
+                <section class="upcoming-event-details col-11">
+                    <h2 class="main-heading mb-30">Upcoming Event</h2>
+                    <p><span class="icon-calendar2"></span><i>Date: </i>February 23, 2017</p>
+                    <p><span class="icon-clock2"></span><i>Time: </i>6:00pm - 9:00pm</p>
+                    <p><span class="icon-location"></span><i>Location: </i>The Gillespie, 421 W Market St, Louisville, KY 40202</p>
+                    <p><span class="icon-glass"></span><i>Tasting Variety: </i>California Reds</p>
+                    <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>
+                    <p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>
+                </section>
 
-            <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12532.097278423827!2d-85.75767!3d38.255742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9556d13d9c648112!2sThe+Gillespie!5e0!3m2!1sen!2sus!4v1481427256647" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+                <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12532.097278423827!2d-85.75767!3d38.255742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9556d13d9c648112!2sThe+Gillespie!5e0!3m2!1sen!2sus!4v1481427256647" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        @endif
     </div>
 
     <div class="row dark-bg">
@@ -84,47 +86,47 @@
         <section class="wrapper">
             <h1 class="large-heading center">Our Last Event</h1>
             <div class="col-10 right">
-                <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-42.jpg') }}" alt="Uncorked Summer 2016 Crowd">
+                <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_097.jpg') }}" alt="Uncorked Winter 2017 Crowd">
             </div>
             <div class="col-13 left">
-                <h2 class="main-heading">Summer 2016 Tasting at The Muhammad Ali Center</h2>
-                <h3 class="small-heading text-light">Benefitting Spina Bifida Association of Kentucky</h3>
-                <p>Louisville Uncorked held the Summer event on June 16, 2016 which benefitted Spina Bifida Association of Kentucky and raised over $6,500 and significant community awareness. There were more than 400 participants split between 200 teams tasting some of the best Pinot Noirs.</p>
+                <h2 class="main-heading">Winter 2017 Tasting at The Gillespie</h2>
+                <h3 class="small-heading text-light">Benefitting CureCF</h3>
+                <p>Louisville Uncorked held the Winter event on February 23, 2017 which benefitted Spina Bifida CureCF and raised over $XXXX and significant community awareness. There were more than 475 participants split between nearly 200 teams tasting some of the best California Reds.</p>
             </div>
         </section>
     </div>
 
     <div class="row grey-bg center">
         <section class="wrapper">
-            <h1 class="large-heading">The Winners of Summer 2016 Tasting</h1>
+            <h1 class="large-heading">The Winners of Winter 2017 Tasting</h1>
             <div class="place-card col-7">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/gold-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/gold-winner.jpg') }}" alt="">
                     <span class="icon-trophy gold"></span>
                 </div>
                 <h2 class="main-heading">1<span>st</span></h2>
-                <p>Casavecchia Pinot Noir</p>
-                <p>Brought by Lauren Beck</p>
+                <p>Terrain</p>
+                <p>Brought by Luke and Allison Pitman</p>
             </div>
 
             <div class="place-card col-7">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/silver-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/silver-winner.jpg') }}" alt="">
                     <span class="icon-trophy silver"></span>
                 </div>
                 <h2 class="main-heading">2<span>nd</span></h2>
-                <p>Barefoot Pinot Noir</p>
-                <p>Brought by Tara Shelton</p>
+                <p>Macchia</p>
+                <p>Brought by Courtney Herzog, Scott & Deborah Hoeptner</p>
             </div>
 
             <div class="place-card col-7">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2016-summer-event/bronze-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/bronze-winner.jpg') }}" alt="">
                     <span class="icon-trophy bronze"></span>
                 </div>
                 <h2 class="main-heading">3<span>rd</span></h2>
-                <p>Smoking Loon Pinot Noir</p>
-                <p>Brought by Brian Armstrong</p>
+                <p>Storyteller</p>
+                <p>Brought by Christie Bowman, Nancy LaRocca, Charlotte Rogers</p>
             </div>
         </section>
     </div>
@@ -134,19 +136,19 @@
             <h1 class="large-heading center mb-0">Photo Gallery</h1>
             <p class="center">Check out our pics from the latest event!</p>
             <ul class="photo-gallery-list">
-                <li class="col-16"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-19.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-19.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 19"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-20.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-20.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 20"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-30.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-30.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 30"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-40.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-40.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 40"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-50.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-50.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 50"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-60.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-60.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 60"></a></li>
-                <li class="col-16"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-70.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-70.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali CenterImage 70"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-80.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-80.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 80"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-90.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-90.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 90"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-100.jpg') }}" data-lightbox="image-1" data-title="Summer 2016 Tasting at The Muhammad Ali Center"><img src="{{ URL::asset('images/photos/2016-summer-event/Louisiville-Uncorked-100.jpg') }}" alt="Summer 2016 Tasting at The Muhammad Ali Center Image 100"></a></li>
+                <li class="col-16"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_019.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_019.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 19"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_020.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_020.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 20"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_030.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_030.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 30"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_040.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_040.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 40"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_050.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_050.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 50"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_060.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_060.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 60"></a></li>
+                <li class="col-16"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_070.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_070.jpg') }}" alt="Winter 2017 Tasting at the GillespieImage 70"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_080.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_080.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 80"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_090.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_090.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 90"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_100.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_100.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 100"></a></li>
             </ul>
 
-            <a class="button mt-20" href="/photos/2016-summer-event">See more photos<span class="icon-circle-right"></span></a>
+            <a class="button mt-20" href="/photos/2017-winter-event">See more photos<span class="icon-circle-right"></span></a>
         </section>
     </div>
 
