@@ -162,7 +162,7 @@ header {
     background-size: cover;
     
     @include bp(tablet) {
-      height: rem(550);
+      min-height: rem(450);
       padding-top: rem(160);
       margin-top: -106px;
     }
@@ -443,9 +443,14 @@ header {
 
 .place-card {
   @include card(1);
-  display: inline-block;
-  float: none;
+  margin-bottom: rem(30);
   padding-bottom: rem(30);
+
+  @include bp(tablet) {
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+  }
   
   .icon-trophy {
     @include card(2, lighten($darkBG, 16%));
@@ -466,6 +471,12 @@ header {
     
     &.gold {
       color: $secondary;
+    }
+  }
+
+  .winner-inner {
+    @include bp(tablet) {
+      min-height: rem(200);
     }
   }
   

@@ -1481,7 +1481,7 @@ header {
   background-size: cover; }
   @media only screen and (min-width: 47.5em) {
     #home .banner {
-      height: 34.375rem;
+      min-height: 28.125rem;
       padding-top: 10rem;
       margin-top: -106px; } }
   @media only screen and (min-width: 67.5em) {
@@ -1682,9 +1682,13 @@ header {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   background: #fff;
   border-radius: 2px;
-  display: inline-block;
-  float: none;
+  margin-bottom: 1.875rem;
   padding-bottom: 1.875rem; }
+  @media only screen and (min-width: 47.5em) {
+    .place-card {
+      width: 30%;
+      margin-left: 3%;
+      float: left; } }
   .place-card .icon-trophy {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     background: #364659;
@@ -1701,6 +1705,9 @@ header {
       color: #eee; }
     .place-card .icon-trophy.gold {
       color: #E2C15D; }
+  @media only screen and (min-width: 47.5em) {
+    .place-card .winner-inner {
+      min-height: 12.5rem; } }
   .place-card .full-image {
     margin-bottom: 1.875rem; }
   .place-card p {

@@ -99,34 +99,40 @@
     <div class="row grey-bg center">
         <section class="wrapper">
             <h1 class="large-heading">The Winners of Winter 2017 Tasting</h1>
-            <div class="place-card col-7">
+            <div class="place-card">
                 <div class="image-trophy-container">
                     <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/gold-winner.jpg') }}" alt="">
                     <span class="icon-trophy gold"></span>
                 </div>
-                <h2 class="main-heading">1<span>st</span></h2>
-                <p>Terrain</p>
-                <p>Brought by Luke and Allison Pitman</p>
+                <div class="winner-inner">
+                    <h2 class="main-heading">1<span>st</span></h2>
+                    <p>Terrain</p>
+                    <p>Brought by Luke and Allison Pitman</p>
+                </div>
             </div>
 
-            <div class="place-card col-7">
+            <div class="place-card">
                 <div class="image-trophy-container">
                     <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/silver-winner.jpg') }}" alt="">
                     <span class="icon-trophy silver"></span>
                 </div>
-                <h2 class="main-heading">2<span>nd</span></h2>
-                <p>Macchia</p>
-                <p>Brought by Courtney Herzog, Scott & Deborah Hoeptner</p>
+                <div class="winner-inner">
+                    <h2 class="main-heading">2<span>nd</span></h2>
+                    <p>Macchia</p>
+                    <p>Brought by Courtney Herzog, Scott & Deborah Hoeptner</p>
+                </div>
             </div>
 
-            <div class="place-card col-7">
+            <div class="place-card">
                 <div class="image-trophy-container">
                     <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/bronze-winner.jpg') }}" alt="">
                     <span class="icon-trophy bronze"></span>
                 </div>
-                <h2 class="main-heading">3<span>rd</span></h2>
-                <p>Storyteller</p>
-                <p>Brought by Christie Bowman, Nancy LaRocca, Charlotte Rogers</p>
+                <div class="winner-inner">
+                    <h2 class="main-heading">3<span>rd</span></h2>
+                    <p>Storyteller</p>
+                    <p>Brought by Christie Bowman, Nancy LaRocca, Charlotte Rogers</p>
+                </div>
             </div>
         </section>
     </div>
