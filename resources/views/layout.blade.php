@@ -27,7 +27,7 @@
           @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
             <li><a class="team-registration-navlink" href="/registration">Registration</a></li>
           @endif
-          <li><a class="photos-navlink" href="/photos/2016-summer-event">Photos</a></li>
+          <li><a class="photos-navlink" href="/photos/2017-winter-event">Photos</a></li>
           <li><a class="mailing-list-navlink" href="/mailing-list">Mailing List</a></li>
           <li><a class="faq-navlink" href="/faq">FAQ</a></li>
           {{--<li><a class="about-us-navlink" href="/about">About Us</a></li>--}}
