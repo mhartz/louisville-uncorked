@@ -61,6 +61,9 @@ Route::get('photos/2015-fall-event', 'PagesController@photosOld');
 Route::get('photos/2015-fall-meeting', 'PagesController@photosOld1');
 Route::get('photos/2015-winter-event', 'PagesController@photosPastOld2');
 
+// Temp
+Route::get('photos/test-images', 'ImageController@getImages');
+
 
 /**
  * Admin logon
