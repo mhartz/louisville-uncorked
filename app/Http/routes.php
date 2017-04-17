@@ -114,13 +114,17 @@ Route::get('photos/2015-winter-event', 'PagesController@photosPastOld2');
 |
 */
 // Authentication Routes...
+$this->get('register', 'Auth\AuthController@showRegistrationForm');
+$this->post('register', 'Auth\AuthController@register');
 $this->get('login', 'Auth\AuthController@showLoginForm');
 $this->post('login', 'Auth\AuthController@login');
 $this->get('logout', 'Auth\AuthController@logout');
 
-// Registration Routes...
-//$this->get('register', 'Auth\AuthController@showRegistrationForm');
-//$this->post('register', 'Auth\AuthController@register');
+//Admin Stuff
+Route::group(['middleware' => 'App\Http\Middleware\AdminOnly'], function()
+{
+    Route::get('/admin', 'AdminController@index');
+});
 
 // Password Reset Routes...
 $this->get('password/reset/{token?}', 'Auth\PasswordController@showResetForm');

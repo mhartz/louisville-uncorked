@@ -32,4 +32,16 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    const PRIMARY_ADMIN_ID = 1;
+    const TYPE_NORMAL = 1;
+    const TYPE_ADMIN = 2;
+
+    public function getUser() {
+
+    }
+
+    public function getIsAdminAttribute() {
+        return $this->id == User::PRIMARY_ADMIN_ID || $this->type == User::TYPE_ADMIN;
+    }
 }
