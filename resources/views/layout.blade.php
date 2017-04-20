@@ -32,6 +32,10 @@
           <li><a class="faq-navlink" href="/faq">FAQ</a></li>
           {{--<li><a class="about-us-navlink" href="/about">About Us</a></li>--}}
           <li><a class="contact-us-navlink" href="/contact">Contact Us</a></li>
+          @if(Auth::user()->is_admin)
+              <li><a class="contact-us-navlink" href="/admin/editTeams">Admin</a></li>
+              <li><a class="contact-us-navlink" href="/logout">Logout</a></li>
+          @endif
         </ul>
       </nav>
     </div>
