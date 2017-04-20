@@ -121,15 +121,16 @@ $this->post('login', 'Auth\AuthController@login');
 $this->get('logout', 'Auth\AuthController@logout');
 
 //Admin Stuff
-Route::group(['middleware' => 'App\Http\Middleware\AdminOnly'], function()
-{
-    Route::get('/admin', 'AdminController@index');
-});
+    Route::group(['middleware' => 'App\Http\Middleware\Authenticate'], function()
+    {
+        Route::get('/admin', 'AdminController@index');
+        Route::get('/admin/editTeams', 'AdminController@show');
+    });
 
 // Password Reset Routes...
-$this->get('password/reset/{token?}', 'Auth\PasswordController@showResetForm');
-$this->post('password/email', 'Auth\PasswordController@sendResetLinkEmail');
-$this->post('password/reset', 'Auth\PasswordController@reset');
+    $this->get('password/reset/{token?}', 'Auth\PasswordController@showResetForm');
+    $this->post('password/email', 'Auth\PasswordController@sendResetLinkEmail');
+    $this->post('password/reset', 'Auth\PasswordController@reset');
 
 // Post login routes...
-Route::get('/home', 'HomeController@index');
+    Route::get('/home', 'HomeController@index');
