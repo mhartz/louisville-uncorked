@@ -9,6 +9,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Participants;
 use App\Teams;
@@ -17,7 +18,7 @@ use App\Teams;
 class EditTeamsController extends Controller
 {
     public function index() {
-        redirect()->route('pages/teams/particpants-list');
+        redirect()->route('pages/teams/participants-list');
     }
 
     public function show()
@@ -27,5 +28,21 @@ class EditTeamsController extends Controller
 
         $pageName = 'Participants List';
         return view('pages/teams/participants-list', compact('pageName', 'teams', 'participants'));
+    }
+
+    public function edit(Request $request)
+    {
+        $data = $request->all();
+
+        Participants::whereId($request->participantId)
+            ->update([
+                'first_name' => $data['firstName'],
+                'last_name' => $data['lastName'],
+            ]);
+
+        Teams::whereId($request->teamId)
+            ->update([
+                'team_name' => $data['teamName']
+            ]);
     }
 }

@@ -93,6 +93,12 @@ html {
   background: #e8edf3;
   margin-bottom: 1.25rem; }
 
+.edit-teams-table input:disabled {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none; }
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -586,12 +592,12 @@ label {
   display: inline-block; }
 
 @media only screen and (min-width: 47.5em) {
-  .left, #home .banner .home-mailing-list-module .form-group {
+  .left {
     float: left;
     margin-bottom: 0.625rem; } }
 
 @media only screen and (min-width: 47.5em) {
-  .left, #home .banner .home-mailing-list-module .form-group {
+  .left {
     margin-bottom: 0; } }
 
 @media only screen and (min-width: 47.5em) {
@@ -869,53 +875,30 @@ label {
       .col-24:first-of-type {
         margin-left: 0; } }
   @media only screen and (min-width: 47.5em) and (min-width: 47.5em) {
-    .col-1.left, #home .banner .home-mailing-list-module .col-1.form-group,
+    .col-1.left,
     .col-2.left,
-    #home .banner .home-mailing-list-module .col-2.form-group,
     .col-3.left,
-    #home .banner .home-mailing-list-module .col-3.form-group,
     .col-4.left,
-    #home .banner .home-mailing-list-module .col-4.form-group,
     .col-5.left,
-    #home .banner .home-mailing-list-module .col-5.form-group,
     .col-6.left,
-    #home .banner .home-mailing-list-module .col-6.form-group,
     .col-7.left,
-    #home .banner .home-mailing-list-module .col-7.form-group,
     .col-8.left,
-    #home .banner .home-mailing-list-module .col-8.form-group,
     .col-9.left,
-    #home .banner .home-mailing-list-module .col-9.form-group,
     .col-10.left,
-    #home .banner .home-mailing-list-module .col-10.form-group,
     .col-11.left,
-    #home .banner .home-mailing-list-module .col-11.form-group,
     .col-12.left,
-    #home .banner .home-mailing-list-module .col-12.form-group,
     .col-13.left,
-    #home .banner .home-mailing-list-module .col-13.form-group,
     .col-14.left,
-    #home .banner .home-mailing-list-module .col-14.form-group,
     .col-15.left,
-    #home .banner .home-mailing-list-module .col-15.form-group,
     .col-16.left,
-    #home .banner .home-mailing-list-module .col-16.form-group,
     .col-17.left,
-    #home .banner .home-mailing-list-module .col-17.form-group,
     .col-18.left,
-    #home .banner .home-mailing-list-module .col-18.form-group,
     .col-19.left,
-    #home .banner .home-mailing-list-module .col-19.form-group,
     .col-20.left,
-    #home .banner .home-mailing-list-module .col-20.form-group,
     .col-21.left,
-    #home .banner .home-mailing-list-module .col-21.form-group,
     .col-22.left,
-    #home .banner .home-mailing-list-module .col-22.form-group,
     .col-23.left,
-    #home .banner .home-mailing-list-module .col-23.form-group,
-    .col-24.left,
-    #home .banner .home-mailing-list-module .col-24.form-group {
+    .col-24.left {
       float: left; } }
   @media only screen and (min-width: 47.5em) and (min-width: 47.5em) {
     .col-1.right, #home .banner .home-mailing-list-module .col-1.button,
@@ -1530,6 +1513,7 @@ header {
     padding-bottom: 0; }
     @media only screen and (min-width: 47.5em) {
       #home .banner .home-mailing-list-module .form-group {
+        float: left;
         width: 49.6875%; } }
     @media only screen and (min-width: 47.5em) {
       #home .banner .home-mailing-list-module .form-group.right, #home .banner .home-mailing-list-module .form-group.button {
@@ -2052,15 +2036,15 @@ footer {
   footer p,
   footer li {
     font-size: 0.875rem; }
-  footer .left, footer #home .banner .home-mailing-list-module .form-group, #home .banner .home-mailing-list-module footer .form-group {
+  footer .left {
     margin-bottom: 1.25rem;
     padding-top: 2.6875rem; }
-    footer .left p, footer #home .banner .home-mailing-list-module .form-group p, #home .banner .home-mailing-list-module footer .form-group p {
+    footer .left p {
       margin-bottom: 0; }
   @media only screen and (min-width: 30em) {
     footer {
       text-align: left; }
-      footer .left, footer #home .banner .home-mailing-list-module .form-group, #home .banner .home-mailing-list-module footer .form-group {
+      footer .left {
         float: left;
         padding-top: 0;
         margin-bottom: 0; }

@@ -11,8 +11,6 @@ var elixir = require('laravel-elixir');
  |
  */
 var elixir = require('laravel-elixir');
- 
-require('laravel-elixir-livereload');
 
 elixir(function(mix) {
     mix.sass('main.scss');
@@ -20,5 +18,4 @@ elixir(function(mix) {
       'lib/jquery',
       'lib/modernizr'
     ]);
-    mix.livereload();
 });

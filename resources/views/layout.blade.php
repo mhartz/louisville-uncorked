@@ -70,10 +70,8 @@
       <script src="{{ URL::asset('js/lib/unveil.js') }}"></script>
       <script src="{{ URL::asset('js/lib/lightbox.js') }}"></script>
   @endif
-  @if ( Config::get('app.debug') )
-      <script type="text/javascript">
-          document.write('<script src="//localhost:35729/livereload.js?snipver=1" type="text/javascript"><\/script>')
-      </script>
+  @if(strtolower(preg_replace("/[\s_]/", "-", $pageName)) === 'participants-list')
+    <script src="{{ URL::asset('js/participants-list.js') }}"></script>
   @endif
 </body>
 </html>

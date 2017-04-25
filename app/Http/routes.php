@@ -62,47 +62,11 @@ Route::get('photos/2015-fall-meeting', 'PagesController@photosOld1');
 Route::get('photos/2015-winter-event', 'PagesController@photosPastOld2');
 
 /**
- * Images
- * -- Different pages for the photos
- */
-//Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
-//Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
-//Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
-
-/**
  * Newsletter
  * -- Send a newsletter to the entire newsletter group
  */
 //Route::get('admin/newsletter', ['as' => 'newsletter', 'uses' => 'MailingListController@createAdminNewsletter']);
 //Route::post('admin/newsletter', ['as' => 'newsletter-notify', 'uses' =>'MailingListController@notify']);
-
-
-/**
- * Admin logon
- * -- Stuff for admin to log on and check
- */
-//Route::get('admin', function () {
-//    return redirect('/admin/post');
-//});
-//$router->group([
-//    'namespace' => 'Admin',
-//    'middleware' => 'auth',
-//], function () {
-//    Route::get('admin/logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
-//});
-
-// Logging in and out
-//Route::get('/auth/login', 'Auth\AuthController@getLogin');
-//Route::post('/auth/login', 'Auth\AuthController@postLogin');
-//Route::get('/auth/logout', 'Auth\AuthController@getLogout');
-
-/**
- * Logs
- * -- Check the logs
- */
-//Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
-
-
 
 
 /*
@@ -125,6 +89,10 @@ $this->get('logout', 'Auth\AuthController@logout');
     {
         Route::get('admin', 'Auth\EditTeamsController@index');
         Route::get('admin/editTeams', 'Auth\EditTeamsController@show');
+        Route::post('admin/editTeams', 'Auth\EditTeamsController@edit');
+        Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
+        Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
+        Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
     });
 
 // Password Reset Routes...

@@ -239,7 +239,7 @@ header {
         padding-bottom: 0;
         
         @include bp(tablet) {
-          @extend .left;
+          float: left;
           width: 49.6875%;
         }
         
