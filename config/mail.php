@@ -60,7 +60,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'mshartz5@gmail.com', 'name' => 'Louisville Uncorked'],
+    'from' => ['address' => 'louisvilleuncorked@gmail.com', 'name' => 'Louisville Uncorked'],
 
     /*
     |--------------------------------------------------------------------------

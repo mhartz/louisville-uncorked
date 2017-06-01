@@ -168,7 +168,7 @@ class MailingListController extends Controller
             'list_id' => self::NEWSLETTER_ID,
             'subject' => $input['title'],
             'from_name' => 'Nikki Carver',
-            'from_email' => 'mshartz5@gmail.com',
+            'from_email' => 'louisvilleuncorked@gmail.com',
             'to_name' => 'Louisville Uncorked Subscriber'
         ];
 

@@ -35,8 +35,8 @@ class NewsletterController extends Controller
         else {
             $input = $request->all();
 
-            $fromEmail = 'mshartz5@gmail.com';
-            $toEmail = 'mshartz5@gmail.com';
+            $fromEmail = 'louisvilleuncorked@gmail.com';
+            $toEmail = 'louisvilleuncorked@gmail.com';
             $data = $request->only('name', 'email', 'reason');
             $data['messageLines'] = explode("\n", $request->get('message'));
 
@@ -46,7 +46,7 @@ class NewsletterController extends Controller
                 $message->subject($subject)
                     ->to($toEmail)
                     ->replyTo($data['email'])
-                    ->from('mshartz5@gmail.com', $data['name']);
+                    ->from('louisvilleuncorked@gmail.com', $data['name']);
             });
 
             if( count(Mail::failures()) > 0 ) {

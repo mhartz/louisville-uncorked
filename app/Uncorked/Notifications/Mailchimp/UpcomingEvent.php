@@ -37,7 +37,7 @@ class UpcomingEvent implements \Uncorked\Notifications\UpcomingEvent
             'list_id' => self::LESSON_SUBSCRIBERS_ID,
             'subject' => 'Upcoming Event: ' . $title,
             'from_name' => 'Nikki Carver',
-            'from_email' => 'mshartz5@gmail.com',
+            'from_email' => 'louisvilleuncorked@gmail.com',
             'to_name' => 'Louisville Uncorked Subscriber'
         ];
 

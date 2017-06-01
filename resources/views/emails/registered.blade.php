@@ -33,7 +33,7 @@
 
                         <p><center><b>Visit Our Webpage:</b> <a href="http://louisvilleuncorked.com" style="color: #f44336;">Louisvilleuncorked.com</a></center></p>
 
-                        <p><center><b>Contact Us:</b> <a href="mailto:mshartz5@gmail.com" style="color: #f44336;">Contact@louisvilleuncorked.com</a></center></p>
+                        <p><center><b>Contact Us:</b> <a href="mailto:louisvilleuncorked@gmail.com" style="color: #f44336;">Contact@louisvilleuncorked.com</a></center></p>
                     </td>
                     <td width="50"></td>
                 </tr>
