@@ -78,8 +78,8 @@ Route::get('photos/2015-winter-event', 'PagesController@photosPastOld2');
 |
 */
 // Authentication Routes...
-$this->get('register', 'Auth\AuthController@showRegistrationForm');
-$this->post('register', 'Auth\AuthController@register');
+//$this->get('register', 'Auth\AuthController@showRegistrationForm');
+//$this->post('register', 'Auth\AuthController@register');
 $this->get('login', 'Auth\AuthController@showLoginForm');
 $this->post('login', 'Auth\AuthController@login');
 $this->get('logout', 'Auth\AuthController@logout');
