@@ -168,7 +168,7 @@ header {
     }
     
     @include bp(desk-l) {
-      padding: rem(200) 20% 0;
+      padding: rem(130) 20% 0;
     }
     
     &.mailing-list-active {
@@ -405,16 +405,16 @@ header {
     margin: rem(20) auto 0;
     
     @include bp(desk) {
-      margin-top: 20%;
+      margin-top: 30%;
       max-width: rem(340);
     }
 
     @include bp(desk-l) {
-      margin-top: 10%;
+      margin-top: 20%;
     }
 
     @include bp(full) {
-      margin-top: rem(35);
+      margin-top: rem(70);
     }
   }
 }

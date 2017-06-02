@@ -1469,7 +1469,7 @@ header {
       margin-top: -106px; } }
   @media only screen and (min-width: 67.5em) {
     #home .banner {
-      padding: 12.5rem 20% 0; } }
+      padding: 8.125rem 20% 0; } }
   @media only screen and (min-width: 67.5em) {
     #home .banner.mailing-list-active {
       padding: 11.875rem 0 0; } }
@@ -1638,14 +1638,14 @@ header {
   margin: 1.25rem auto 0; }
   @media only screen and (min-width: 56.25em) {
     .charity-left img {
-      margin-top: 20%;
+      margin-top: 30%;
       max-width: 21.25rem; } }
   @media only screen and (min-width: 67.5em) {
     .charity-left img {
-      margin-top: 10%; } }
+      margin-top: 20%; } }
   @media only screen and (min-width: 80em) {
     .charity-left img {
-      margin-top: 2.1875rem; } }
+      margin-top: 4.375rem; } }
 
 .charity-right {
   border-top: 3px solid #f44336;

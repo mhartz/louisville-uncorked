@@ -20,13 +20,13 @@
                 <tr>
                     <td width="50"></td>
                     <td width="494">
-                        <p style="font-size: 28px; line-height: normal; text-align: center; margin-bottom: 50px"><b>You have officially registered for the Winter 2017 Tasting hosted by Louisville Uncorked!</b></p>
+                        <p style="font-size: 28px; line-height: normal; text-align: center; margin-bottom: 50px"><b>You have officially registered for the Summer 2017 Tasting hosted by Louisville Uncorked!</b></p>
 
-                        <p>Thank you for your RSVP! We will see you on <b>Thursday, February 23 at 6pm at The Gillespie</b>. Please remember to bring three bottles of the same <b>California Red</b> wine per team and be prepared to make a charitable donation to <b>Cure CF, Inc.</b> at the door.</p>
+                        <p>Thank you for your RSVP! We will see you on <b>Thursday, June 22, at 7pm at ReSurfaced</b>. Please remember to bring three bottles of the same <b>California White</b> wine per team and be prepared to make a charitable donation to <b>YouthBuild Louisville</b> at the door.</p>
 
                         <p>Attire is "Dressed to Impress" but we realize some of you will be coming straight from work too. Don't let clothing options discourage you but feel free to get dressed up for the night if you like! We will be providing h'ors d'ourves but not a full meal so plan to eat before or after to soak up all your wine!</p>
 
-                        <p>We are exicted to have you and promise a great time for a wonderful cause!</p>
+                        <p>We are excited to have you and promise a great time for a wonderful cause!</p>
 
                         <p style="margin-bottom:0;padding-bottom:0">Cheers!</p>
                         <p style="margin-bottom: 50px; margin-top:0;padding-top:0">Louisville Uncorked</p>
