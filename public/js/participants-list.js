@@ -9,6 +9,7 @@ var ParticipantsList = {
 
         $('.edit-participant-button').on('click', function() {
             participantIdData = this.dataset.id;
+            $()
 
             if(this.dataset.editState === "false") {
                 $(this).html('Save');
