@@ -1,0 +1,71 @@
+.edit-teams-table {
+  background: #fff;
+
+  .names {
+    width: 35%;
+  }
+
+  th {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 500px) {
+    th {
+      display: none;
+    }
+
+    td {
+      display: block;
+      border: none !important;
+      width: 100%;
+      float: left;
+    }
+
+    tr {
+      border-top: 1px solid #eee;
+    }
+
+    .names {
+      width: 100%;
+    }
+  }
+
+  input {
+    width: 50%;
+    float: left;
+
+    &:disabled {
+      border: none;
+      padding: 0;
+      margin: 0;
+      background: none;
+      cursor: auto;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+  .btn {
+    background: dodgerblue;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+
+    &:hover {
+      background: navy;
+    }
+
+    &.outline {
+      background: none;
+      border-color: dodgerblue;
+      color: dodgerblue;
+
+      &:hover {
+        background: navy;
+        color: #fff;
+      }
+    }
+  }
+}

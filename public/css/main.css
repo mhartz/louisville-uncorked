@@ -1188,6 +1188,50 @@ label {
   border-top: 1px solid #e0e0e0;
   background: #fff; }
 
+.edit-teams-table {
+  background: #fff; }
+  .edit-teams-table .names {
+    width: 35%; }
+  .edit-teams-table th {
+    font-size: 20px;
+    font-weight: bold; }
+  @media screen and (max-width: 500px) {
+    .edit-teams-table th {
+      display: none; }
+    .edit-teams-table td {
+      display: block;
+      border: none !important;
+      width: 100%;
+      float: left; }
+    .edit-teams-table tr {
+      border-top: 1px solid #eee; }
+    .edit-teams-table .names {
+      width: 100%; } }
+  .edit-teams-table input {
+    width: 50%;
+    float: left; }
+    .edit-teams-table input:disabled {
+      border: none;
+      padding: 0;
+      margin: 0;
+      background: none;
+      cursor: auto;
+      box-shadow: none; }
+  .edit-teams-table .btn {
+    background: dodgerblue;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px; }
+    .edit-teams-table .btn:hover {
+      background: navy; }
+    .edit-teams-table .btn.outline {
+      background: none;
+      border-color: dodgerblue;
+      color: dodgerblue; }
+      .edit-teams-table .btn.outline:hover {
+        background: navy;
+        color: #fff; }
+
 /* Preload images */
 body:after {
   content: url(../images/vendor/lightbox/close.png) url(../images/vendor/lightbox/loading.gif) url(../images/vendor/lightbox/prev.png) url(../images/vendor/lightbox/next.png);
