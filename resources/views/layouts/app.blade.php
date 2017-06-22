@@ -51,6 +51,7 @@
                 @if(!Auth::guest())
                     <ul class="nav navbar-nav">
                         <li><a href="{{ url('/admin/editTeams') }}">Edit Teams</a></li>
+                        <li><a href="{{ url('/admin/eventEmailList') }}">Event Email List</a></li>
                     </ul>
                 @endif
                 <!-- Right Side Of Navbar -->
