@@ -14,7 +14,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}" />
-     {{--<link href="{{ elixir('css/app.css') }}" rel="stylesheet">--}}
+    {{--<link href="{{ elixir('css/app.css') }}" rel="stylesheet">--}}
 
     <style>
         body {
@@ -26,33 +26,33 @@
         }
     </style>
 </head>
-<body id="app-layout" class="admin-layout">
-    <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
+<body id="app-layout" class="admin-layout print-layout">
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
 
-                <!-- Collapsed Hamburger -->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+            <!-- Collapsed Hamburger -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
-                <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    Louisville Uncorked Admin
-                </a>
-            </div>
+            <!-- Branding Image -->
+            <a class="navbar-brand" href="{{ url('/') }}">
+                Louisville Uncorked Admin
+            </a>
+        </div>
 
-            <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                <!-- Left Side Of Navbar -->
-                @if(!Auth::guest())
-                    <ul class="nav navbar-nav">
-                        <li><a href="{{ url('/admin/editTeams') }}">Edit Teams</a></li>
-                    </ul>
+        <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <!-- Left Side Of Navbar -->
+            @if(!Auth::guest())
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/admin/editTeams') }}">Edit Teams</a></li>
+                </ul>
                 @endif
-                <!-- Right Side Of Navbar -->
+                        <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
@@ -69,16 +69,16 @@
                         </li>
                     @endif
                 </ul>
-            </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    @yield('content')
+@yield('content')
 
-    <!-- JavaScripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="{{ URL::asset('js/participants-list.js') }}"></script>
-    {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+        <!-- JavaScripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="{{ URL::asset('js/participants-list.js') }}"></script>
+{{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
 </body>
 </html>

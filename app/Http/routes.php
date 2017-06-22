@@ -93,6 +93,9 @@ $this->get('logout', 'Auth\AuthController@logout');
         Route::get('admin/photos', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
         Route::post('admin/upload', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
         Route::post('admin/upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);
+
+        Route::get('admin/participantListPrintByTeam', 'Auth\PrintEventListController@printByTeam');
+        Route::get('admin/participantListPrintByName', 'Auth\PrintEventListController@printByName');
     });
 
 // Password Reset Routes...

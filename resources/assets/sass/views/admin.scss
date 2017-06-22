@@ -1,3 +1,30 @@
+.admin-layout {
+  .login {
+    .btn-primary {
+      background-color: #337ab7 !important;
+      border-color: #2e6da4 !important;
+    }
+  }
+
+  &.print-layout {
+    background: #fff;
+
+    .navbar, .btn  {
+      display: none;
+    }
+
+    .wrapper {
+      width: 670px;
+    }
+
+    .edit-teams-table {
+      .names {
+        width: 40%;
+      }
+    }
+  }
+}
+
 .edit-teams-table {
   background: #fff;
 

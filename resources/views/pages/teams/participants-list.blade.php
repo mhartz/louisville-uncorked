@@ -5,6 +5,8 @@
     <div class="wrapper">
         <h1 class="main-heading">Participants page</h1>
         <div class="table-responsive">
+            <a href="{{ url('admin/participantListPrintByTeam') }}" target="_blank" class="btn btn-primary">Printable List by Team</a>
+            <a href="{{ url('admin/participantListPrintByName') }}" target="_blank" class="btn btn-primary">Printable List by Last Name</a>
             <table class="edit-teams-table table mt-40 mb-40">
                 <tr>
                     <th>ID</th>
