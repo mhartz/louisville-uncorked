@@ -96,6 +96,10 @@ $this->get('logout', 'Auth\AuthController@logout');
 
         Route::get('admin/participantListPrintByTeam', 'Auth\PrintEventListController@printByTeam');
         Route::get('admin/participantListPrintByName', 'Auth\PrintEventListController@printByName');
+
+        Route::get('home', function () {
+            return redirect('admin/editTeams');
+        });
     });
 
 // Password Reset Routes...
