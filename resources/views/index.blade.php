@@ -14,7 +14,7 @@
                 {{--@else--}}
                     {{--<p class="lato font-size-large">Registration is now closed for the current event. Come back later for details on future events!</p>--}}
                 {{--@endif--}}
-                <h2 class="medium-heading secondary">Due to impending weather we have decided to cancel tonight's (June 22, 2017 at ReSurfaced) event.</h2>
+                <h2 class="medium-heading secondary">Due to impending weather we have canceled the June 22, 2017 at ReSurfaced event.</h2>
                 <h2 class="medium-heading secondary">We want to ensure the safety of all of our guests and maximize the attendance and contribution for YouthBuild. Stay tuned for announcements on a rescheduled date later this year!</h2>
             </section>
         </div>
