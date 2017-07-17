@@ -5,7 +5,7 @@
     @if(Config::get('constants.EVENT_ACTIVE') === true)
         <div class="banner">
             <section class="wrapper">
-                <h1 class="banner-heading mb-10">Summer 2017 Tasting</h1>
+                <h1 class="banner-heading mb-10">{{ event }}</h1>
                 <h2 class="main-heading secondary">June 22, 2017</h2>
                 <h2 class="main-heading secondary">7:00pm - 10:00pm</h2>
                 <h2 class="main-heading secondary mb-10">ReSurfaced</h2>
