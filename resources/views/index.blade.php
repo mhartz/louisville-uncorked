@@ -5,14 +5,14 @@
     @if(Config::get('constants.EVENT_ACTIVE') === true)
         <div class="banner">
             <section class="wrapper">
-                <h1 class="banner-heading mb-10">Summer 2017 Tasting</h1>
-                <h2 class="main-heading secondary">June 22, 2017</h2>
-                <h2 class="main-heading secondary">7:00pm - 10:00pm</h2>
+                <h1 class="banner-heading mb-10">Rescheduled Summer 2017 Tasting</h1>
+                <h2 class="main-heading secondary">September 28, 2017</h2>
+                <h2 class="main-heading secondary">6:00pm - 10:00pm</h2>
                 <h2 class="main-heading secondary mb-10">ReSurfaced</h2>
                 @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
                     <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
                 @else
-                    <p class="lato font-size-large">Registration is now closed for the current event. Come back later for details on future events!</p>
+                    <p class="lato font-size-large">Registration is not yet open for the upcoming event. Please sign up to our email list using the link below and we will notify you when the next event is open for registration!</p>
                 @endif
             </section>
         </div>
@@ -52,8 +52,8 @@
             <div class="upcoming-event row wrapper">
                 <section class="upcoming-event-details col-11">
                     <h2 class="main-heading mb-30">Upcoming Event</h2>
-                    <p><span class="icon-calendar2"></span><i>Date: </i>TBD</p>
-                    <p><span class="icon-clock2"></span><i>Time: </i>TBD</p>
+                    <p><span class="icon-calendar2"></span><i>Date: </i>September 28, 2017</p>
+                    <p><span class="icon-clock2"></span><i>Time: </i>6:00pm - 10:00pm</p>
                     <p><span class="icon-location"></span><i>Location: </i>ReSurfaced, 801 E Liberty St, Louisville, KY 40204</p>
                     <p><span class="icon-glass"></span><i>Tasting Variety: </i>California Whites</p>
                     <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>
