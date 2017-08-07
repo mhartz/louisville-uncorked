@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use App\Providers\BaseUrlProvider;
+use GuzzleHttp\Client;
 
 class Events
 {
@@ -15,9 +16,19 @@ class Events
 
     private function request()
     {
-        $endpoint = "graph.facebook.com/" . env("FACEBOOK_GROUP_ID") . "/events";
+        $endpoint = $this->facebookUrl;
 
-        return $endpoint;
+        $client = new Client([
+            'base_uri' => $endpoint,
+            'timeout'  => 2.0,
+            'user' => env('FACEBOOK_USER'),
+            'pass' => env('FACEBOOK_PASSWORD'),
+            'acccess'
+        ]);
+
+        $response = $client->request('GET', env("FACEBOOK_GROUP_ID") . '/events');
+
+        return $response;
     }
 
     public function getEventData() {
