@@ -162,13 +162,13 @@ header {
     background-size: cover;
     
     @include bp(tablet) {
-      min-height: rem(450);
+      min-height: rem(500);
       padding-top: rem(160);
       margin-top: -106px;
     }
     
     @include bp(desk-l) {
-      padding: rem(130) 20% 0;
+      padding: rem(130) 20% rem(50);
     }
     
     &.mailing-list-active {

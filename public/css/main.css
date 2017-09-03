@@ -1521,12 +1521,12 @@ header {
   background-size: cover; }
   @media only screen and (min-width: 47.5em) {
     #home .banner {
-      min-height: 28.125rem;
+      min-height: 31.25rem;
       padding-top: 10rem;
       margin-top: -106px; } }
   @media only screen and (min-width: 67.5em) {
     #home .banner {
-      padding: 8.125rem 20% 0; } }
+      padding: 8.125rem 20% 3.125rem; } }
   @media only screen and (min-width: 67.5em) {
     #home .banner.mailing-list-active {
       padding: 11.875rem 0 0; } }
