@@ -22,7 +22,7 @@
                     <td width="494">
                         <p style="font-size: 28px; line-height: normal; text-align: center; margin-bottom: 50px"><b>You have officially registered for the Summer 2017 Tasting hosted by Louisville Uncorked!</b></p>
 
-                        <p>Thank you for your RSVP! We will see you on <b>Thursday, June 22, at 7pm at ReSurfaced</b>. Please remember to bring three bottles of the same <b>California White</b> wine per team and be prepared to make a charitable donation to <b>YouthBuild Louisville</b> at the door.</p>
+                        <p>Thank you for your RSVP! We will see you on <b>Thursday, September 28, at 6pm at ReSurfaced</b>. Please remember to bring three bottles of the same <b>California White</b> wine per team and be prepared to make a charitable donation to <b>YouthBuild Louisville</b> at the door.</p>
 
                         <p>Attire is "Dressed to Impress" but we realize some of you will be coming straight from work too. Don't let clothing options discourage you but feel free to get dressed up for the night if you like! We will be providing h'ors d'ourves but not a full meal so plan to eat before or after to soak up all your wine!</p>
 
