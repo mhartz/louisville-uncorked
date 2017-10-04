@@ -88,49 +88,49 @@
                 <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_097.jpg') }}" alt="Uncorked Winter 2017 Crowd">
             </div>
             <div class="col-13 mt-30 left">
-                <h2 class="main-heading">Winter 2017 Tasting at The Gillespie</h2>
-                <h3 class="small-heading text-light">Benefitting CureCF</h3>
-                <p>Louisville Uncorked held the Winter event on February 23, 2017 which benefitted Spina Bifida CureCF and raised over $6,700 and significant community awareness. There were more than 475 participants split between nearly 200 teams tasting some of the best California Reds.</p>
+                <h2 class="main-heading">Summer 2017 Tasting at ReSurfaced</h2>
+                <h3 class="small-heading text-light">YouthBuild Louisville</h3>
+                <p>Louisville Uncorked held the Summer event on September 28, 2017 which benefitted YouthBuild Louisville. There were more than 300 participants split between nearly 130 teams tasting some of the best California Whites. Thanks to your generous donations, we were able to contribute around $2,000 to their mission, but their needs are ongoing.  If you were unable to attend and would like to donate or would like to further contribute to this valuable cause, please visit their website: <a href="//www.yblky.org" target="_blank">www.yblky.org</a>.</p>
             </div>
         </section>
     </div>
 
     <div class="row grey-bg center">
         <section class="wrapper">
-            <h1 class="large-heading">The Winners of Winter 2017 Tasting</h1>
+            <h1 class="large-heading">The Winners of Summer 2017 Tasting</h1>
             <div class="place-card">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/gold-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2017-summer-event/gold-winner.jpg') }}" alt="">
                     <span class="icon-trophy gold"></span>
                 </div>
                 <div class="winner-inner">
                     <h2 class="main-heading">1<span>st</span></h2>
-                    <p>Terrain</p>
-                    <p>Brought by Luke and Allison Pitman</p>
+                    <p>BR Cohn 2014</p>
+                    <p>Brought by Roxane Dunnaway and Faith Yascone</p>
                 </div>
             </div>
 
             <div class="place-card">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/silver-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2017-summer-event/silver-winner.jpg') }}" alt="">
                     <span class="icon-trophy silver"></span>
                 </div>
                 <div class="winner-inner">
                     <h2 class="main-heading">2<span>nd</span></h2>
-                    <p>Macchia</p>
-                    <p>Brought by Courtney Herzog, Scott & Deborah Hoeptner</p>
+                    <p>Flip Flop Moscato</p>
+                    <p>Brought by Claire Raley, Bridget Babcock, and Joan Huber</p>
                 </div>
             </div>
 
             <div class="place-card">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/bronze-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2017-summer-event/bronze-winner.jpg') }}" alt="">
                     <span class="icon-trophy bronze"></span>
                 </div>
                 <div class="winner-inner">
                     <h2 class="main-heading">3<span>rd</span></h2>
-                    <p>Storyteller</p>
-                    <p>Brought by Christie Bowman, Nancy LaRocca, Charlotte Rogers</p>
+                    <p>Bonterra 2016</p>
+                    <p>Brought by Rudy Spencer, Danielle Schulz, and Blake Clark</p>
                 </div>
             </div>
         </section>
