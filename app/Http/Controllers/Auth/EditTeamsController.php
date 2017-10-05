@@ -30,6 +30,15 @@ class EditTeamsController extends Controller
         return view('pages/teams/participants-list', compact('pageName', 'teams', 'participants'));
     }
 
+    public function add(Request $request)
+    {
+        $data = $request->all();
+
+        Teams::whereId($request->teamId)->add([
+            'team_name' => $data['teamName']
+        ]);
+    }
+
     public function edit(Request $request)
     {
         $data = $request->all();
