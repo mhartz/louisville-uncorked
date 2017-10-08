@@ -35,6 +35,16 @@ class EditTeamsController extends Controller
         $data = $request->all();
 
         Teams::whereId($request->teamId)->add([
+            'first_name' => $data['firstName'],
+            'last_name' => $data['lastName']
+        ]);
+    }
+
+    public function remove(Request $request)
+    {
+        $data = $request->all();
+
+        Teams::whereId($request->teamId)->remove([
             'team_name' => $data['teamName']
         ]);
     }
