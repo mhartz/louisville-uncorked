@@ -1827,6 +1827,9 @@ header {
 .center-tall-image {
   margin-top: -50%; }
 
+.override.center-tall-image {
+  margin-top: 0; }
+
 .bottom-register {
   background: #f44336;
   color: #fff; }

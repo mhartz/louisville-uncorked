@@ -85,7 +85,7 @@
         <section class="wrapper">
             <h1 class="large-heading center">Our Last Event</h1>
             <div class="col-10 right">
-                <img class="full-image" src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_097.jpg') }}" alt="Uncorked Winter 2017 Crowd">
+                <img class="full-image" src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_103.jpg') }}" alt="Uncorked Winter 2017 Crowd">
             </div>
             <div class="col-13 mt-30 left">
                 <h2 class="main-heading">Summer 2017 Tasting at ReSurfaced</h2>
@@ -139,22 +139,21 @@
     <div class="row photo-gallery">
         <section class="small-wrapper">
             <h1 class="large-heading center mb-0">Photo Gallery</h1>
-            <h2 class="medium-heading center mt-20">Pics from our latest event will be up soon!</h2>
-            {{--<p class="center">Check out our pics from the latest event!</p>--}}
-            {{--<ul class="photo-gallery-list">--}}
-                {{--<li class="col-16"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_092.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_092.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 19"></a></li>--}}
-                {{--<li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_089.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_089.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 20"></a></li>--}}
-                {{--<li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_013.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_013.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 30"></a></li>--}}
-                {{--<li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_088.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_088.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 40"></a></li>--}}
-                {{--<li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_070.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_070.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 50"></a></li>--}}
-                {{--<li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_060.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_060.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 60"></a></li>--}}
-                {{--<li class="col-16"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_109.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_109.jpg') }}" alt="Winter 2017 Tasting at the GillespieImage 70"></a></li>--}}
-                {{--<li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_112.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_112.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 80"></a></li>--}}
-                {{--<li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_117.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_117.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 90"></a></li>--}}
-                {{--<li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_111.jpg') }}" data-lightbox="image-1" data-title="Winter 2017 Tasting at the Gillespie"><img src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_111.jpg') }}" alt="Winter 2017 Tasting at the Gillespie Image 100"></a></li>--}}
-            {{--</ul>--}}
+            <p class="center">Check out our pics from the latest event!</p>
+            <ul class="photo-gallery-list">
+                <li class="col-16"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_092.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_092.jpg') }}" alt="Summer 2017 Tasting Image 19"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_089.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_089.jpg') }}" alt="Summer 2017 Tasting Image 20"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_013.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_013.jpg') }}" alt="Summer 2017 Tasting Image 30"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_177.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_177.jpg') }}" alt="Summer 2017 Tasting Image 40"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_086.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_086.jpg') }}" alt="Summer 2017 Tasting Image 50"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_054.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_054.jpg') }}" alt="Summer 2017 Tasting Image 60"></a></li>
+                <li class="col-16"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_105.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_105.jpg') }}" alt="Summer 2017 TastingImage 70"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_029.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_029.jpg') }}" alt="Summer 2017 Tasting Image 80"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_117.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_117.jpg') }}" alt="Summer 2017 Tasting Image 90"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_032.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_032.jpg') }}" alt="Summer 2017 Tasting Image 100"></a></li>
+            </ul>
 
-            {{--<a class="button mt-20" href="/photos/2017-winter-event">See more photos<span class="icon-circle-right"></span></a>--}}
+            <a class="button mt-20" href="/photos/2017-summer-event">See more photos<span class="icon-circle-right"></span></a>
         </section>
     </div>
 
