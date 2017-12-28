@@ -54,13 +54,39 @@
                         <td>{{ $count }}</td>
                         <td>{{ $team->team_name }}</td>
                         <td>
+                            @php ($participantCount = 0)
                             @foreach ($participants as $participant)
                                 @if ($participant->team_id == $team->id)
-                                    <p>{{ $participant->first_name }} {{  $participant->last_name }}</p>
+                                    <div id="team-uneditable">
+                                        <p>{{ $participant->first_name }} {{  $participant->last_name }}</p>
+                                    </div>
+
+                                    <div id="team-editable">
+                                        <input participant-id-attr-{{ $participant->id }} type="hidden" class="form-control" name="participantId" value="{{ $participant->id }}">
+                                        <p><input first-name-attr-{{ $participant->id }} type="text" class="form-control" name="firstName" value="{{ $participant->first_name }}"> <input last-name-attr-{{ $participant->id }} type="text" class="form-control" name="lastName" value="{{ $participant->last_name }}"></p>
+                                    </div>
+                                    @php ($participantCount++)
                                 @endif
                             @endforeach
+                            @if ($participantCount <= 1)
+                                <p><input type="text" class="form-control" name="firstName" value="Teammate 2 First Name"> <input type="text" class="form-control" name="lastName" value="Teammate 2 Last Name"></p>
+                            @endif
+
+                            @if ($participantCount <= 2)
+                                <p><input type="text" class="form-control" name="firstName" value="Teammate 3 First Name"> <input type="text" class="form-control" name="lastName" value="Teammate 3 Last Name"></p>
+                            @endif
                         </td>
-                        <td>Buttons</td>
+                        <td data-edit-state="false">
+                            <div id="edit-team-section">
+                                <button id="edit-team" class="btn btn-submit" data-team-id="{{ $team->id }}">Edit</button>
+                                <button id="remove-team" class="btn btn-submit outline" data-team-id="{{ $team->id }}">Delete</button>
+                            </div>
+
+                            <div id="save-cancel-team-section">
+                                <button id="save-team" class="btn btn-submit" data-team-id="{{ $team->id }}">Save</button>
+                                <button id="cancel-save-team" class="btn btn-submit outline" data-team-id="{{ $team->id }}">Cancel</button>
+                            </div>
+                        </td>
                     </tr>
                 @endforeach
             </table>

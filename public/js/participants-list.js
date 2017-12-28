@@ -76,6 +76,13 @@ var ParticipantsList = {
             $('input[team-id-attr-' + participantIdCancelData + ']').prop('disabled', 'disabled');
             $('.edit-participant-button[data-id="' + participantIdCancelData + '"]').html('Edit');
         });
+
+        $('.add-participant-button').on('click', function() {
+            
+        });
+    },
+    addTeammate: function() {
+        
     }
 };
 
