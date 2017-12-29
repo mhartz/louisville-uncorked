@@ -1203,6 +1203,8 @@ label {
 
 .edit-teams-table {
   background: #fff; }
+  .edit-teams-table .team-names {
+    width: 40%; }
   .edit-teams-table .names {
     width: 35%; }
   .edit-teams-table th {
