@@ -32,18 +32,53 @@ var ParticipantsList = {
             var self = this;
             ParticipantsList.cancelEditTeam(self);
         });
+        
+        $('.save-team').on('click', function() {
+            var self = this;
+            ParticipantsList.saveEditTeam(self);
+        });
+
+        $('.remove-team').on('click', function() {
+            var self = this;
+            ParticipantsList.deleteEditTeam(self);
+        })
     },
     editTeam: function(self) {
-        var teamIdData = self.dataset.id;
+        var teamIdData = self.dataset.teamId;
+        var teamId = '#team-' + teamIdData;
 
-        $('.editable-value').removeClass('hidden');
-        $('.team-static-text').addClass('hidden');
+        $(teamId + ' .editable-value').removeClass('hidden');
+        $(teamId + ' .team-static-text').addClass('hidden');
     },
     cancelEditTeam: function(self) {
-        var teamIdData = self.dataset.id;
+        var teamIdData = self.dataset.teamId;
+        var teamId = '#team-' + teamIdData;
+
+        // Todo:
+        // Remove data that was added, aka return to null
+
+        
+
+        $(teamId + ' .editable-value').addClass('hidden');
+        $(teamId + ' .team-static-text').removeClass('hidden');
+    },
+    saveEditTeam: function(self) {
+        var teamIdData = self.dataset.teamId;
+        var teamId = '#team-' + teamIdData;
 
         $('.editable-value').addClass('hidden');
         $('.team-static-text').removeClass('hidden');
+
+        // Todo:
+        // Take the data for the team and add it if it is new, remove if it is not new and null,
+        // and edit it if it is not new and not null
+    },
+    deleteEditTeam: function(self) {
+        var teamIdData = self.dataset.teamId;
+        var teamId = '#team-' + teamIdData;
+
+        // Todo:
+        // Pop modal to confirm and delete team
     }
 };
 

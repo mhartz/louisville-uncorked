@@ -16,7 +16,7 @@
                 </tr>
 
                 @foreach ($teams as $count=>$team)
-                    <tr>
+                    <tr id="team-{{ $team->id }}">
                         <td>{{ $count }}</td>
                         <td class="team-names">
                             <div class="team-static-text">
@@ -24,7 +24,7 @@
                             </div>
                             <div class="team-editable editable-value hidden">
                                 <input team-id-attr-{{ $team->id }} type="hidden" class="form-control" name="teamId" value="{{ $team->id }}">
-                                <p><input team-name-attr-{{ $team->id }} type="text" class="form-control" name="teamName" value="{{ $team->team_name }}"></p>
+                                <input team-name-attr-{{ $team->id }} type="text" class="form-control" name="teamName" value="{{ $team->team_name }}">
                             </div>
                         </td>
                         <td class="names">
@@ -37,26 +37,26 @@
 
                                     <div class="team-editable editable-value hidden">
                                         <input participant-id-attr-{{ $participant->id }} type="hidden" class="form-control" name="participantId" value="{{ $participant->id }}">
-                                        <p><input first-name-attr-{{ $participant->id }} type="text" class="form-control" name="firstName" value="{{ $participant->first_name }}"> <input last-name-attr-{{ $participant->id }} type="text" class="form-control" name="lastName" value="{{ $participant->last_name }}"></p>
+                                        <input first-name-attr-{{ $participant->id }} type="text" class="form-control" name="firstName" value="{{ $participant->first_name }}"> <input last-name-attr-{{ $participant->id }} type="text" class="form-control" name="lastName" value="{{ $participant->last_name }}">
                                     </div>
                                     @php ($participantCount++)
                                 @endif
                             @endforeach
                             @if ($participantCount <= 1)
                                 <div class="new-team-members editable-value hidden">
-                                    <p><input type="text" class="form-control" name="firstName" value="First Name"> <input type="text" class="form-control" name="lastName" value="Last Name"></p>
+                                    <input type="text" class="form-control" name="firstName" placeholder="First"> <input type="text" class="form-control" name="lastName" placeholder="Last">
                                 </div>
                             @endif
 
                             @if ($participantCount <= 2)
                                 <div class="new-team-members editable-value hidden">
-                                    <p><input type="text" class="form-control" name="firstName" value="First Name"> <input type="text" class="form-control" name="lastName" value="Last Name"></p>
+                                    <input type="text" class="form-control" name="firstName" placeholder="First"> <input type="text" class="form-control" name="lastName" placeholder="Last">
                                 </div>
                             @endif
                         </td>
                         <td data-edit-state="false">
                             <div class="edit-team-section team-static-text">
-                                <button class="edit-team-button btn btn-submit" data-id="{{ $team->id }}">Edit</button>
+                                <button class="edit-team-button btn btn-submit" data-team-id="{{ $team->id }}">Edit</button>
                                 <button class="remove-team btn btn-submit outline" data-team-id="{{ $team->id }}">Delete</button>
                             </div>
 
