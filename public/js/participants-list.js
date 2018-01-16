@@ -30,9 +30,12 @@ var ParticipantsList = {
 
         $('.cancel-save-team').on('click', function() {
             var self = this;
-            ParticipantsList.cancelEditTeam(self);
+            var teamId = '#team-' + this.dataset.teamId;
+            var originalData = $(teamId + ' .editable-team-member');
+
+            ParticipantsList.cancelEditTeam(self, originalData);
         });
-        
+
         $('.save-team').on('click', function() {
             var self = this;
             ParticipantsList.saveEditTeam(self);
@@ -50,14 +53,16 @@ var ParticipantsList = {
         $(teamId + ' .editable-value').removeClass('hidden');
         $(teamId + ' .team-static-text').addClass('hidden');
     },
-    cancelEditTeam: function(self) {
+    cancelEditTeam: function(self, originalData) {
         var teamIdData = self.dataset.teamId;
         var teamId = '#team-' + teamIdData;
 
         // Todo:
         // Remove data that was added, aka return to null
+        $(originalData).each(function() {
+            console.log(this.value);
 
-        
+        });
 
         $(teamId + ' .editable-value').addClass('hidden');
         $(teamId + ' .team-static-text').removeClass('hidden');

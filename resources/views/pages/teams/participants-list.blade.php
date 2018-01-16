@@ -37,20 +37,23 @@
 
                                     <div class="team-editable editable-value hidden">
                                         <input participant-id-attr-{{ $participant->id }} type="hidden" class="form-control" name="participantId" value="{{ $participant->id }}">
-                                        <input first-name-attr-{{ $participant->id }} type="text" class="form-control" name="firstName" value="{{ $participant->first_name }}"> <input last-name-attr-{{ $participant->id }} type="text" class="form-control" name="lastName" value="{{ $participant->last_name }}">
+                                        <input first-name-attr-{{ $participant->id }} type="text" class="editable-team-member form-control" name="firstName" value="{{ $participant->first_name }}">
+                                        <input last-name-attr-{{ $participant->id }} type="text" class="editable-team-member form-control" name="lastName" value="{{ $participant->last_name }}">
                                     </div>
                                     @php ($participantCount++)
                                 @endif
                             @endforeach
                             @if ($participantCount <= 1)
-                                <div class="new-team-members editable-value hidden">
-                                    <input type="text" class="form-control" name="firstName" placeholder="First"> <input type="text" class="form-control" name="lastName" placeholder="Last">
+                                <div class="editable-value hidden">
+                                    <input type="text" class="form-control editable-team-member" name="firstName" placeholder="First">
+                                    <input type="text" class="form-control editable-team-member" name="lastName" placeholder="Last">
                                 </div>
                             @endif
 
                             @if ($participantCount <= 2)
-                                <div class="new-team-members editable-value hidden">
-                                    <input type="text" class="form-control" name="firstName" placeholder="First"> <input type="text" class="form-control" name="lastName" placeholder="Last">
+                                <div class="editable-team-member editable-value hidden">
+                                    <input type="text" class="editable-team-member form-control" name="firstName" placeholder="First">
+                                    <input type="text" class="editable-team-member form-control" name="lastName" placeholder="Last">
                                 </div>
                             @endif
                         </td>
