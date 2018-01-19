@@ -49,6 +49,12 @@ var ParticipantsList = {
     editTeam: function(self) {
         var teamIdData = self.dataset.teamId;
         var teamId = '#team-' + teamIdData;
+        var originalData = $(teamId + ' .editable-team-member');
+        var participantData = {};
+
+        $(originalData).each(function() {
+            participantData['participantId'] = this.value;
+        });
 
         $(teamId + ' .editable-value').removeClass('hidden');
         $(teamId + ' .team-static-text').addClass('hidden');
@@ -59,9 +65,9 @@ var ParticipantsList = {
 
         // Todo:
         // Remove data that was added, aka return to null
+        //Need to do so for both First and Las name. Create a Person object.
         $(originalData).each(function() {
             console.log(this.value);
-
         });
 
         $(teamId + ' .editable-value').addClass('hidden');
