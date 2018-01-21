@@ -17,7 +17,7 @@
     
     <section class="faq-section mb-40">
       <h3 class="question main-heading">How much does it cost?</h3>
-      <p class="answer">Registration is free, but you should come to the event prepared to give a charitable donation to our sponsored charity! We ask a minimum of $20 but encourage you to give what you're comfortable with. This is a great organization doing amazing things in our community and every dollar that you gives goes directly to their mission! Additionally, each team (regardless of size) needs to bring 3 bottles of wine for the tasting. You can be a team of 1, 2 or 3 people!</p>
+      <p class="answer">Registration is free, but you should come to the event prepared to give a charitable donation to our sponsored charity! We ask a minimum of $25 but encourage you to give what you're comfortable with. This is a great organization doing amazing things in our community and every dollar that you gives goes directly to their mission! Additionally, each team (regardless of size) needs to bring 3 bottles of wine for the tasting. You can be a team of 1, 2 or 3 people!</p>
     </section>
     
     <section class="faq-section mb-40">

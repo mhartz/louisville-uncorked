@@ -5,12 +5,14 @@
     @if(Config::get('constants.EVENT_ACTIVE') === true)
         <div class="banner">
             <section class="wrapper">
-                <h1 class="banner-heading mb-10">Rescheduled Summer 2017 Tasting</h1>
-                <h2 class="main-heading secondary">September 28, 2017</h2>
+                <h1 class="banner-heading mb-10">Winter 2018 Tasting</h1>
+                <h2 class="main-heading secondary">February 22, 2018</h2>
                 <h2 class="main-heading secondary">6:00pm - 9:00pm</h2>
-                <h2 class="main-heading secondary mb-10">ReSurfaced</h2>
+                <h2 class="main-heading secondary mb-10">Kentucky Museum of Art and Craft (KMAC)</h2>
                 @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
                     <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
+                @elseif(Config::get('constants.EVENT_THIRD_PARTY_REGISTRATION_OPEN') === true)
+                    <a class="button inline-block third-party-registration" href="//www.ypal.org/Events/Louisville-Uncorked-benefiting-Leukemia-Lymphoma-Society" target="_blank">Register Your Team on YPAL</span><span class="icon-circle-right"></span></a>
                 @else
                     <p class="lato font-size-large">Registration is now closed for the current event. Come back later for details on future events!</p>
                 @endif
@@ -52,15 +54,15 @@
             <div class="upcoming-event row wrapper">
                 <section class="upcoming-event-details col-11">
                     <h2 class="main-heading mb-30">Upcoming Event</h2>
-                    <p><span class="icon-calendar2"></span><i>Date: </i>September 28, 2017</p>
+                    <p><span class="icon-calendar2"></span><i>Date: </i>February 22, 2018</p>
                     <p><span class="icon-clock2"></span><i>Time: </i>6:00pm - 9:00pm</p>
-                    <p><span class="icon-location"></span><i>Location: </i>ReSurfaced, 801 E Liberty St, Louisville, KY 40204</p>
-                    <p><span class="icon-glass"></span><i>Tasting Variety: </i>California Whites</p>
-                    <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $20 donation for our sponsored charity</p>
+                    <p><span class="icon-location"></span><i>Location: </i>Kentucky Museum of Art and Craft (KMAC), 701 W. Main Street, Louisville, KY 40202</p>
+                    <p><span class="icon-glass"></span><i>Tasting Variety: </i>Syrah/Shiraz</p>
+                    <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $25 donation for our sponsored charity</p>
                     <p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>
                 </section>
 
-                <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.2448051490883!2d-85.74048268466858!3d38.250627979675585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972c5777f0f83%3A0x58a3d06a789ea22d!2s801+E+Liberty+St%2C+Louisville%2C+KY+40204!5e0!3m2!1sen!2sus!4v1496375380704" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.9625208045586!2d-85.76369084928622!3d38.25717527957474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a15f10326f%3A0xcae5c2d1c77a9208!2s701+W+Main+St%2C+Louisville%2C+KY+40202!5e0!3m2!1sen!2sus!4v1516550239590 " frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         @endif
     </div>
@@ -70,13 +72,13 @@
             <h1 class="large-heading center">Featured Charity</h1>
 
             <div class="charity-left">
-                <a href="//yblky.org/" target="_blank"><img src="{{ URL::asset('images/photos/2017-summer-event/YBLHeaderWeb2.png') }}" alt="YouthBuild Louisville"></a>
+                <a href="//www.lls.org/" target="_blank"><img src="{{ URL::asset('images/Events/2018-Winter/LLCNew.png') }}" alt="Leukemia Lymphoma Society logo"></a>
             </div>
 
             <div class="charity-right">
-                <h2 class="main-heading"><a href="//yblky.org/" target="_blank">YouthBuild Louisville</a></h2>
-                <h3 class="small-heading secondary-ondark-light">Our mission is to champion young adults to be great citizens who build productive lives and sustainable communities.</h3>
-                <p>YouthBuild Louisville is an education, job training and leadership program that provides low-income young adults ages 18-24 opportunities to realize their potential as active community leaders and an educated workforce for Louisville. Our vision is that through the development of life and job skills, students are inspired to reach lifelong success as they become strong, confident young adults with a commitment to work, education, family, and community.</p>
+                <h2 class="main-heading"><a href="//www.lls.org/" target="_blank">Leukemia Lymphoma Society</a></h2>
+                <h3 class="small-heading secondary-ondark-light">Our mission is to cure leukemia, lymphoma, Hodgkin's disease and myeloma, and improve the quality of life of patients and their families.</h3>
+                <p>LLS exists to find cures and ensure access to treatments for blood cancer patients. We are the voice for all blood cancer patients and we work to ensure access to treatments for all blood cancer patients.</p>
             </div>
         </section>
     </div>

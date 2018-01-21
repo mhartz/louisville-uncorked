@@ -1556,6 +1556,13 @@ header {
       transition: all 0.2s ease-in-out; }
     #home .banner .button:hover .icon-circle-right {
       right: 1.25rem; }
+    #home .banner .button.third-party-registration {
+      font-size: 1rem;
+      padding-left: 1.875rem;
+      padding-right: 1.875rem;
+      text-transform: none; }
+      #home .banner .button.third-party-registration:hover .icon-circle-right {
+        right: 0.625rem; }
   #home .banner .home-mailing-list-module .mailing-list-section {
     margin: 0 auto;
     padding: 0;
@@ -1690,19 +1697,19 @@ header {
 
 .charity-left img {
   width: 100%;
-  max-width: 25rem;
+  max-width: 17.1875rem;
   display: block;
   margin: 1.25rem auto 0; }
   @media only screen and (min-width: 56.25em) {
     .charity-left img {
-      margin-top: 30%;
-      max-width: 21.25rem; } }
+      margin-top: 17%;
+      max-width: 17.1875rem; } }
   @media only screen and (min-width: 67.5em) {
     .charity-left img {
-      margin-top: 20%; } }
+      margin-top: 11%; } }
   @media only screen and (min-width: 80em) {
     .charity-left img {
-      margin-top: 4.375rem; } }
+      margin-top: 2.5rem; } }
 
 .charity-right {
   border-top: 3px solid #f44336;

@@ -59,7 +59,7 @@ Route::get('photos/2017-summer-event', 'PagesController@photosCurrent');
 Route::get('photos/2017-winter-event', 'PagesController@photosPast');
 Route::get('photos/2016-summer-event', 'PagesController@photosOld');
 Route::get('photos/2015-fall-event', 'PagesController@photosOld1');
-Route::get('photos/2015-fall-meeting', 'PagesController@photosOld2');
+Route::get('photos/2015-fall-meeting', 'PagesController@photosPastOld2');
 Route::get('photos/2015-winter-event', 'PagesController@photosPastOld3');
 
 /**
