@@ -56,13 +56,13 @@
                     <h2 class="main-heading mb-30">Upcoming Event</h2>
                     <p><span class="icon-calendar2"></span><i>Date: </i>February 22, 2018</p>
                     <p><span class="icon-clock2"></span><i>Time: </i>6:00pm - 9:00pm</p>
-                    <p><span class="icon-location"></span><i>Location: </i>Kentucky Museum of Art and Craft (KMAC), 701 W. Main Street, Louisville, KY 40202</p>
+                    <p><span class="icon-location"></span><i>Location: </i>Kentucky Museum of Art and Craft (KMAC), 715 W. Main Street, Louisville, KY 40202</p>
                     <p><span class="icon-glass"></span><i>Tasting Variety: </i>Syrah/Shiraz</p>
                     <p><span class="icon-banknote"></span><i>Cost: </i> Minimum $25 donation for our sponsored charity</p>
                     <p><span class="icon-user-tie"></span><i>Dress: </i>"Dress to Impress" <span class="tooltip">? <span class="toolpop">Don't let clothing options discourage you, but feel free to get dressed up for the night if you like! Most girls will likely wear a dress or slacks and pants, men can wear business casual or a suit.</span></span></p>
                 </section>
 
-                <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.9625208045586!2d-85.76369084928622!3d38.25717527957474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a15f10326f%3A0xcae5c2d1c77a9208!2s701+W+Main+St%2C+Louisville%2C+KY+40202!5e0!3m2!1sen!2sus!4v1516550239590 " frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe class="map upcoming-event-media col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.9474812731373!2d-85.7643273846684!3d38.257524079674425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a167b96129%3A0x62366df9e7166b67!2s715+W+Main+St%2C+Louisville%2C+KY+40202!5e0!3m2!1sen!2sus!4v1518637107221" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         @endif
     </div>
