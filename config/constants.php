@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'EVENT_ACTIVE'=> true,
+    'EVENT_ACTIVE'=> false,
     'EVENT_REGISTRATION_OPEN' => false,
     'EVENT_THIRD_PARTY_REGISTRATION_OPEN' => false,
     'EVENT_TEAM_TABLE' => 'teams_2017_winter',
