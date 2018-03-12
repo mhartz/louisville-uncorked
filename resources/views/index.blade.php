@@ -87,52 +87,52 @@
         <section class="wrapper">
             <h1 class="large-heading center">Our Last Event</h1>
             <div class="col-10 right">
-                <img class="full-image" src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_103.jpg') }}" alt="Uncorked Winter 2017 Crowd">
+                <img class="full-image" src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_037.jpg') }}" alt="Uncorked Winter 2017 Crowd">
             </div>
             <div class="col-13 mt-30 left">
-                <h2 class="main-heading">Summer 2017 Tasting at ReSurfaced</h2>
-                <h3 class="small-heading text-light">YouthBuild Louisville</h3>
-                <p>Louisville Uncorked held the Summer event on September 28, 2017 which benefitted YouthBuild Louisville. There were more than 300 participants split between nearly 130 teams tasting some of the best California Whites. Thanks to your generous donations, we were able to contribute around $2,000 to their mission, but their needs are ongoing.  If you were unable to attend and would like to donate or would like to further contribute to this valuable cause, please visit their website: <a href="//www.yblky.org" target="_blank">www.yblky.org</a>.</p>
+                <h2 class="main-heading">Winter 2018 Tasting at Kentucky Museum of Art and Craft (KMAC)</h2>
+                <h3 class="small-heading text-light">Leukemia Lymphoma Society</h3>
+                <p>Louisville Uncorked held the Winter event on February 22, 2018 which benefitted Leukemia Lymphoma Society. There were more than 250 participants tasting some of the best (and the worst!) Syrah/Shiraz. Thanks to your generous donations, we were able to contribute around $5,000 to their mission, but their needs are ongoing.  If you were unable to attend and would like to donate or would like to further contribute to this valuable cause, please visit their website: <a href="//www.lls.org/" target="_blank">www.lls.org/</a>.</p>
             </div>
         </section>
     </div>
 
     <div class="row grey-bg center">
         <section class="wrapper">
-            <h1 class="large-heading">The Winners of Summer 2017 Tasting</h1>
+            <h1 class="large-heading">The Winners of Winter 2018 Tasting</h1>
             <div class="place-card">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2017-summer-event/gold-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2018-winter-event/gold-winner.jpg') }}" alt="">
                     <span class="icon-trophy gold"></span>
                 </div>
                 <div class="winner-inner">
                     <h2 class="main-heading">1<span>st</span></h2>
-                    <p>BR Cohn 2014</p>
-                    <p>Brought by Roxane Dunnaway and Faith Yascone</p>
+                    <p>The Stump 2016</p>
+                    <p>Brought by Team Linda</p>
                 </div>
             </div>
 
             <div class="place-card">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2017-summer-event/silver-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2018-winter-event/silver-winner.jpg') }}" alt="">
                     <span class="icon-trophy silver"></span>
                 </div>
                 <div class="winner-inner">
                     <h2 class="main-heading">2<span>nd</span></h2>
-                    <p>Flip Flop Moscato</p>
-                    <p>Brought by Claire Raley, Bridget Babcock, and Joan Huber</p>
+                    <p>Rosemount Estate 2016</p>
+                    <p>Brought by Team Sunshine</p>
                 </div>
             </div>
 
             <div class="place-card">
                 <div class="image-trophy-container">
-                    <img class="full-image" src="{{ URL::asset('images/photos/2017-summer-event/bronze-winner.jpg') }}" alt="">
+                    <img class="full-image" src="{{ URL::asset('images/photos/2018-winter-event/bronze-winner.jpg') }}" alt="">
                     <span class="icon-trophy bronze"></span>
                 </div>
                 <div class="winner-inner">
                     <h2 class="main-heading">3<span>rd</span></h2>
-                    <p>Bonterra 2016</p>
-                    <p>Brought by Rudy Spencer, Danielle Schulz, and Blake Clark</p>
+                    <p>Milton Park 2015</p>
+                    <p>Brought by Kimberly Taylor</p>
                 </div>
             </div>
         </section>
@@ -143,19 +143,19 @@
             <h1 class="large-heading center mb-0">Photo Gallery</h1>
             <p class="center">Check out our pics from the latest event!</p>
             <ul class="photo-gallery-list">
-                <li class="col-16"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_092.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_092.jpg') }}" alt="Summer 2017 Tasting Image 19"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_089.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_089.jpg') }}" alt="Summer 2017 Tasting Image 20"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_013.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_013.jpg') }}" alt="Summer 2017 Tasting Image 30"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_177.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_177.jpg') }}" alt="Summer 2017 Tasting Image 40"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_086.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_086.jpg') }}" alt="Summer 2017 Tasting Image 50"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_054.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_054.jpg') }}" alt="Summer 2017 Tasting Image 60"></a></li>
-                <li class="col-16"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_105.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_105.jpg') }}" alt="Summer 2017 TastingImage 70"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_029.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_029.jpg') }}" alt="Summer 2017 Tasting Image 80"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_117.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_117.jpg') }}" alt="Summer 2017 Tasting Image 90"></a></li>
-                <li class="col-8"><a href="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_032.jpg') }}" data-lightbox="image-1" data-title="Summer 2017 Tasting"><img src="{{ URL::asset('images/photos/2017-summer-event/Uncorked_Fall2017_032.jpg') }}" alt="Summer 2017 Tasting Image 100"></a></li>
+                <li class="col-16"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_065.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_065.jpg') }}" alt="Winter 2018 Tasting Image 19"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_086.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_086.jpg') }}" alt="Winter 2018 Tasting Image 20"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_018.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_018.jpg') }}" alt="Winter 2018 Tasting Image 30"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_014.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_014.jpg') }}" alt="Winter 2018 Tasting Image 40"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_035.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_035.jpg') }}" alt="Winter 2018 Tasting Image 50"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_049.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_049.jpg') }}" alt="Winter 2018 Tasting Image 60"></a></li>
+                <li class="col-16"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_128.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_128.jpg') }}" alt="Winter 2018 TastingImage 70"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_061.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_061.jpg') }}" alt="Winter 2018 Tasting Image 80"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_117.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_117.jpg') }}" alt="Winter 2018 Tasting Image 90"></a></li>
+                <li class="col-8"><a href="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_032.jpg') }}" data-lightbox="image-1" data-title="Winter 2018 Tasting"><img src="{{ URL::asset('images/photos/2018-winter-event/KMAC_Louisville_Uncorked_032.jpg') }}" alt="Winter 2018 Tasting Image 100"></a></li>
             </ul>
 
-            <a class="button mt-20" href="/photos/2017-summer-event">See more photos<span class="icon-circle-right"></span></a>
+            <a class="button mt-20" href="/photos/2018-winter-event">See more photos<span class="icon-circle-right"></span></a>
         </section>
     </div>
 

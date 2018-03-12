@@ -55,12 +55,13 @@ Route::post('mailing-list/unsubscribe', ['as' => 'unsubscribe', 'uses' => 'Maili
  * Photos
  * -- Different pages for the photos
  */
-Route::get('photos/2017-summer-event', 'PagesController@photosCurrent');
-Route::get('photos/2017-winter-event', 'PagesController@photosPast');
-Route::get('photos/2016-summer-event', 'PagesController@photosOld');
-Route::get('photos/2015-fall-event', 'PagesController@photosOld1');
-Route::get('photos/2015-fall-meeting', 'PagesController@photosPastOld2');
-Route::get('photos/2015-winter-event', 'PagesController@photosPastOld3');
+Route::get('photos/2018-winter-event', 'PagesController@WinterEvent2018');
+Route::get('photos/2017-summer-event', 'PagesController@SummerEvent2017');
+Route::get('photos/2017-winter-event', 'PagesController@WinterEvent2017');
+Route::get('photos/2016-summer-event', 'PagesController@SummerEvent2016');
+Route::get('photos/2015-fall-event', 'PagesController@FallEvent2015');
+Route::get('photos/2015-fall-meeting', 'PagesController@FallMeeting2015');
+Route::get('photos/2015-winter-event', 'PagesController@WinterEvent2015');
 
 /**
  * Newsletter

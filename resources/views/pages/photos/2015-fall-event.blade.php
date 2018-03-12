@@ -12,6 +12,7 @@
   <div class="photos-nav">
     <div class="small-wrapper">
       <ul>
+        <li><a href="/photos/2018-winter-event">2018 Winter Tasting</a></li>
         <li><a href="/photos/2017-summer-event">2017 Summer Tasting</a></li>
         <li><a href="/photos/2017-winter-event">2017 Winter Tasting</a></li>
         <li><a href="/photos/2016-summer-event">2016 Summer Tasting</a></li>
