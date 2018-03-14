@@ -72,11 +72,11 @@
             <h1 class="large-heading center">Featured Charity</h1>
 
             <div class="charity-left">
-                <a href="//www.lls.org/" target="_blank"><img src="{{ URL::asset('images/Events/2018-Winter/LLCNew.png') }}" alt="Leukemia Lymphoma Society logo"></a>
+                <a href="//www.lls.org" target="_blank"><img src="{{ URL::asset('images/Events/2018-Winter/LLCNew.png') }}" alt="Leukemia Lymphoma Society logo"></a>
             </div>
 
             <div class="charity-right">
-                <h2 class="main-heading"><a href="//www.lls.org/" target="_blank">Leukemia Lymphoma Society</a></h2>
+                <h2 class="main-heading"><a href="//www.lls.org" target="_blank">Leukemia Lymphoma Society</a></h2>
                 <h3 class="small-heading secondary-ondark-light">Our mission is to cure leukemia, lymphoma, Hodgkin's disease and myeloma, and improve the quality of life of patients and their families.</h3>
                 <p>LLS exists to find cures and ensure access to treatments for blood cancer patients. We are the voice for all blood cancer patients and we work to ensure access to treatments for all blood cancer patients.</p>
             </div>
@@ -92,7 +92,7 @@
             <div class="col-13 mt-30 left">
                 <h2 class="main-heading">Winter 2018 Tasting at Kentucky Museum of Art and Craft (KMAC)</h2>
                 <h3 class="small-heading text-light">Leukemia Lymphoma Society</h3>
-                <p>Louisville Uncorked held the Winter event on February 22, 2018 which benefitted Leukemia Lymphoma Society. There were more than 250 participants tasting some of the best (and the worst!) Syrah/Shiraz. Thanks to your generous donations, we were able to contribute around $5,000 to their mission, but their needs are ongoing.  If you were unable to attend and would like to donate or would like to further contribute to this valuable cause, please visit their website: <a href="//www.lls.org/" target="_blank">www.lls.org/</a>.</p>
+                <p>Louisville Uncorked held the Winter event on February 22, 2018 which benefitted Leukemia Lymphoma Society. There were more than 250 participants tasting some of the best (and the worst!) Syrah/Shiraz. Thanks to your generous donations, we were able to contribute around $5,000 to their mission, but their needs are ongoing.  If you were unable to attend and would like to donate or would like to further contribute to this valuable cause, please visit their website: <a href="//www.lls.org" target="_blank">www.lls.org</a>.</p>
             </div>
         </section>
     </div>
