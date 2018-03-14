@@ -24,7 +24,7 @@
     </div>
     <div class="small-wrapper photos-content">
         <section class="photo-section mb-40 mt-30 bottom-border">
-            <h2 class="main-heading mb-40">2017 Summer Tasting</h2>
+            <h2 class="main-heading mb-40">2017 Winter Tasting</h2>
             <ul class="photo-gallery-list">
                 <li class="col-16"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_001.jpg') }}" data-lightbox="image-1" data-title="2017 Winter Tasting"><img src="{{ URL::asset('images/vendor/unveil/loading-icon.gif') }}" data-src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_001.jpg') }}" alt="Winter 2017 Event Image 1"></a></li>
                 <li class="col-8"><a href="{{ URL::asset('images/photos/2017-winter-event/Uncorked_002.jpg') }}" data-lightbox="image-2" data-title="2017 Winter Tasting"><img src="{{ URL::asset('images/vendor/unveil/loading-icon.gif') }}" data-src="{{ URL::asset('images/photos/2017-winter-event/Uncorked_002.jpg') }}" alt="Winter 2017 Event Image 2"></a></li>
