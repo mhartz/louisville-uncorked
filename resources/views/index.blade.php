@@ -12,7 +12,7 @@
                 @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
                     <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
                 @elseif(Config::get('constants.EVENT_THIRD_PARTY_REGISTRATION_OPEN') === true)
-                    <a class="button inline-block third-party-registration" href="//www.ypal.org/Events/Louisville-Uncorked-Benefitting-the-Kentucky-Humane-Society" target="_blank">Register Your Team on YPAL</span><span class="icon-circle-right"></span></a>
+                    <a class="button inline-block third-party-registration" href="//www.ypal.org/members/events/#!event/2018/9/20/louisville-uncorked-benefitting-the-kentucky-humane-society" target="_blank">Register Your Team on YPAL</span><span class="icon-circle-right"></span></a>
                 @else
                     @if(Config::get('constants.EVENT_REGISTRATION_UPCOMING') === false)
                         <p class="lato font-size-large">Registration is now closed for the current event. Come back later for details on future events!</p>
