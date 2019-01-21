@@ -1706,10 +1706,10 @@ header {
       max-width: 17.1875rem; } }
   @media only screen and (min-width: 67.5em) {
     .charity-left img {
-      margin-top: 11%; } }
+      margin-top: 0; } }
   @media only screen and (min-width: 80em) {
     .charity-left img {
-      margin-top: 2.5rem; } }
+      margin-top: 0; } }
 
 .charity-right {
   border-top: 3px solid #f44336;

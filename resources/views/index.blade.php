@@ -83,7 +83,7 @@
             <div class="charity-right">
                 <h2 class="main-heading"><a href="https://whascrusade.org/" target="_blank">Crusade for Children</a></h2>
                 <h3 class="small-heading secondary-ondark-light">The WHAS Crusade for Children makes life better for children with special needs by inspiring generosity with their community partners.</h3>
-                <p>Crusade for Children provides resources to impact all children with special needs. 100% of each donation to the WHAS Crusade for Children helps children with special needs, they have changed the lives of millions of children in Kentucky and Indiana since 1954, and right now Crusade for Children is funding 1 in 3 children who need the it.</p>
+                <p>Crusade for Children provides resources to impact all children with special needs. 100% of each donation to the WHAS Crusade for Children helps children with special needs. Crusade for Children has changed the lives of millions of children in Kentucky and Indiana since 1954. Right now Crusade for Children is funding 1 in 3 children who need it.</p>
             </div>
         </section>
     </div>
