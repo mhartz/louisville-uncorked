@@ -12,7 +12,7 @@
                 @if(Config::get('constants.EVENT_REGISTRATION_OPEN') === true)
                     <a class="button inline-block" href="/registration">Register Your Team <span class="icon-circle-right"></span></a>
                 @elseif(Config::get('constants.EVENT_THIRD_PARTY_REGISTRATION_OPEN') === true)
-                    <a class="button inline-block third-party-registration" href="//secure.qgiv.com/for/lu2/event/797821/?fbclid=IwAR29iSIcMbd2yhqMFUKReWLtFIVAbllRDqyHaqiMZ-B2wxU3YJyQAY9PNyQ" target="_blank">Buy tickets for your team here</span><span class="icon-circle-right"></span></a>
+                    <a class="button inline-block third-party-registration" href="//secure.qgiv.com/for/lu2/event/797821/?fbclid=IwAR29iSIcMbd2yhqMFUKReWLtFIVAbllRDqyHaqiMZ-B2wxU3YJyQAY9PNyQ" target="_blank">Buy tickets for your team</span><span class="icon-circle-right"></span></a>
                 @else
                     @if(Config::get('constants.EVENT_REGISTRATION_UPCOMING') === false)
                         <p class="lato font-size-large">Registration is now closed for the current event. Come back later for details on future events!</p>
